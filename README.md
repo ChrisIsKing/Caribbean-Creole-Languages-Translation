@@ -5,6 +5,7 @@ major force in bridging the linguistic and technological divides in the Caribbea
 ## Collaborators
 - University of Michigan
   - Christopher Clarke
+  - Roland Daynauth
   - Dr Jason Mars
 - University of Guyana (Guyanaes Languages Unit)
   - Charlene Wilkinson
