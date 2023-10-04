@@ -4,10 +4,12 @@ from .inference import inference
 from .serializers import EntrySerializer
 from base.models import Entry
 
+import os
+
 
 def translate(text):
     return inference(
-        key = ""
+        key = os.environ.get("OPENAI_API_KEY"),
         model_name="gpt-3.5-turbo",
         prompt="Translate the text and provide the resulting Guyanese Creole translation. Please ensure that the translation is clear and accurate. Guyanese Creole is spoken in Guyana and is characterized by its unique vocabulary and grammar. Try to maintain the cultural nuances and colloquialisms if applicable.",
         prompt_variables={

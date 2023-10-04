@@ -4,32 +4,22 @@ services:
   django:
     container_name: cserver
     build: 
-      context: ./cserver
+      context: ./backend
     command: python manage.py runserver 0.0.0.0:8000
     volumes:
-      - ./cserver:/usr/src/app/
+      - ./backend:/usr/src/app/
     ports:
       - "8001:8000"
-    environment:
-      - DEBUG=1
-      - ALLOWED_HOSTS=localhost,127.0.0.1,141.212.106.68
-      - SQL_ENGINE=django.db.backends.postgresql
-      - SQL_DATABASE=cdbs
-      - SQL_USER=postgres
-      - SQL_PASSWORD=postgres
-      - SQL_HOST=db
-      - SQL_PORT=5432
-      - DATABASE=postgres
+    env_file:
+      - ./.env.dev
     depends_on:
       - db
   db:
     image: postgres:15
     volumes:
       - postgres_data:/var/lib/postgresql/data/
-    environment:
-      - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=postgres
-      - POSTGRES_DB=cdbs
+    env_file:
+      - ./.env.dev
     ports:
       - "5432:5432"
 
