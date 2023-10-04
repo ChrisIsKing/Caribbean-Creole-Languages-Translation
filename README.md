@@ -7,6 +7,6 @@ major force in bridging the linguistic and technological divides in the Caribbea
   - Christopher Clarke
   - Roland Daynauth
   - Dr Jason Mars
-- University of Guyana (Guyanaes Languages Unit)
+- University of Guyana (Guyanese Languages Unit)
   - Charlene Wilkinson
   - Prof Hubert Devonish
