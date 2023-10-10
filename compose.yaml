@@ -23,6 +23,16 @@ services:
     ports:
       - "5432:5432"
 
+  frontend:
+    container_name: frontend
+    build: 
+      context: ./frontend
+    volumes:
+      - ./frontend:/frontend
+    ports:
+      - "3000:3000"
+    command: npm start
+
 volumes:
   postgres_data:
 
