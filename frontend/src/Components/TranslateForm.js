@@ -4,7 +4,10 @@ const TranslateForm = () => {
     const [enteredEnglish, setEnteredEnglish] = useState('')
     const [enteredCreole, setEnteredCreole] = useState('')
     const [saveDisabled, setSaveDisabled] = useState(true)
-    async function translate(data){
+    const [isSubmitted, setIsSubmitted] = useState(false)
+    const [isError, setIsError] = useState(false)
+
+    async function translate(data) {
         const response = await fetch('http://141.212.106.68:8001/api/infer/', {
             method: 'POST',
             headers: {
@@ -15,8 +18,6 @@ const TranslateForm = () => {
 
         const reData = await response.json();
 
-        //console.log(reData.translatedText)
-        //cleanResult(reData.translatedText)
         updateSaveForm(reData.translatedText);
     }
 
@@ -25,8 +26,8 @@ const TranslateForm = () => {
         console.log(result);
         let lines = result.split('\n');
 
-        for (const line of lines){
-            if(line.length > 0)
+        for (const line of lines) {
+            if (line.length > 0)
                 console.log(line);
         }
 
@@ -34,14 +35,20 @@ const TranslateForm = () => {
 
     }
 
-    async function save(data){
-        const response = await fetch('http://141.212.106.68:8001/api/entries/add/',{
+    async function save(data) {
+        const response = await fetch('http://141.212.106.68:8001/api/entries/add/', {
             method: 'POST',
-            headers:{
+            headers: {
                 "Content-Type": "application/json",
             },
             body: JSON.stringify(data)
         });
+
+        if(response.status === 200) {
+            setIsSubmitted(true);
+        } else{
+            setIsError(true);
+        }
     }
 
     const submitHandler = (event) => {
@@ -63,8 +70,6 @@ const TranslateForm = () => {
             creole: enteredCreole
         };
 
-        //console.log(submitData);
-
         save(submitData);
     }
 
@@ -84,25 +89,39 @@ const TranslateForm = () => {
     }
 
     return (
-        <div className="container-fluid">
+        <div className="container">
             <div className="row">
                 <div className="col">
                     <form onSubmit={submitHandler}>
                         <div className="form-group">
                             <label>English</label>
-                            <textarea className="form-control" onChange={englishChangeHandler}></textarea>
+                            <textarea rows="5" className="form-control" onChange={englishChangeHandler}></textarea>
                         </div>
                         <button type="submit" className="btn btn-primary" value="translate">Translate</button>
                     </form>
                 </div>
                 <div className="col">
+
                     <form onSubmit={saveHandler}>
                         <div className="form-group">
                             <label>Creole</label>
-                            <textarea className="form-control" value={enteredCreole} onChange={creoleChangeHandler}></textarea>
+                            <textarea rows="5" className="form-control" value={enteredCreole} onChange={creoleChangeHandler}></textarea>
                         </div>
                         <button type="submit" className="btn btn-danger" value="save" disabled={saveDisabled}>Save</button>
+
                     </form>
+                    {isSubmitted && (
+                        <div className='alert alert-success'>
+                            Entry Successfully Saved!
+                        </div>
+                    )}
+
+                    {isError && (
+                        <div className='alert alert-danger'>
+                            Error Saving Entry!
+                        </div>
+                    )}
+
                 </div>
             </div>
         </div>
