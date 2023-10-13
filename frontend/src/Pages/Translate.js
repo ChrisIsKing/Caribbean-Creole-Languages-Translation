@@ -4,7 +4,6 @@ import NavBar from "../Components/NavBar";
 const Translate = () => {
     return (
         <div>
-            <NavBar></NavBar>
             <TranslateForm ></TranslateForm>
         </div>
 
