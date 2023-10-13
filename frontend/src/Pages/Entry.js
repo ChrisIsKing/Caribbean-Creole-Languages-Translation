@@ -1,13 +1,47 @@
-import { useParams } from "react-router-dom";
+import EntryEditForm from "../Components/EntryEditForm";
+import EntryError from "../Components/EntryError";
 
+import { useParams } from "react-router-dom";
+import { useState, useEffect } from "react";
+
+async function fetchEntry(id) {
+    
+    const response = await fetch(`http://141.212.106.68:8001/api/entries/${id}`);
+
+    if(response.status === 200) {
+        const entry = await response.json();
+        return entry;
+    } else{
+        throw Error('Entry not found');
+    }
+
+
+
+
+}
 
 const Entry = () => {
+    const [entry, setEntry] = useState({});
+    const [validEntry, setValidEntry] = useState(false);
     const params = useParams();
     const id = params.id;
 
-    return (
-        <div>
-            <h1>Entry {id}</h1>
+    useEffect(() => {
+        fetchEntry(id).then(entry => {
+            setEntry(entry);
+            setValidEntry(true);})
+            .catch(error => {
+                setValidEntry(false);
+            });
+    }, []);
+
+
+
+    const Form = validEntry ? EntryEditForm  : EntryError;
+
+    return(
+        <div className="container">
+            {validEntry ? <Form entry={entry} /> : <Form />}
         </div>
     )
 }
