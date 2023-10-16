@@ -19,11 +19,11 @@ services:
     labels:
       - traefik.enable=true
       - traefik.docker.network=translation
-      - traefik.http.services.translation.loadbalancer.server.port=${DJANGO_PORT}
-      - traefik.http.routers.translation.rule=Host(`translation-backend.csclarke.com`)
-      - traefik.http.routers.translation.tls=true
-      - traefik.http.routers.translation.tls.certresolver=le
-      - traefik.http.routers.translation.entrypoints=websecure
+      - traefik.http.services.django.loadbalancer.server.port=${DJANGO_PORT}
+      - traefik.http.routers.django.rule=Host(`translation-backend.csclarke.com`)
+      - traefik.http.routers.django.tls=true
+      - traefik.http.routers.django.tls.certresolver=le
+      - traefik.http.routers.django.entrypoints=websecure
 
   db:
     image: postgres:15
@@ -53,11 +53,11 @@ services:
     labels:
       - traefik.enable=true
       - traefik.docker.network=translation
-      - traefik.http.services.translation.loadbalancer.server.port=${FRONTEND_PORT}
-      - traefik.http.routers.translation.rule=Host(`translation.csclarke.com`)
-      - traefik.http.routers.translation.tls=true
-      - traefik.http.routers.translation.tls.certresolver=le
-      - traefik.http.routers.translation.entrypoints=websecure
+      - traefik.http.services.frontend.loadbalancer.server.port=${FRONTEND_PORT}
+      - traefik.http.routers.frontend.rule=Host(`translation.csclarke.com`)
+      - traefik.http.routers.frontend.tls=true
+      - traefik.http.routers.frontend.tls.certresolver=le
+      - traefik.http.routers.frontend.entrypoints=websecure
   
   traefik:
     image: "traefik:v2.4"
@@ -71,7 +71,7 @@ services:
       - "--entrypoints.web.address=:80"
       - "--entrypoints.websecure.address=:443"
       # let's encrypt
-      - "--certificatesresolvers.le.acme.email=csclarke@csclarke.com"
+      - "--certificatesresolvers.le.acme.email=csclarke@umich.edu"
       - "--certificatesresolvers.le.acme.storage=/letsencrypt/acme.json"
       - "--certificatesresolvers.le.acme.tlschallenge=true"
       # redirects
