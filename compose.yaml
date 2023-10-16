@@ -14,6 +14,9 @@ services:
       - ./.env.dev
     depends_on:
       - db
+    networks:
+      - translation
+
   db:
     image: postgres:15
     volumes:
@@ -22,6 +25,8 @@ services:
       - ./.env.dev
     ports:
       - "5432:5432"
+    networks:
+      - translation
 
   frontend:
     container_name: frontend
@@ -32,7 +37,49 @@ services:
     ports:
       - "3000:3000"
     command: npm start
+    networks:
+      - translation
+    labels:
+      - traefik.enable=true
+      - traefik.docker.network=translation
+      - traefik.http.services.translation.loadbalancer.server.port=
+      - traefik.http.routers.translation.rule=Host(`translation.csclarke.com`)
+      - traefik.http.routers.translation.tls=true
+      - traefik.http.routers.translation.tls.certresolver=le
+      - traefik.http.routers.translation.entrypoints=websecure
+  
+  traefik:
+    image: "traefik:v2.4"
+    container_name: "traefik"
+    command:
+      #- "--log.level=DEBUG"
+      - "--api.insecure=true"
+      - "--providers.docker=true"
+      - "--providers.docker.exposedbydefault=false"
+      # entrypoints
+      - "--entrypoints.web.address=:80"
+      - "--entrypoints.websecure.address=:443"
+      # let's encrypt
+      - "--certificatesresolvers.le.acme.email=csclarke@umich.edu"
+      - "--certificatesresolvers.le.acme.storage=/letsencrypt/acme.json"
+      - "--certificatesresolvers.le.acme.tlschallenge=true"
+      # redirects
+      - "--entrypoints.web.http.redirections.entryPoint.to=websecure"
+      - "--entrypoints.web.http.redirections.entryPoint.scheme=https"
+      - "--entrypoints.web.http.redirections.entryPoint.permanent=true"
+    ports:
+      - "80:80"
+      - "443:443"
+      - "8080:8080"
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock:ro"
+      - ./letsencrypt:/letsencrypt
+    networks:
+      - translation
 
 volumes:
   postgres_data:
 
+networks:
+  translation:
+    driver: bridge
