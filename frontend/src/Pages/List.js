@@ -4,7 +4,7 @@ import NavBar from "../Components/NavBar";
 import { Link } from "react-router-dom";
 
 async function fetchEntries() {
-    const response = await fetch('http://translation-backend.csclarke.com/api/entries/');
+    const response = await fetch('https://translation-backend.csclarke.com/api/entries/');
     const entries = await response.json();
     return entries;
 }

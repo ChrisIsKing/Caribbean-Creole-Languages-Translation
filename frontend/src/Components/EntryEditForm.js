@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 async function save(data) {
-    const response = await fetch('http://translation-backend.csclarke.com/api/entries/edit/', {
+    const response = await fetch('https://translation-backend.csclarke.com/api/entries/edit/', {
         method: 'PUT',
         headers: {
             "Content-Type": "application/json",

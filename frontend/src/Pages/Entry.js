@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 
 async function fetchEntry(id) {
     
-    const response = await fetch(`http://translation-backend.csclarke.com/api/entries/${id}`);
+    const response = await fetch(`https://translation-backend.csclarke.com/api/entries/${id}`);
 
     if(response.status === 200) {
         const entry = await response.json();
