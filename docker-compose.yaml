@@ -21,8 +21,11 @@ services:
     image: postgres:15
     volumes:
       - postgres_data:/var/lib/postgresql/data/
-    env_file:
-      - .env
+    environment:
+      POSTGRES_USER: ${SQL_USER:-postgres}
+      POSTGRES_PASSWORD: ${SQL_PASSWORD:-postgres}
+      POSTGRES_DB: ${SQL_DATABASE:-translation}
+      PGDATA: /data/postgres
     ports:
       - ${SQL_PORT}:${SQL_PORT}
     networks:
