@@ -8,7 +8,7 @@ const TranslateForm = () => {
     const [isError, setIsError] = useState(false)
 
     async function translate(data) {
-        const response = await fetch('http://141.212.106.68:8001/api/infer/', {
+        const response = await fetch('http://translation-backend.csclarke.com/api/infer/', {
             method: 'POST',
             headers: {
                 "Content-Type": "application/json",
@@ -36,7 +36,7 @@ const TranslateForm = () => {
     }
 
     async function save(data) {
-        const response = await fetch('http://141.212.106.68:8001/api/entries/add/', {
+        const response = await fetch('http://translation-backend.csclarke.com1/api/entries/add/', {
             method: 'POST',
             headers: {
                 "Content-Type": "application/json",

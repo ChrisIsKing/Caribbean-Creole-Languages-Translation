@@ -16,6 +16,14 @@ services:
       - db
     networks:
       - translation
+    labels:
+      - traefik.enable=true
+      - traefik.docker.network=translation
+      - traefik.http.services.translation.loadbalancer.server.port=${DJANGO_PORT}
+      - traefik.http.routers.translation.rule=Host(`translation-backend.csclarke.com`)
+      - traefik.http.routers.translation.tls=true
+      - traefik.http.routers.translation.tls.certresolver=le
+      - traefik.http.routers.translation.entrypoints=websecure
 
   db:
     image: postgres:15
