@@ -1,5 +1,6 @@
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
+from rest_framework import status
 from .inference import inference
 from .serializers import EntrySerializer
 from base.models import Entry
@@ -37,6 +38,23 @@ def getEntries(request):
     serializer = EntrySerializer(entries, many=True)
     return Response(serializer.data)
 
+
+@api_view(["GET"])
+def getEntry(request, pk):
+
+    try:
+        entry = Entry.objects.get(id=pk)
+
+        #check if entry exists
+        if not entry:
+            return Response("Error: Entry does not exist", status=status.HTTP_400_BAD_REQUEST)
+
+        serializer = EntrySerializer(entry, many=False)
+        return Response(serializer.data)
+    
+    except:
+        return Response("Error: Entry does not exist", status=status.HTTP_400_BAD_REQUEST)
+
 @api_view(["POST"])
 def addEntry(request):
     data = request.data
@@ -45,6 +63,23 @@ def addEntry(request):
     if serializer.is_valid():
         serializer.save()
     else:
-        return Response("Error: Invalid entry")
+        return Response("Error: Invalid entry", status=status.HTTP_400_BAD_REQUEST)
     
     return Response(serializer.data)
+
+
+@api_view(["PUT"])
+def editEntry(request):
+    data = request.data
+
+    if 'id' not in data:
+        return Response("Error: No id provided")
+    
+    entry = Entry.objects.get(id=data['id'])
+    serializer = EntrySerializer(instance=entry, data=data)
+    if serializer.is_valid():
+        serializer.save()
+    else:
+        return Response("Error: Invalid entry", status=status.HTTP_400_BAD_REQUEST)
+    
+    return Response(serializer.data, status=status.HTTP_200_OK)
