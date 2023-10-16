@@ -9,9 +9,9 @@ services:
     volumes:
       - ./backend:/usr/src/app/
     ports:
-      - "8001:8000"
+      - ${DJANGO_PORT}:${DJANGO_PORT}
     env_file:
-      - ./.env.dev
+      - .env
     depends_on:
       - db
     networks:
@@ -22,9 +22,9 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data/
     env_file:
-      - ./.env.dev
+      - .env
     ports:
-      - "5432:5432"
+      - ${SQL_PORT}:${SQL_PORT}
     networks:
       - translation
 
@@ -35,14 +35,14 @@ services:
     volumes:
       - ./frontend:/frontend
     ports:
-      - "3000:3000"
+      - ${FRONTEND_PORT}:${FRONTEND_PORT}
     command: npm start
     networks:
       - translation
     labels:
       - traefik.enable=true
       - traefik.docker.network=translation
-      - traefik.http.services.translation.loadbalancer.server.port=3000
+      - traefik.http.services.translation.loadbalancer.server.port=${FRONTEND_PORT}
       - traefik.http.routers.translation.rule=Host(`translation.csclarke.com`)
       - traefik.http.routers.translation.tls=true
       - traefik.http.routers.translation.tls.certresolver=le
