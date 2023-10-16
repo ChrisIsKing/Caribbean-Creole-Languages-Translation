@@ -42,7 +42,7 @@ services:
     labels:
       - traefik.enable=true
       - traefik.docker.network=translation
-      - traefik.http.services.translation.loadbalancer.server.port=
+      - traefik.http.services.translation.loadbalancer.server.port=3000
       - traefik.http.routers.translation.rule=Host(`translation.csclarke.com`)
       - traefik.http.routers.translation.tls=true
       - traefik.http.routers.translation.tls.certresolver=le
