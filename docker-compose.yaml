@@ -71,7 +71,7 @@ services:
       - "--entrypoints.web.address=:80"
       - "--entrypoints.websecure.address=:443"
       # let's encrypt
-      - "--certificatesresolvers.le.acme.email=csclarke@umich.edu"
+      - "--certificatesresolvers.le.acme.email=christophershamarclarke@gmail.com"
       - "--certificatesresolvers.le.acme.storage=/letsencrypt/acme.json"
       - "--certificatesresolvers.le.acme.tlschallenge=true"
       # redirects
