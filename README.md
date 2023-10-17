@@ -10,3 +10,10 @@ major force in bridging the linguistic and technological divides in the Caribbea
 - University of Guyana (Guyanese Languages Unit)
   - Charlene Wilkinson
   - Prof Hubert Devonish
+
+
+### TODO
+- [ ] Allow editing of Prompt and context when translating
+- [ ] Generate function that generates a set number of sythentic translation pairs
+- [ ] Password protect the CRUD operations
+- [ ] Import sentence pairs from a csv file (for bulk upload)
