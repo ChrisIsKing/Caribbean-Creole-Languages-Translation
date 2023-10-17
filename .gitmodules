@@ -1,0 +1,3 @@
+[submodule "creole-frontend"]
+	path = creole-frontend
+	url = git@github.com:daynauth/creole-frontend.git
