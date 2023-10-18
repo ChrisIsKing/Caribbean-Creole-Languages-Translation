@@ -7,4 +7,5 @@ urlpatterns = [
     path('api/entries/<int:pk>/', views.getEntry),
     path('api/entries/add/', views.addEntry),
     path('api/entries/edit/', views.editEntry),
+    path('api/entries/delete/<int:pk>/', views.deleteEntry),
 ]
