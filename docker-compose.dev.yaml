@@ -9,7 +9,7 @@ services:
     volumes:
       - ./backend:/usr/src/app/
     ports:
-      - "8001:8000"
+      - "8000:8000"
     env_file:
       - ./.env.dev
     depends_on:
@@ -23,15 +23,15 @@ services:
     ports:
       - "5433:5432"
 
-  # frontend:
-  #   container_name: frontend
-  #   build: 
-  #     context: ./frontend
-  #   volumes:
-  #     - ./frontend:/frontend
-  #   ports:
-  #     - "3001:3000"
-  #   command: npm start
+  frontend:
+    container_name: frontend
+    build: 
+      context: ./creole-frontend
+    volumes:
+      - ./creole-frontend:/frontend
+    ports:
+      - "5173:5173"
+    command: npm run dev --host
 
 volumes:
   postgres_data:
