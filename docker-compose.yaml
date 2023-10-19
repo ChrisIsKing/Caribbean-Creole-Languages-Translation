@@ -42,9 +42,9 @@ services:
   frontend:
     container_name: frontend
     build: 
-      context: ./frontend
+      context: ./creole-frontend
     volumes:
-      - ./frontend:/frontend
+      - ./creole-frontend:/usr/src/app/
     ports:
       - ${FRONTEND_PORT}:${FRONTEND_PORT}
     command: npm start
