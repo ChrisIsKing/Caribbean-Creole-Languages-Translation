@@ -5,4 +5,4 @@ RUN npm install
 COPY . .
 #=RUN npm run build
 EXPOSE ${FRONTEND_PORT}
-CMD npm run dev --host ${FRONTEND_PORT}
+CMD npm run dev --host --port ${FRONTEND_PORT}
