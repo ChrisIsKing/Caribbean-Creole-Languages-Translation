@@ -47,7 +47,6 @@ services:
       - ./creole-frontend:/usr/src/app/
     ports:
       - ${FRONTEND_PORT}:${FRONTEND_PORT}
-    command: tail -f /dev/null
     networks:
       - translation
     labels:
