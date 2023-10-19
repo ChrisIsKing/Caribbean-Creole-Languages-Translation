@@ -4,4 +4,5 @@ COPY package.json ./
 RUN npm install
 COPY . .
 #=RUN npm run build
-CMD ["npm", "run" ,"dev", "--host"]
+EXPOSE ${FRONTEND_PORT}
+CMD npm run dev --host ${FRONTEND_PORT}
