@@ -47,7 +47,7 @@ services:
       - ./creole-frontend:/usr/src/app/
     ports:
       - ${FRONTEND_PORT}:${FRONTEND_PORT}
-    command: npm run preview
+    command: npm run dev --host
     networks:
       - translation
     labels:
