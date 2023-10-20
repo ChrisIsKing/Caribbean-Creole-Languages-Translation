@@ -16,4 +16,4 @@ major force in bridging the linguistic and technological divides in the Caribbea
 - [ ] Allow editing of Prompt and context when translating
 - [ ] Generate function that generates a set number of sythentic translation pairs
 - [ ] Password protect the CRUD operations
-- [ ] Import sentence pairs from a csv file (for bulk upload)
+- [x] Import sentence pairs from a ~~csv~~ file (for bulk upload)
