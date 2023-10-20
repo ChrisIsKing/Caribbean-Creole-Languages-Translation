@@ -45,7 +45,9 @@ async function submitEntry(data : {english: string, creole: string}){
         },
         body: JSON.stringify(data)
     })
-    console.log(response)
+
+    const reader = response.body?.getReader()
+
     return response.status === 200;
 }
 const TranslateForm = (props: {setOpen : React.Dispatch<SetStateAction<boolean>>, setFormSubmitted : React.Dispatch<SetStateAction<boolean>>}) =>{
