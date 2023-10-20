@@ -18,7 +18,7 @@ const Main = () => {
     return (
         <div className="container mt-5">
 
-            <Card className="w-[800px]">
+            <Card className="w-full">
                 <CardHeader>
                     <CardTitle>List of Entries</CardTitle>
                     <CardContent>
