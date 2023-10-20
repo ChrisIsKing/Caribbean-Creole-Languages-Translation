@@ -9,9 +9,6 @@ import NavBar from "@/components/NavBar"
 
 
 function App() {
-
-
-
     return (
         <div className="w-full">
             <NavBar></NavBar>
@@ -23,10 +20,7 @@ function App() {
                     <Route path="/generate" element={<Generate></Generate>}></Route>
                 </Routes>
             </Router>
-
         </div>
-
-
     )
 }
 
