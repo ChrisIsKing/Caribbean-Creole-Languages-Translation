@@ -8,17 +8,25 @@ import {
 } from "@/components/ui/card"
 
 import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
+import parseFile from "@/lib/parseFile"
 
 const Bulk = () => {
     const fileReader = new FileReader()
 
     const handleChosenFile = (e : React.ChangeEvent<HTMLInputElement>) => {
-        const file = e.target.files[0]
-        fileReader.readAsText(file)
-        fileReader.onloadend = () =>{
-            console.log(fileReader.result)
+        if (!e.target.files) {
+            console.log("Something went wrong")
+            return
         }
+
+        const file = e.target.files[0]
+
+        fileReader.readAsText(file)
+        fileReader.onloadend = () => {
+            let data = parseFile(fileReader.result)
+            console.log(data)
+        }
+
     }
 
     return (
