@@ -1,9 +1,10 @@
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
-from rest_framework import status
+from rest_framework import status, generics
 from .inference import inference
 from .serializers import EntrySerializer
 from base.models import Entry
+
 
 import os
 
@@ -92,3 +93,19 @@ def deleteEntry(request, pk):
     
     entry.delete()
     return Response("Entry deleted successfully", status=status.HTTP_200_OK)
+
+
+class EntryListCreate(generics.ListCreateAPIView):
+    queryset = Entry.objects.all()
+    serializer_class = EntrySerializer
+
+    def create(self, request, *args, **kwargs):
+        data = request.data
+
+        serializer = EntrySerializer(data=data, many=True)
+        if serializer.is_valid():
+            serializer.save()
+        else:
+            return Response("Error: Invalid entry", status=status.HTTP_400_BAD_REQUEST)
+        
+        return Response(serializer.data, status=status.HTTP_200_OK)

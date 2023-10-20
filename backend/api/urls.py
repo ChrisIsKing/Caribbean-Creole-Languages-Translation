@@ -8,4 +8,5 @@ urlpatterns = [
     path('api/entries/add/', views.addEntry),
     path('api/entries/edit/', views.editEntry),
     path('api/entries/delete/<int:pk>/', views.deleteEntry),
+    path('api/bulkadd/', views.EntryListCreate.as_view()),
 ]
