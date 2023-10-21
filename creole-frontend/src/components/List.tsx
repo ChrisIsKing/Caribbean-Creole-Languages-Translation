@@ -11,7 +11,9 @@ import React, {useState, useEffect, SetStateAction} from "react";
 import type {Entry} from "../Models/Entry";
 import {URL} from "../Models/url"
 import Edit from "@/components/Edit";
-import DeleteDialog from "@/components/DeleteDialog.tsx";
+import DeleteDialog from "@/components/DeleteDialog";
+import { DataTable } from "./DataTable";
+import {columns} from "./columns"
 
 
 async function fetchEntries(): Promise<Entry[]> {
@@ -28,7 +30,6 @@ const List = (props: {
 
     const [entries, setEntries] = useState<Entry[]>([])
 
-
     useEffect(() => {
         fetchEntries().then(entries => setEntries(entries))
 
@@ -36,28 +37,9 @@ const List = (props: {
 
     return (
         <>
-            <Table>
-                <TableHeader>
-                    <TableRow>
-                        <TableHead>English</TableHead>
-                        <TableHead>Creole</TableHead>
-                        <TableHead>Action</TableHead>
-                    </TableRow>
-                </TableHeader>
-                <TableBody>
-                    {entries.map(entry => (
-                        <TableRow key={entry.id}>
-                            <TableCell className="text-left">{entry.english}</TableCell>
-                            <TableCell className="text-left">{entry.creole}</TableCell>
-                            <TableCell className="text-left">
-                                <Edit entry={entry} setFormUpdated={props.setFormUpdated}></Edit>
-                                <DeleteDialog id = {entry.id} setEntryDeleted={props.setEntryDeleted}></DeleteDialog>
-                            </TableCell>
-                        </TableRow>
-                    ))
-                    }
-                </TableBody>
-            </Table>
+            <div>
+                <DataTable columns={columns} data={entries} setFormUpdated={props.setFormUpdated} setEntryDeleted={props.setEntryDeleted}/>
+            </div>
         </>
 
     );
