@@ -1,17 +1,6 @@
-import {
-    Table,
-    TableBody,
-    TableCell,
-    TableHead,
-    TableHeader,
-    TableRow,
-} from "@/components/ui/table"
-
 import React, {useState, useEffect, SetStateAction} from "react";
 import type {Entry} from "../Models/Entry";
 import {URL} from "../Models/url"
-import Edit from "@/components/Edit";
-import DeleteDialog from "@/components/DeleteDialog";
 import { DataTable } from "./DataTable";
 import {columns} from "./columns"
 
