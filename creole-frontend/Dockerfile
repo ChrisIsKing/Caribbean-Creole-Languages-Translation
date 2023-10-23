@@ -1,10 +1,10 @@
-FROM node:20.8-alpine
+FROM node:20.8-alpine as builder
 WORKDIR /usr/src/app
 COPY package.json ./
-RUN npm install
+COPY package-lock.json ./
+RUN npm ci
 COPY . .
-#=RUN npm run build
-ARG FRONTEND_PORT
-EXPOSE ${FRONTEND_PORT}
-ENV FRONTEND_PORT=${FRONTEND_PORT}
-CMD npm run dev -- --port=${FRONTEND_PORT}
+RUN npm run build
+
+FROM devforth/spa-to-http:latest
+COPY --from=builder /usr/src/app/dist .
