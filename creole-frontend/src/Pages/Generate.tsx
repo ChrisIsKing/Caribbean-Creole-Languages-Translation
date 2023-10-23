@@ -1,7 +1,10 @@
 const Generate = () => {
     return (
         <>
-            <h1>Generate Page</h1>
+            <div className="container">
+                <h1>Generate Page</h1>
+                <p>Work In Progress ... </p>
+            </div>
         </>
     )
 }
