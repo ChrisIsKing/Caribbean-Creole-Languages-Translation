@@ -9,14 +9,14 @@ from base.models import Entry
 import os
 
 
-def translate(text):
+def translate(text, prompt, context_text, context_translation):
     return inference(
         api_key = os.environ.get("OPENAI_API_KEY"),
         model_name="gpt-3.5-turbo",
         prompt="Translate the text and provide the resulting Guyanese Creole translation. Please ensure that the translation is clear and accurate. Guyanese Creole is spoken in Guyana and is characterized by its unique vocabulary and grammar. Try to maintain the cultural nuances and colloquialisms if applicable.",
         prompt_variables={
-            "context": "Text: They are already burnt\n Translation: Dem bon aredii",
-            "instruction": "Translate the following text and provide the resulting Guyanese Creole translation below.",
+            "context": f"Text: {context_text}\n Translation: {context_translation}",
+            "instruction": prompt,
             "text": text
         },
         max_tokens=2048
@@ -28,14 +28,29 @@ def inferData(request):
 
     if 'text' not in data:
         return Response("Error: No text provided")
+
+    
     
     text = data['text']
-    translation = translate(text)
+    prompt = data['prompt']
+    context_text = data['context_text']
+    context_translation = data['context_translation']
+
+    if prompt == None or prompt == "":
+        prompt = "Translate the text and provide the resulting Guyanese Creole translation. Please ensure that the translation is clear and accurate. Guyanese Creole is spoken in Guyana and is characterized by its unique vocabulary and grammar. Try to maintain the cultural nuances and colloquialisms if applicable."
+
+    if context_text == None or context_text == "":
+        context_text = "They are already burnt"
+
+    if context_translation == None or context_translation == "":
+        context_translation = "Dem bon aredii"
+
+    translation = translate(text, prompt, context_text, context_translation)
     return Response({'text': text, 'translatedText': translation})
 
 @api_view(["GET"])
 def getEntries(request):
-    entries = Entry.objects.all()
+    entries = Entry.objects.all().order_by('created_at').reverse()
     serializer = EntrySerializer(entries, many=True)
     return Response(serializer.data)
 
