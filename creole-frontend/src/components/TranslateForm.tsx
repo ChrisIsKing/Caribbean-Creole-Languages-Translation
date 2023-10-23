@@ -46,7 +46,7 @@ async function submitEntry(data : {english: string, creole: string}){
         body: JSON.stringify(data)
     })
 
-    const reader = response.body?.getReader()
+    // const reader = response.body?.getReader()
 
     return response.status === 200;
 }
