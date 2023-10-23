@@ -43,6 +43,7 @@ services:
     container_name: frontend
     build: 
       context: ./creole-frontend
+    command: --brotli --port ${FRONTEND_PORT}
     ports:
       - ${FRONTEND_PORT}
     networks:
