@@ -39,7 +39,7 @@ const Translate = (props: { setFormSubmitted: React.Dispatch<React.SetStateActio
                         <TranslateForm setOpen={setOpen} setFormSubmitted={props.setFormSubmitted}></TranslateForm>
                     </TabsContent>
                     <TabsContent value="translateAlt">
-                        <TranslateFormAlt setOpen={setOpen} setFormSubmitted={props.setFormSubmitted}></TranslateFormAlt>
+                        <TranslateFormAlt></TranslateFormAlt>
                     </TabsContent>
                 </Tabs>
             </DialogContent>
