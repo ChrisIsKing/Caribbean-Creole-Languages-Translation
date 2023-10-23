@@ -3,7 +3,6 @@ import {
     Card,
     CardContent,
     CardDescription,
-    // CardHeader,
     CardTitle,
 } from "@/components/ui/card"
 
@@ -61,7 +60,7 @@ const Bulk = () => {
         }
 
         for (let i = 0; i < data.length; i++) {
-            let response = postEntry(data[i])
+            let response = postEntry('entries/add/', data[i])
             response.then((res) => {
                 if (res.status === 200) {
                     setProgress((i + 1) / data.length * 100)
