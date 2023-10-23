@@ -4,7 +4,6 @@ import { useForm } from "react-hook-form";
 
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
 import {
     Accordion,
     AccordionContent,
@@ -164,7 +163,7 @@ const TranslateForm = (props: { setOpen: React.Dispatch<SetStateAction<boolean>>
                                         name="prompt"
                                         render={({ field }) => (
                                             <FormItem>
-                                                <FormLabel>Prompt</FormLabel>
+                                                <FormLabel>Chat GPT Prompt</FormLabel>
                                                 <FormControl>
                                                     <Textarea rows={6} className="my-2 text-sm"  {...field} />
                                                 </FormControl>
