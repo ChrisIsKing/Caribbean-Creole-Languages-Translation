@@ -1,13 +1,11 @@
 import React, {useState, useEffect, SetStateAction} from "react";
 import type {Entry} from "../Models/Entry";
-import {URL} from "../Models/url"
 import { DataTable } from "./DataTable";
 import {columns} from "./columns"
-
+import getEntry from "../lib/getEntry";
 
 async function fetchEntries(): Promise<Entry[]> {
-    const response = await fetch(URL + 'entries/')
-    return await response.json()
+    return await getEntry('entries/') as Entry[]
 }
 
 const List = (props: {
