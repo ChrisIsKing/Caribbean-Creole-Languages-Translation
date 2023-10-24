@@ -32,9 +32,10 @@ import {
 
 import { Textarea } from "@/components/ui/textarea"
 import SubmitError from "@/components/SubmitError";
+import getEntry from "../lib/getEntry";
 
 import { URL } from "@/Models/url";
-import React, { SetStateAction, useState } from "react";
+import React, { SetStateAction, useState, useEffect } from "react";
 
 const formSchema = z.object({
     english: z.string().min(2, {
@@ -66,6 +67,10 @@ async function translate(value: { text: string }) {
     return response.json()
 }
 
+async function getRandomPair() {
+    return await getEntry('entries/random/') as { text: string, translation: string }
+}
+
 async function submitEntry(data: { english: string, creole: string }) {
     const response = await fetch(URL + 'entries/add/', {
         method: 'POST',
@@ -88,7 +93,7 @@ const TranslateForm = (props: { setOpen: React.Dispatch<SetStateAction<boolean>>
             creole: "",
             context_text: "They are already burnt",
             context_translation: "Dem bon aredii",
-            prompt: "Translate the text and provide the resulting Guyanese Creole translation. Please ensure that the translation is clear and accurate. Guyanese Creole is spoken in Guyana and is characterized by its unique vocabulary and grammar. Try to maintain the cultural nuances and colloquialisms if applicable."
+            prompt: "Translate the text and provide the resulting english translation. Please ensure that the translation is clear and accurate. Guyanese Creole is spoken in Guyana and may include unique vocabulary and grammar. Try to capture the original meaning while making it comprehensible in English."
         }
     })
 
@@ -128,6 +133,14 @@ const TranslateForm = (props: { setOpen: React.Dispatch<SetStateAction<boolean>>
             })
         }
     }
+
+    useEffect(() => {
+        getRandomPair().then((data: { text: string, translation: string }) => {
+            form.setValue('context_text', data.text)
+            form.setValue('context_translation', data.translation)
+        })
+    }, [])
+
 
     let placeholder = translating ? "translating..." : "Creole Translation goes here"
 
