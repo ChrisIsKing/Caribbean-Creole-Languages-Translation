@@ -13,7 +13,7 @@ major force in bridging the linguistic and technological divides in the Caribbea
 
 
 ### TODO
-- [ ] Allow editing of Prompt and context when translating
-- [ ] Generate function that generates a set number of sythentic translation pairs
+- [x] Allow editing of Prompt and context when translating
+- [x] Generate function that generates a set number of sythentic translation pairs
 - [ ] Password protect the CRUD operations
 - [x] Import sentence pairs from a ~~csv~~ file (for bulk upload)
