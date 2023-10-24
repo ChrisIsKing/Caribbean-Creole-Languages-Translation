@@ -9,13 +9,21 @@ from base.models import Entry
 import os
 
 
+<<<<<<< HEAD
 def translate(text, prompt, context_text):
+=======
+def translate(text, prompt, context_text, context_translation):
+>>>>>>> 6082a58 (add prompts to english to creole form)
     return inference(
         api_key = os.environ.get("OPENAI_API_KEY"),
         model_name="gpt-3.5-turbo",
         prompt="Translate the text and provide the resulting Guyanese Creole translation. Please ensure that the translation is clear and accurate. Guyanese Creole is spoken in Guyana and is characterized by its unique vocabulary and grammar. Try to maintain the cultural nuances and colloquialisms if applicable.",
         prompt_variables={
+<<<<<<< HEAD
             "context": context_text,
+=======
+            "context": f"Text: {context_text}\n Translation: {context_translation}",
+>>>>>>> 6082a58 (add prompts to english to creole form)
             "instruction": prompt,
             "text": text
         },
@@ -34,6 +42,10 @@ def inferData(request):
     text = data['text']
     prompt = data['prompt']
     context_text = data['context_text']
+<<<<<<< HEAD
+=======
+    context_translation = data['context_translation']
+>>>>>>> 6082a58 (add prompts to english to creole form)
 
     if prompt == None or prompt == "":
         prompt = "Translate the text and provide the resulting Guyanese Creole translation. Please ensure that the translation is clear and accurate. Guyanese Creole is spoken in Guyana and is characterized by its unique vocabulary and grammar. Try to maintain the cultural nuances and colloquialisms if applicable."
@@ -41,8 +53,15 @@ def inferData(request):
     if context_text == None or context_text == "":
         context_text = "They are already burnt"
 
+<<<<<<< HEAD
 
     translation = translate(text, prompt, context_text)
+=======
+    if context_translation == None or context_translation == "":
+        context_translation = "Dem bon aredii"
+
+    translation = translate(text, prompt, context_text, context_translation)
+>>>>>>> 6082a58 (add prompts to english to creole form)
     return Response({'text': text, 'translatedText': translation})
 
 @api_view(["GET"])
