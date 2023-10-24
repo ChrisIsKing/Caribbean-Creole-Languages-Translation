@@ -2,8 +2,6 @@ import { zodResolver } from "@hookform/resolvers/zod"
 import * as z from "zod"
 import { useForm } from "react-hook-form";
 
-import { Button } from "@/components/ui/button"
-
 import {
     Form,
     FormControl,
@@ -11,17 +9,6 @@ import {
     FormItem,
     FormLabel,
 } from "@/components/ui/form"
-
-import {
-    DoubleArrowRightIcon,
-} from "@radix-ui/react-icons"
-
-import {
-    Tooltip,
-    TooltipContent,
-    TooltipProvider,
-    TooltipTrigger,
-} from "@/components/ui/tooltip"
 
 import { Textarea } from "@/components/ui/textarea"
 import SubmitError from "@/components/SubmitError";
@@ -32,6 +19,8 @@ import AdvancedOptions from "./Translate/AdvancedOptions";
 import { URL } from "@/Models/url";
 import React, { SetStateAction, useState, useEffect } from "react";
 import translate from "./Translate/translateRequest";
+import TranslateButton from "./Translate/TranslateButton";
+import SubmitButton from "./Translate/SubmitButton";
 
 async function getRandomPair() {
     return await getEntry('entries/random/') as { text: string, translation: string }
@@ -106,9 +95,6 @@ const TranslateForm = (props: { setOpen: React.Dispatch<SetStateAction<boolean>>
 
     let placeholder = translating ? "translating..." : "Creole Translation goes here"
 
-    const onCancel = () => props.setOpen(false)
-
-
     return (
 
         <Form {...form}>
@@ -133,18 +119,7 @@ const TranslateForm = (props: { setOpen: React.Dispatch<SetStateAction<boolean>>
 
                     </div>
                     <div className="m-auto">
-                        <TooltipProvider>
-                            <Tooltip>
-                                <TooltipTrigger asChild>
-                                    <Button variant="outline" size="icon" onClick={(e) => onClick(e)} type="button">
-                                        <DoubleArrowRightIcon className="h-4 w-4" />
-                                    </Button>
-                                </TooltipTrigger>
-                                <TooltipContent>
-                                    <p>Translate</p>
-                                </TooltipContent>
-                            </Tooltip>
-                        </TooltipProvider>
+                        <TranslateButton onClick={onClick} />
                     </div>
                     <div className="my-auto col-span-5">
                         <FormField
@@ -159,16 +134,11 @@ const TranslateForm = (props: { setOpen: React.Dispatch<SetStateAction<boolean>>
                                     </FormControl>
                                 </FormItem>
                             )} />
-                        <div className="my-2">
-                            <Button variant="outline" name="cancel" onClick={onCancel} type="button" className="mr-1">Cancel</Button>
-                            <Button type="submit">Save</Button>
-                        </div>
+                        <SubmitButton setOpen={props.setOpen}></SubmitButton>
                     </div>
                 </div>
             </form>
         </Form>
-
-
     )
 }
 
