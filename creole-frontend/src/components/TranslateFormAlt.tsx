@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { zodResolver } from "@hookform/resolvers/zod"
 import * as z from "zod"
 import { useForm } from "react-hook-form";
@@ -142,6 +143,14 @@ const TranslateFormAlt = (props: { setOpen: React.Dispatch<SetStateAction<boolea
                     </div>
             </form>
         </Form>
+=======
+
+const TranslateFormAlt = () => {
+    return (
+    <div>
+        <h1>Work in progress ... </h1>
+    </div>
+>>>>>>> c955ea7 (add prompts to english to creole form)
     )
 }
 
