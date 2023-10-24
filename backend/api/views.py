@@ -124,3 +124,14 @@ class EntryListCreate(generics.ListCreateAPIView):
             return Response("Error: Invalid entry", status=status.HTTP_400_BAD_REQUEST)
         
         return Response(serializer.data, status=status.HTTP_200_OK)
+    
+
+@api_view(["GET"])
+def getRandomEntry(request):
+    entries = Entry.objects.all().order_by('?')[:1]
+    serializer = EntrySerializer(entries, many=True)
+    response = {
+        "text": serializer.data[0]['english'],
+        "translation": serializer.data[0]['creole']
+    }
+    return Response(response)
