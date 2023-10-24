@@ -3,13 +3,6 @@ import * as z from "zod"
 import { useForm } from "react-hook-form";
 
 import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import {
-    Accordion,
-    AccordionContent,
-    AccordionItem,
-    AccordionTrigger,
-} from "@/components/ui/accordion"
 
 import {
     Form,
@@ -32,40 +25,13 @@ import {
 
 import { Textarea } from "@/components/ui/textarea"
 import SubmitError from "@/components/SubmitError";
+import formSchema from "./Translate/schema";
 import getEntry from "../lib/getEntry";
+import AdvancedOptions from "./Translate/AdvancedOptions";
 
 import { URL } from "@/Models/url";
 import React, { SetStateAction, useState, useEffect } from "react";
-
-const formSchema = z.object({
-    english: z.string().min(2, {
-        message: "English must be at least 2 characters"
-    }),
-    creole: z.string().min(1, {
-        message: "Creole must have at least one character"
-    }),
-    context_text: z.string().min(2, {
-        message: "Context Text must have at least two characters"
-    }),
-    context_translation: z.string().min(2, {
-        message: "Context Translation must have at least two characters"
-    }),
-    prompt: z.string().min(10, {
-        message: "Prompt must have at least two characters"
-    }),
-})
-
-async function translate(value: { text: string }) {
-    const response = await fetch(URL + 'infer/', {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json"
-        },
-        body: JSON.stringify(value)
-    })
-
-    return response.json()
-}
+import translate from "./Translate/translateRequest";
 
 async function getRandomPair() {
     return await getEntry('entries/random/') as { text: string, translation: string }
@@ -92,8 +58,7 @@ const TranslateForm = (props: { setOpen: React.Dispatch<SetStateAction<boolean>>
             english: "",
             creole: "",
             context_text: "They are already burnt",
-            context_translation: "Dem bon aredii",
-            prompt: "Translate the text and provide the resulting english translation. Please ensure that the translation is clear and accurate. Guyanese Creole is spoken in Guyana and may include unique vocabulary and grammar. Try to capture the original meaning while making it comprehensible in English."
+            prompt: "Translate the following english text and provide the resulting Guyanese Creole translation. Please ensure that the translation is clear and accurate. Guyanese Creole is spoken in Guyana and is characterized by its unique vocabulary and grammar. Try to maintain the cultural nuances and colloquialisms if applicable."
         }
     })
 
@@ -107,7 +72,6 @@ const TranslateForm = (props: { setOpen: React.Dispatch<SetStateAction<boolean>>
             else
                 setIsError(true)
         })
-
     }
 
     const onClick = (event: React.MouseEvent<HTMLButtonElement | HTMLAnchorElement>) => {
@@ -116,15 +80,13 @@ const TranslateForm = (props: { setOpen: React.Dispatch<SetStateAction<boolean>>
         const value = form.getValues('english')
         const prompt = form.getValues('prompt')
         const context_text = form.getValues('context_text')
-        const context_translation = form.getValues('context_translation')
 
         if (value.length > 2) {
             setTranslating(true)
-            const english: { text: string, prompt: string, context_text: string, context_translation: string } = {
+            const english: { text: string, prompt: string, context_text: string } = {
                 text: value,
                 prompt: prompt,
                 context_text: context_text,
-                context_translation: context_translation
             }
 
             translate(english).then((data: { translatedText: string }) => {
@@ -136,8 +98,8 @@ const TranslateForm = (props: { setOpen: React.Dispatch<SetStateAction<boolean>>
 
     useEffect(() => {
         getRandomPair().then((data: { text: string, translation: string }) => {
-            form.setValue('context_text', data.text)
-            form.setValue('context_translation', data.translation)
+            const context_text = `Text: ${data.text}\nTranslation: ${data.translation}`
+            form.setValue('context_text', context_text)
         })
     }, [])
 
@@ -167,50 +129,7 @@ const TranslateForm = (props: { setOpen: React.Dispatch<SetStateAction<boolean>>
                                 </FormItem>
                             )} />
 
-                        <Accordion type="single" collapsible>
-                            <AccordionItem value="item-1">
-                                <AccordionTrigger>Advanced Options</AccordionTrigger>
-                                <AccordionContent>
-                                    <FormField
-                                        control = {form.control}
-                                        name="prompt"
-                                        render={({ field }) => (
-                                            <FormItem>
-                                                <FormLabel>Chat GPT Prompt</FormLabel>
-                                                <FormControl>
-                                                    <Textarea rows={6} className="my-2 text-sm"  {...field} />
-                                                </FormControl>
-                                            </FormItem>
-                                        )} />
-                                    <div className="border border-gray-200 rounded-lg p-4 my-2">
-                                        <h1 className="text-center">Context</h1>
-                                        <FormField
-                                            control={form.control}
-                                            name="context_text"
-                                            render={({ field }) => (
-                                                <FormItem>
-                                                    <FormLabel>Text</FormLabel>
-                                                    <FormControl>
-                                                        <Input className="my-2 text-xs" placeholder="They are already burnt" {...field} />
-                                                    </FormControl>
-                                                </FormItem>
-                                            )} />
-                                        <FormField
-                                            control={form.control}
-                                            name="context_translation"
-                                            render={({ field }) => (
-                                                <FormItem>
-                                                    <FormLabel>Translation</FormLabel>
-                                                    <FormControl>
-                                                        <Input className="my-2 text-xs" {...field} />
-                                                    </FormControl>
-                                                </FormItem>
-                                            )} />
-                                    </div>
-                                </AccordionContent>
-                            </AccordionItem>
-
-                        </Accordion>
+                        <AdvancedOptions form={form}></AdvancedOptions>
 
                     </div>
                     <div className="m-auto">
@@ -225,10 +144,7 @@ const TranslateForm = (props: { setOpen: React.Dispatch<SetStateAction<boolean>>
                                     <p>Translate</p>
                                 </TooltipContent>
                             </Tooltip>
-
                         </TooltipProvider>
-
-
                     </div>
                     <div className="my-auto col-span-5">
                         <FormField
@@ -247,9 +163,7 @@ const TranslateForm = (props: { setOpen: React.Dispatch<SetStateAction<boolean>>
                             <Button variant="outline" name="cancel" onClick={onCancel} type="button" className="mr-1">Cancel</Button>
                             <Button type="submit">Save</Button>
                         </div>
-
                     </div>
-
                 </div>
             </form>
         </Form>
