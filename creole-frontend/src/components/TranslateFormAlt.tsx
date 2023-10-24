@@ -10,21 +10,28 @@ import {
     FormLabel,
 } from "@/components/ui/form"
 
+import {
+    DoubleArrowRightIcon,
+} from "@radix-ui/react-icons"
+
+import {
+    Tooltip,
+    TooltipContent,
+    TooltipProvider,
+    TooltipTrigger,
+} from "@/components/ui/tooltip"
+
+
 import { Textarea } from "@/components/ui/textarea"
 import { Button } from "@/components/ui/button"
 
 import SubmitError from "@/components/SubmitError";
+import AdvancedOptions from "./Translate/AdvancedOptions";
 
-import React, { SetStateAction, useState } from "react";
-
-const formSchema = z.object({
-    english: z.string().min(2, {
-        message: "English must be at least 2 characters"
-    }),
-    creole: z.string().min(1, {
-        message: "Creole must have at least one character"
-    }),
-})
+import React, { SetStateAction, useState, useEffect } from "react";
+import getEntry from "../lib/getEntry";
+import formSchema from "./Translate/schema";
+import translate from "./Translate/translateRequest";
 
 import { URL } from "@/Models/url";
 
@@ -40,15 +47,21 @@ async function submitEntry(data: { english: string, creole: string }) {
     return response.status === 200;
 }
 
+async function getRandomPair() {
+    return await getEntry('entries/random/') as { text: string, translation: string }
+}
 
 const TranslateFormAlt = (props: { setOpen: React.Dispatch<SetStateAction<boolean>>, setFormSubmitted: React.Dispatch<SetStateAction<boolean>> }) => {
     const [isError, setIsError] = useState(false)
+    const [translating, setTranslating] = useState(false)
 
     const form = useForm<z.infer<typeof formSchema>>({
         resolver: zodResolver(formSchema),
         defaultValues: {
             english: "",
             creole: "",
+            context_text: "",
+            prompt: "Translate the following Guyanese creole text and provide the resulting English translation. Please ensure that the translation is clear and accurate. Guyanese Creole is spoken in Guyana and may include unique vocabulary and grammar. Try to capture the original meaning while making it comprehensible in English."
         }
     })
 
@@ -63,14 +76,45 @@ const TranslateFormAlt = (props: { setOpen: React.Dispatch<SetStateAction<boolea
         })
     }
 
+    useEffect(() => {
+        getRandomPair().then((data: { text: string, translation: string }) => {
+            const context_text = `Text: ${data.translation}\nTranslation: ${data.text}`
+            form.setValue('context_text', context_text)
+        })
+    }, [])
+
+    const onClick = (event: React.MouseEvent<HTMLButtonElement | HTMLAnchorElement>) => {
+        event.preventDefault()
+
+        const value = form.getValues('creole')
+        const prompt = form.getValues('prompt')
+        const context_text = form.getValues('context_text')
+
+        if (value.length > 2) {
+            setTranslating(true)
+            const english: { text: string, prompt: string, context_text: string } = {
+                text: value,
+                prompt: prompt,
+                context_text: context_text,
+            }
+
+            translate(english).then((data: { translatedText: string }) => {
+                setTranslating(false)
+                form.setValue('english', data.translatedText)
+            })
+        }
+    }
+
+    let placeholder = translating ? "translating..." : "English Translation goes here"
+
     const onCancel = () => props.setOpen(false)
 
     return (
         <Form {...form}>
             {isError && <SubmitError></SubmitError>}
             <form onSubmit={form.handleSubmit(onSave)} className="space-y-8">
-                <div className="grid grid-cols-2 gap-4">
-                    <div>
+                <div className="grid grid-cols-11 gap-4">
+                    <div className="col-span-5">
                         <FormField
                             control={form.control}
                             name="creole"
@@ -83,9 +127,27 @@ const TranslateFormAlt = (props: { setOpen: React.Dispatch<SetStateAction<boolea
                                     </FormControl>
                                 </FormItem>
                             )} />
+
+                        <AdvancedOptions form={form}></AdvancedOptions>
                     </div>
                     
-                    <div>
+                    <div className="m-auto">
+                        <TooltipProvider>
+                            <Tooltip>
+                                <TooltipTrigger asChild>
+                                    <Button variant="outline" size="icon" onClick={(e) => onClick(e)} type="button">
+                                        <DoubleArrowRightIcon className="h-4 w-4" />
+                                    </Button>
+                                </TooltipTrigger>
+                                <TooltipContent>
+                                    <p>Translate</p>
+                                </TooltipContent>
+                            </Tooltip>
+                        </TooltipProvider>
+                    </div>
+
+
+                    <div className="my-auto col-span-5">
                         <FormField
                             control={form.control}
                             name="english"
@@ -93,7 +155,7 @@ const TranslateFormAlt = (props: { setOpen: React.Dispatch<SetStateAction<boolea
                                 <FormItem>
                                     <FormLabel>English</FormLabel>
                                     <FormControl>
-                                        <Textarea rows={8} placeholder="Type English Sentence here" {...field} >
+                                        <Textarea rows={8} placeholder={placeholder} {...field} >
                                         </Textarea>
                                     </FormControl>
                                 </FormItem>
