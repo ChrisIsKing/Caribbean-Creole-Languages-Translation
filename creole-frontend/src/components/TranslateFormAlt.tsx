@@ -82,13 +82,13 @@ const TranslateFormAlt = (props: { setOpen: React.Dispatch<SetStateAction<boolea
 
         if (value.length > 2) {
             setTranslating(true)
-            const creole: { text: string, prompt: string, context_text: string } = {
+            const data: { text: string, prompt: string, context_text: string } = {
                 text: value,
                 prompt: prompt,
                 context_text: context_text,
             }
 
-            translate(creole).then((data: { translatedText: string }) => {
+            translate(data).then((data: { translatedText: string }) => {
                 setTranslating(false)
                 form.setValue('english', data.translatedText)
             })
