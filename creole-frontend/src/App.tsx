@@ -5,9 +5,6 @@ import Bulk from "./Pages/Bulk"
 import NavBar from "@/components/NavBar"
 import EditPrompt from './Pages/EditPrompt';
 
-import TranslateTest from './components/TranslateTest';
-
-
 
 
 function App() {
