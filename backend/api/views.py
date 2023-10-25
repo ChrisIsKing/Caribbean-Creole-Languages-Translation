@@ -62,7 +62,7 @@ def updatePrompts(request):
     data = request.data
 
     if 'id' not in data:
-        return Response("Error: No id provided")
+        return Response("Error: No id provided", status=status.HTTP_400_BAD_REQUEST)
     
     prompt = Prompt.objects.get(id=data['id'])
     serializer = PromptSerializer(instance=prompt, data=data)

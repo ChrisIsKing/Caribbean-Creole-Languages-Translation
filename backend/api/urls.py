@@ -11,4 +11,5 @@ urlpatterns = [
     path('api/bulkadd/', views.EntryListCreate.as_view()),
     path('api/entries/random/', views.getRandomEntry),
     path('api/prompts/', views.getPrompts),
+    path('api/prompts/update/', views.updatePrompts),
 ]
