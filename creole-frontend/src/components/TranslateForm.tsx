@@ -43,6 +43,17 @@ import translate from "./Translate/translateRequest";
 import TranslateButton from "./Translate/TranslateButton";
 import SubmitButton from "./Translate/SubmitButton";
 
+interface Prompt {
+    id: number,
+    english2creole: string,
+    creole2english: string,
+    updated_at: Date,   
+}
+
+async function fetchPrompt(): Promise<Prompt>{
+    return await getEntry('prompts/') as Prompt
+}
+
 async function getRandomPair() {
     return await getEntry('entries/random/') as { text: string, translation: string }
 }
@@ -68,7 +79,7 @@ const TranslateForm = (props: { setOpen: React.Dispatch<SetStateAction<boolean>>
             english: "",
             creole: "",
             context_text: "They are already burnt",
-            prompt: "Translate the following english text and provide the resulting Guyanese Creole translation. Please ensure that the translation is clear and accurate. Guyanese Creole is spoken in Guyana and is characterized by its unique vocabulary and grammar. Try to maintain the cultural nuances and colloquialisms if applicable."
+            prompt: ""
         }
     })
 
@@ -111,6 +122,11 @@ const TranslateForm = (props: { setOpen: React.Dispatch<SetStateAction<boolean>>
             const context_text = `Text: ${data.text}\nTranslation: ${data.translation}`
             form.setValue('context_text', context_text)
         })
+
+        fetchPrompt().then(prompt => {
+            form.setValue("prompt", prompt.english2creole)
+        })
+
     }, [])
 
 

@@ -25,6 +25,17 @@ import SubmitButton from "./Translate/SubmitButton";
 
 import { URL } from "@/Models/url";
 
+interface Prompt {
+    id: number,
+    english2creole: string,
+    creole2english: string,
+    updated_at: Date,   
+}
+
+async function fetchPrompt(): Promise<Prompt>{
+    return await getEntry('prompts/') as Prompt
+}
+
 async function submitEntry(data: { english: string, creole: string }) {
     const response = await fetch(URL + 'entries/add/', {
         method: 'POST',
@@ -51,7 +62,7 @@ const TranslateFormAlt = (props: { setOpen: React.Dispatch<SetStateAction<boolea
             english: "",
             creole: "",
             context_text: "",
-            prompt: "Translate the following Guyanese creole text and provide the resulting English translation. Please ensure that the translation is clear and accurate. Guyanese Creole is spoken in Guyana and may include unique vocabulary and grammar. Try to capture the original meaning while making it comprehensible in English."
+            prompt: ""
         }
     })
 
@@ -70,6 +81,10 @@ const TranslateFormAlt = (props: { setOpen: React.Dispatch<SetStateAction<boolea
         getRandomPair().then((data: { text: string, translation: string }) => {
             const context_text = `Text: ${data.translation}\nTranslation: ${data.text}`
             form.setValue('context_text', context_text)
+        })
+
+        fetchPrompt().then(prompt => {
+            form.setValue('prompt', prompt.creole2english)
         })
     }, [])
 
