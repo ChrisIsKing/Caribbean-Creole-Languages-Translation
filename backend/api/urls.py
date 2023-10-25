@@ -10,4 +10,5 @@ urlpatterns = [
     path('api/entries/delete/<int:pk>/', views.deleteEntry),
     path('api/bulkadd/', views.EntryListCreate.as_view()),
     path('api/entries/random/', views.getRandomEntry),
+    path('api/prompts/', views.getPrompts),
 ]

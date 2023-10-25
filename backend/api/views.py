@@ -2,8 +2,8 @@ from rest_framework.response import Response
 from rest_framework.decorators import api_view
 from rest_framework import status, generics
 from .inference import inference
-from .serializers import EntrySerializer
-from base.models import Entry
+from .serializers import EntrySerializer, PromptSerializer
+from base.models import Entry, Prompt
 
 
 import os
@@ -50,7 +50,28 @@ def getEntries(request):
     entries = Entry.objects.all().order_by('created_at').reverse()
     serializer = EntrySerializer(entries, many=True)
     return Response(serializer.data)
+    
+@api_view(["GET"])
+def getPrompts(request):
+    prompts = Prompt.objects.all()
+    serializer = PromptSerializer(prompts, many=True)
+    return Response(serializer.data[0])
+        
+@api_view(["PUT"])
+def updatePrompts(request):
+    data = request.data
 
+    if 'id' not in data:
+        return Response("Error: No id provided")
+    
+    prompt = Prompt.objects.get(id=data['id'])
+    serializer = PromptSerializer(instance=prompt, data=data)
+    if serializer.is_valid():
+        serializer.save()
+    else:
+        return Response("Error: Invalid entry", status=status.HTTP_400_BAD_REQUEST)
+    
+    return Response(serializer.data, status=status.HTTP_200_OK)
 
 @api_view(["GET"])
 def getEntry(request, pk):

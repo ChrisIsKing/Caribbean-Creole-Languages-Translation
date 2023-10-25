@@ -7,3 +7,8 @@ class Entry(models.Model):
     creole = models.TextField()
     created_at = models.DateTimeField(auto_now_add=True)
 
+class Prompt(models.Model):
+    id = models.AutoField(primary_key=True)
+    english2creole = models.TextField()
+    creole2english = models.TextField()
+    updated_at = models.DateTimeField(auto_now=True)
