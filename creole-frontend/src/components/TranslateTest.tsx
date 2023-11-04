@@ -1,16 +1,16 @@
 import {
     Card,
     CardContent,
-    CardDescription,
-    CardFooter,
-    CardHeader,
-    CardTitle,
+    // CardDescription,
+    // CardFooter,
+    // CardHeader,
+    // CardTitle,
   } from "@/components/ui/card"
 
 import {
-    ChevronLeftIcon,
-    ChevronRightIcon,
-    DoubleArrowLeftIcon,
+    // ChevronLeftIcon,
+    // ChevronRightIcon,
+    // DoubleArrowLeftIcon,
     DoubleArrowRightIcon,
 } from "@radix-ui/react-icons"
 

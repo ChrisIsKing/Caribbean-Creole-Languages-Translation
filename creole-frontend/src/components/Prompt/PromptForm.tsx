@@ -1,6 +1,6 @@
 import { zodResolver } from "@hookform/resolvers/zod"
 import * as z from "zod"
-import { set, useForm } from "react-hook-form";
+import { useForm } from "react-hook-form";
 
 import {
     Form,
@@ -16,7 +16,7 @@ import { Textarea } from "@/components/ui/textarea"
 import formSchema from "./schema";
 import getEntry from "@/lib/getEntry";
 
-import React, {useState, useEffect, SetStateAction} from "react";
+import {useState, useEffect} from "react";
 import { URL } from "@/Models/url";
 
 interface Prompt {
