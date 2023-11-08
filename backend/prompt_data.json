@@ -1,0 +1,11 @@
+[
+{
+  "model": "base.prompt",
+  "pk": 2,
+  "fields": {
+    "english2creole": "Translate the following english text and provide the resulting Guyanese Creole translation. Please ensure that the translation is clear and accurate. Guyanese Creole is spoken in Guyana and is characterized by its unique vocabulary and grammar. Try to maintain the cultural nuances and colloquialisms if applicable.",
+    "creole2english": "Translate the following Guyanese creole text and provide the resulting English translation. Please ensure that the translation is clear and accurate. Guyanese Creole is spoken in Guyana and may include unique vocabulary and grammar. Try to capture the original meaning while making it comprehensible in English.",
+    "updated_at": "2023-10-25T21:23:50.932Z"
+  }
+}
+]
