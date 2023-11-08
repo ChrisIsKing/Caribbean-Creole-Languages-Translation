@@ -13,10 +13,9 @@ def translate(text, prompt, context_text):
     return inference(
         api_key = os.environ.get("OPENAI_API_KEY"),
         model_name="gpt-3.5-turbo",
-        prompt="Translate the text and provide the resulting Guyanese Creole translation. Please ensure that the translation is clear and accurate. Guyanese Creole is spoken in Guyana and is characterized by its unique vocabulary and grammar. Try to maintain the cultural nuances and colloquialisms if applicable.",
+        prompt=prompt,
         prompt_variables={
-            "context": f"Text: {context_text}\n Translation: {context_translation}",
-            "instruction": prompt,
+            "context": context_text,
             "text": text
         },
         max_tokens=2048
