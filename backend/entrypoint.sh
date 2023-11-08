@@ -14,5 +14,6 @@ fi
 echo "Applying migrations..."
 python manage.py makemigrations
 python manage.py migrate
+python manage.py loaddata prompt_data.json
 
 exec "$@"
