@@ -1,9 +1,8 @@
 from langchain.llms import OpenAI
 from langchain.prompts import PromptTemplate
 
-PROMPT_TEMPLATE ="""{prompt}
-    CONTEXT: {context}
-    INSTRUCTION: {instruction}
+PROMPT_TEMPLATE ="""{prompt}\n
+    CONTEXT: {context}\n
     TEXT: {text}
 """
 
@@ -25,7 +24,7 @@ def inference(api_key: str = "",
     """
     
     prompt_template = PromptTemplate(
-        input_variables=["prompt","context","instruction","text"],
+        input_variables=["prompt","context","text"],
         template=PROMPT_TEMPLATE
     )
     llm = OpenAI(
@@ -37,7 +36,7 @@ def inference(api_key: str = "",
     message = llm(prompt_template.format(
         prompt=prompt,
         context=prompt_variables.get("context",""),
-        instruction=prompt_variables.get("instruction",""),
+        # instruction=prompt_variables.get("instruction",""),
         text=prompt_variables.get("text","")
     ), max_tokens=max_tokens)
     
