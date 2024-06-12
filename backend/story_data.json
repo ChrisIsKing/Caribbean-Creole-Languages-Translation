@@ -1,0 +1,434 @@
+[
+    {
+        "model": "base.entry",
+        "pk": 6757,
+        "fields": {
+            "creole": "Langa  ago wii  yuuz  tu  plou  wid  aksn  orli  in  di  marning",
+            "english": "Long ago we used to plough [farm] with oxen early in the morning.",
+            "created_at": "2023-12-14T10:13:36.832510"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6758,
+        "fields": {
+            "creole": "Wii  gatu  get  op an  teek  ouar  breekfas  an",
+            "english": "We had to get up and have breakfast",
+            "created_at": "2023-12-14T10:13:36.832516"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6759,
+        "fields": {
+            "creole": "den  tek  ouar  lonsh an  den  wii go  dong  a  di  bak  wee.",
+            "english": "then we went down to the back way.",
+            "created_at": "2023-12-14T10:13:36.832518"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6760,
+        "fields": {
+            "creole": "Wii  gatu  waak  trii  or  foo  mailz  fu  fain  di   aksn.",
+            "english": "We had to walk three or four miles to find the oxen.",
+            "created_at": "2023-12-14T10:13:36.832519"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6761,
+        "fields": {
+            "creole": "Den  wen  wii  kom  bak  wii  gatu  put  aam ...",
+            "english": "Then when we came back we had to put them on ...",
+            "created_at": "2023-12-14T10:13:36.832521"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6762,
+        "fields": {
+            "creole": "juat  on  dee  nek.  An den wii gatu put on  di plou.",
+            "english": "yoke on the [oxen\u2019s] necks. And then we had to put on the plough.",
+            "created_at": "2023-12-14T10:13:36.832522"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6763,
+        "fields": {
+            "creole": "Den  fram  de wii  hav  tu  ajos  di plou",
+            "english": "Then from there we had to adjust the plough",
+            "created_at": "2023-12-14T10:13:36.832524"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6764,
+        "fields": {
+            "creole": "den  wii  gatu staat tu  plou.",
+            "english": "then we had to start to plough.",
+            "created_at": "2023-12-14T10:13:36.832525"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6765,
+        "fields": {
+            "creole": "Den  som  a  di  aksn  das  ron",
+            "english": "Then some of the oxen would run off",
+            "created_at": "2023-12-14T10:13:36.832527"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6766,
+        "fields": {
+            "creole": "an  get  dee  fut  kot  op",
+            "english": "get their feet cut up.",
+            "created_at": "2023-12-14T10:13:36.832528"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6767,
+        "fields": {
+            "creole": "An  sontaim  di  laan  das  haad",
+            "english": "Sometimes the land was very hard",
+            "created_at": "2023-12-14T10:13:36.832530"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6768,
+        "fields": {
+            "creole": "an  wi das  gatu  chrai  tu plou  it.",
+            "english": "and (yet) we had to try to plough it.",
+            "created_at": "2023-12-14T10:13:36.832531"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6769,
+        "fields": {
+            "creole": "An  wen  wii  finish  plou a  kot",
+            "english": "And when we finished ploughing one row",
+            "created_at": "2023-12-14T10:13:36.832532"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6770,
+        "fields": {
+            "creole": "Den  wen  wii  wii  gan  shai  di  di   padi",
+            "english": "Then when we \u2013 we would scatter the paddy (to sow it)",
+            "created_at": "2023-12-14T10:13:36.832534"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6771,
+        "fields": {
+            "creole": "den  wii  go  kom  wid bush  an  wii gon",
+            "english": "then we would get bush and we would",
+            "created_at": "2023-12-14T10:13:36.832535"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6772,
+        "fields": {
+            "creole": "haal  di  bush  on  it  an  kova  di  padi.",
+            "english": "drag the bush over it and cover over the paddy.",
+            "created_at": "2023-12-14T10:13:36.832537"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6773,
+        "fields": {
+            "creole": "An  wen  reen  faal  dem  staat  tu  groo.",
+            "english": "And when it rained then they (the rice plants) started to grow.",
+            "created_at": "2023-12-14T10:13:36.832538"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6774,
+        "fields": {
+            "creole": "Wen it groo mont or  tu sotaim i  ful  wid gras.",
+            "english": "When it (the rice plants) grew for a month or two sometimes it was full of grass.",
+            "created_at": "2023-12-14T10:13:36.832541"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6775,
+        "fields": {
+            "creole": "Den  juring  di  reeni  siizn  laik  bout  juun  o  julai",
+            "english": "Then during the rainy season",
+            "created_at": "2023-12-14T10:13:36.832542"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6776,
+        "fields": {
+            "creole": "wii  gatu  goo an kliin biizi-biizi",
+            "english": "we had to go and clean out the bizii-bizii weeds (from the midst of the rice plants).",
+            "created_at": "2023-12-14T10:13:36.832544"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6777,
+        "fields": {
+            "creole": "An den wen wii an  wi  gatu  pach  di rais.",
+            "english": "And then we had to patch the rice (possibly \u2018planting fresh plants where the weeds had been\u2019).",
+            "created_at": "2023-12-14T10:13:36.832545"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6778,
+        "fields": {
+            "creole": "An wii finish den rong bout aagas taim wi finish.",
+            "english": "We would finish patching around August.",
+            "created_at": "2023-12-14T10:13:36.832547"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6779,
+        "fields": {
+            "creole": "An  aam \u2026 juring  about  septemba  tu  aktoba",
+            "english": "And ahm \u2026.. during September to October",
+            "created_at": "2023-12-14T10:13:36.832548"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6780,
+        "fields": {
+            "creole": "wi staat  tu  kot wid gras  naif.",
+            "english": "we would start to cut with grass knives.",
+            "created_at": "2023-12-14T10:13:36.832550"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6781,
+        "fields": {
+            "creole": "An  wen  wii  finish kot  wii  das  gatu ...",
+            "english": "And when we finished cutting we would have to ...",
+            "created_at": "2023-12-14T10:13:36.832551"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6782,
+        "fields": {
+            "creole": "e  fech  it  wid  di  aksn  wid kyart",
+            "english": "er use oxen attached either to a cart",
+            "created_at": "2023-12-14T10:13:36.832553"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6783,
+        "fields": {
+            "creole": "ar  som kain  a  draga  an",
+            "english": "or other vehicle that could be dragged,",
+            "created_at": "2023-12-14T10:13:36.832554"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6784,
+        "fields": {
+            "creole": "wen wii  pak  op  aal  di straa  dat  wi  kot",
+            "english": "to take away the cut rice plants and when we had stacked all the stalks we had cut,",
+            "created_at": "2023-12-14T10:13:36.832555"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6785,
+        "fields": {
+            "creole": "wi  gatu  mash  it  wid aksn.",
+            "english": "then we had to use oxen to trample them.",
+            "created_at": "2023-12-14T10:13:36.832557"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6786,
+        "fields": {
+            "creole": "Wi  gatu get  baiz  jraiving  di aksn rong an rong.",
+            "english": "We had to get boys to drive the oxen around and around.",
+            "created_at": "2023-12-14T10:13:36.832559"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6787,
+        "fields": {
+            "creole": "Wi  gatu get  a  kain tu chroowe   di   straa.",
+            "english": "We had to get a kind (meaning unclear) to get rid of the chaff.",
+            "created_at": "2023-12-14T10:13:36.832561"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6788,
+        "fields": {
+            "creole": "Wen  wi  finish  wi  gatu  hiip  op  di  padi.",
+            "english": "When finished we had to heap up the paddy.",
+            "created_at": "2023-12-14T10:13:36.832562"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6789,
+        "fields": {
+            "creole": "Den  wi  gatu win   it.",
+            "english": "Then we had to winnow it.",
+            "created_at": "2023-12-14T10:13:36.832563"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6790,
+        "fields": {
+            "creole": "An  den  wi  gatu  transpoot  it",
+            "english": "After which we had to transport it",
+            "created_at": "2023-12-14T10:13:36.832565"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6791,
+        "fields": {
+            "creole": "wid  bul  kyart  tu  di  rais  mil.",
+            "english": "using carts pulled by bulls to the rice mill.",
+            "created_at": "2023-12-14T10:13:36.832566"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6792,
+        "fields": {
+            "creole": "Weer  weer  wi soold  di  padi da tu di mila",
+            "english": "Weer  weer  wi soold  di  padi da tu di mila",
+            "created_at": "2023-12-14T10:13:36.832567"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6793,
+        "fields": {
+            "creole": "ar  wii  get it  mil  an  sel  di rais tu eni porsn  iz  baiin rais",
+            "english": "or we milled it and sold the rice to anyone who might be buying rice.",
+            "created_at": "2023-12-14T10:13:36.832569"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6794,
+        "fields": {
+            "creole": "A.P:  hou  it  iz  don  tudee  nou?",
+            "english": "A.P: How is it done today now?",
+            "created_at": "2023-12-14T10:13:36.832570"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6795,
+        "fields": {
+            "creole": "Wel  prezentli  nou  wii  get  chrakta.",
+            "english": "Well presently now we get tractors.",
+            "created_at": "2023-12-14T10:13:36.832572"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6796,
+        "fields": {
+            "creole": "Wi  plou  di raisfiil  in  a  fiyu  ouarz taim,",
+            "english": "We plough the rice field in a few hours time.",
+            "created_at": "2023-12-14T10:13:36.832574"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6797,
+        "fields": {
+            "creole": "An den wii kom  bak  an wii  riiplou",
+            "english": "And then we come back another time and plough for a second time",
+            "created_at": "2023-12-14T10:13:36.832576"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6798,
+        "fields": {
+            "creole": "a  sekan  taim an den wii braadkyaas di  padi.",
+            "english": "and then we sow the paddy by scattering it across the ploughed area.",
+            "created_at": "2023-12-14T10:13:36.832579"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6799,
+        "fields": {
+            "creole": "and then we sow the paddy by scattering it across the ploughed area.",
+            "english": "We cover the paddy with \u2018chipa\u2019 (small chips of dirt?) and when rain fall it grows.",
+            "created_at": "2023-12-14T10:13:36.832580"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6800,
+        "fields": {
+            "creole": "An wii wach it fram  inseks an pes.",
+            "english": "And we protect the ricefield from insects and other pests.",
+            "created_at": "2023-12-14T10:13:36.832581"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6801,
+        "fields": {
+            "creole": "An  wen  it  iz raip  wii  riip  it wid  kombain",
+            "english": "And when the paddy is ready, we harvest it with combined harvesters",
+            "created_at": "2023-12-14T10:13:36.832583"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6802,
+        "fields": {
+            "creole": "an  wii get i:da  trok  ar tre:la",
+            "english": "and we use either trucks or trailers",
+            "created_at": "2023-12-14T10:13:36.832584"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6803,
+        "fields": {
+            "creole": "tu teek it tu di mil weer wii soold it",
+            "english": "to take it to the mill where we either sell the paddy",
+            "created_at": "2023-12-14T10:13:36.832585"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6804,
+        "fields": {
+            "creole": "or  konvertid  it  tu  rais.",
+            "english": "or convert it to rice.",
+            "created_at": "2023-12-14T10:13:36.832587"
+        }
+    }
+]

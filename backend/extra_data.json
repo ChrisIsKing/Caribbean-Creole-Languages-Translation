@@ -1,0 +1,5915 @@
+[
+    {
+        "model": "base.entry",
+        "pk": 6100,
+        "fields": {
+            "creole": "Me gaan fetch it jus\u2019 now",
+            "english": "I\u2019ll get it in just a second",
+            "created_at": "2023-12-13T21:47:04.309714"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6101,
+        "fields": {
+            "creole": "She innoe is who",
+            "english": "She doesn\u2019t know who that is",
+            "created_at": "2023-12-13T21:47:04.309720"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6102,
+        "fields": {
+            "creole": "Me in wan\u2019 hear buh-dah",
+            "english": "I don\u2019t want to hear about that",
+            "created_at": "2023-12-13T21:47:04.309722"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6103,
+        "fields": {
+            "creole": "Me innoe buh-dah",
+            "english": "I don\u2019t know about that.",
+            "created_at": "2023-12-13T21:47:04.309723"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6104,
+        "fields": {
+            "creole": "Me innoe wah-is-dah",
+            "english": "I don\u2019t know what that is",
+            "created_at": "2023-12-13T21:47:04.309724"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6105,
+        "fields": {
+            "creole": "Ahbidees g\u2019win in town",
+            "english": "We\u2019re all going to town",
+            "created_at": "2023-12-13T21:47:04.309726"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6106,
+        "fields": {
+            "creole": "Y\u2019all does be looking so downpress",
+            "english": "You look depressed.",
+            "created_at": "2023-12-13T21:47:04.309727"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6107,
+        "fields": {
+            "creole": "Me ah wah for see no pik\u2019ni dem roun\u2019 ee",
+            "english": "I don\u2019t want to see any children around here",
+            "created_at": "2023-12-13T21:47:04.309729"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6108,
+        "fields": {
+            "creole": "7:00 we g\u2019win for see Amanda dem",
+            "english": "At 7:00 we\u2019re going to see Amanda and the rest of her family",
+            "created_at": "2023-12-13T21:47:04.309730"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6109,
+        "fields": {
+            "creole": "Dem ah watch meh",
+            "english": "They all want to look at me",
+            "created_at": "2023-12-13T21:47:04.309733"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6110,
+        "fields": {
+            "creole": "He in wan\u2019 go wi\u2019 we cuz he mommy frikken",
+            "english": "He doesn\u2019t want to go with us because his mother is frightened.",
+            "created_at": "2023-12-13T21:47:04.309734"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6111,
+        "fields": {
+            "creole": "Ah know she yes",
+            "english": "Yes I know her",
+            "created_at": "2023-12-13T21:47:04.309736"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6112,
+        "fields": {
+            "creole": "He don\u2019 behave heself nice",
+            "english": "He doesn\u2019t behave himself well",
+            "created_at": "2023-12-13T21:47:04.309738"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6113,
+        "fields": {
+            "creole": "Dat is you own or we own?",
+            "english": "Is that yours or ours?",
+            "created_at": "2023-12-13T21:47:04.309739"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6114,
+        "fields": {
+            "creole": "She does fight up nuff\u2019 time already",
+            "english": "She\u2019s already been in a lot of fights",
+            "created_at": "2023-12-13T21:47:04.309740"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6115,
+        "fields": {
+            "creole": "Me garden get nuff nuff flower nuff nuff tree an\u2019 ting",
+            "english": "My garden has lots of flowers and trees and things",
+            "created_at": "2023-12-13T21:47:04.309742"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6116,
+        "fields": {
+            "creole": "You get nuff ideas!",
+            "english": "You have a lot of ideas!",
+            "created_at": "2023-12-13T21:47:04.309743"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6117,
+        "fields": {
+            "creole": "It happen steady now",
+            "english": "It happens often now",
+            "created_at": "2023-12-13T21:47:04.309745"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6118,
+        "fields": {
+            "creole": "I does see he steady",
+            "english": "I see him often",
+            "created_at": "2023-12-13T21:47:04.309747"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6119,
+        "fields": {
+            "creole": "Why I mus\u2019 punish so?",
+            "english": "Why do I have to suffer like this?",
+            "created_at": "2023-12-13T21:47:04.309748"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6120,
+        "fields": {
+            "creole": "ah go do it",
+            "english": "I will do it",
+            "created_at": "2023-12-13T21:47:04.309749"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6121,
+        "fields": {
+            "creole": "dem ah waan sting yuh waan bil",
+            "english": "they usually want to take money from you",
+            "created_at": "2023-12-13T21:47:04.309751"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6122,
+        "fields": {
+            "creole": "evri day me a run a raisfil",
+            "english": "Every day I take care of the ricefield",
+            "created_at": "2023-12-13T21:47:04.309752"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6123,
+        "fields": {
+            "creole": "ee bin get gun",
+            "english": "he had the gun",
+            "created_at": "2023-12-13T21:47:04.309753"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6124,
+        "fields": {
+            "creole": "ee wuda tek awi lil time but awi bin go come out safe",
+            "english": "it would have taken us a little time but we would have come out safely",
+            "created_at": "2023-12-13T21:47:04.309754"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6125,
+        "fields": {
+            "creole": "me a wuk abak",
+            "english": "I'm working further inland",
+            "created_at": "2023-12-13T21:47:04.309756"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6126,
+        "fields": {
+            "creole": "mi gu sit dong in mi alta nou - mi gu see mi noofu taak tuu gad",
+            "english": "Now, if I go and sit down in my altar - I will say I know how to talk to God",
+            "created_at": "2023-12-13T21:47:04.309757"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6127,
+        "fields": {
+            "creole": "mi mos kom - mi mos see oo gad ai wanch yuu protek mii",
+            "english": "I have to come I must say \"Oh God, I want you to protect me",
+            "created_at": "2023-12-13T21:47:04.309759"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6128,
+        "fields": {
+            "creole": "ai wan yuu giv mii helt an strengt, ai wan yuu protek mi hous",
+            "english": "I want you to give me health and strength, I want you to protect my house",
+            "created_at": "2023-12-13T21:47:04.309761"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6129,
+        "fields": {
+            "creole": "protek mii pikniii dem, \" yuu noo?",
+            "english": "\u2018protect my children,\" you know?",
+            "created_at": "2023-12-13T21:47:04.309762"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6130,
+        "fields": {
+            "creole": "ai want yuu taak yuu mos taak le mi hiir hou i a taak",
+            "english": "I want you to talk you must talk let me hear how he talks",
+            "created_at": "2023-12-13T21:47:04.309763"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6131,
+        "fields": {
+            "creole": "wel yu gu star prooch shi - yu noo - kyeer wan- kyeer inglish langwidj tuu shi",
+            "english": "Well you will start to approach her - you know? Use a- use the English language with her",
+            "created_at": "2023-12-13T21:47:04.309765"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6132,
+        "fields": {
+            "creole": "see heloo, ai lov yuu beebii wats op - yu noo",
+            "english": "say \"Hello, I love you baby what's up?\" - you know?",
+            "created_at": "2023-12-13T21:47:04.309766"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6133,
+        "fields": {
+            "creole": "ai laik di wee yuu wak",
+            "english": "I like the way you walk",
+            "created_at": "2023-12-13T21:47:04.309767"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6134,
+        "fields": {
+            "creole": "hai darling, ai goin in, ai gon sii yu leeta",
+            "english": "Hi darling, I'm going in, I will see you later.",
+            "created_at": "2023-12-13T21:47:04.309768"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6135,
+        "fields": {
+            "creole": "shi a pik plom. wen mi aks shi yestodee see shi na tel mii se shii brook am dong",
+            "english": "She was picking plums. When I asked her yesterday why she didn't tell me that she broke it down",
+            "created_at": "2023-12-13T21:47:04.309770"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6136,
+        "fields": {
+            "creole": "shi na ansa - shi klaim pon di foul pen an brook am dong",
+            "english": "she didn't answer - she climbed on the fowl pen and broke it down ...",
+            "created_at": "2023-12-13T21:47:04.309771"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6137,
+        "fields": {
+            "creole": "shi aks mi at hou (inaudible) den mi se shi na big iinoffu tel Mis",
+            "english": "She asked me if ( ) then I asked if she wasn't big enough to tell Miss",
+            "created_at": "2023-12-13T21:47:04.309772"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6138,
+        "fields": {
+            "creole": "da shi klaim pon",
+            "english": "that she had climbed on",
+            "created_at": "2023-12-13T21:47:04.309774"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6139,
+        "fields": {
+            "creole": "koz shi gu kos. shi don bina kos dis maarnin mi en noofo wa",
+            "english": "because she will curse. She was already cursing this morning for what I don't know",
+            "created_at": "2023-12-13T21:47:04.309775"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6140,
+        "fields": {
+            "creole": "yestodee Mamii tel antii Beebiifu tel shii toch mii",
+            "english": "Yesterday Mama told Aunty Baby to tell her \"Touch me\"",
+            "created_at": "2023-12-13T21:47:04.309776"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6141,
+        "fields": {
+            "creole": "an shi toch shi so an mi tel shi toch mi so an shi toch mi",
+            "english": "like this and I told her \"Touch me\" like this, and she touched me",
+            "created_at": "2023-12-13T21:47:04.309777"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6142,
+        "fields": {
+            "creole": "abii tel tel shi don noo hiir shii mii don noo (laughs)",
+            "english": "We told to tell her \"Right on,\" this is what she said, \"Right on.",
+            "created_at": "2023-12-13T21:47:04.309779"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6143,
+        "fields": {
+            "creole": "toch mi de Mandoo",
+            "english": "'Touch me there Mando.",
+            "created_at": "2023-12-13T21:47:04.309781"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6144,
+        "fields": {
+            "creole": "ok yu teet pon am kos am tel i le i gu beed i doti skin",
+            "english": "Suck your teeth on him - curse him - tell him to go and wash his dirty skin!",
+            "created_at": "2023-12-13T21:47:04.309782"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6145,
+        "fields": {
+            "creole": "suurin",
+            "english": "a form of courtship (from suitoring,\" itself the result of adapting the noun \"suitor\" for use as a verb and then applying standard patterns to generate a gerund form)",
+            "created_at": "2023-12-13T21:47:04.309784"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6146,
+        "fields": {
+            "creole": "swet plenti. yu ge kramp. yu badi na a muuv. somtaim yu ge mos bong. Sometaim yu si k mi de ya nou, mi ge mosl bong, mi lef sim i so.",
+            "english": "You swet a lot. You get cramp. Your body does not move. Sometimes you get muscle-bound. Sometimes, you see like how I am here now, if I got muscle-bound, I'd be left just like this.",
+            "created_at": "2023-12-13T21:47:04.309785"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6147,
+        "fields": {
+            "creole": "ii ge haard",
+            "english": "It [the muscle] gets hard.",
+            "created_at": "2023-12-13T21:47:04.309786"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6148,
+        "fields": {
+            "creole": "dis kyaa kom out. Dis na a kom out.",
+            "english": "This can't come out. This doesn't come out.",
+            "created_at": "2023-12-13T21:47:04.309787"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6149,
+        "fields": {
+            "creole": "yu gadu naint it",
+            "english": "You have to anoint it.",
+            "created_at": "2023-12-13T21:47:04.309789"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6150,
+        "fields": {
+            "creole": "dis lef sim i so ou ii de if mi ge mos bong.",
+            "english": "This would be left just as it is if I got muscle-bound. Sometimes I am working and my foot is left in this position. It becomes muscle-bound, all swollen here.",
+            "created_at": "2023-12-13T21:47:04.309790"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6151,
+        "fields": {
+            "creole": "ii ge - ii get o mann",
+            "english": "There is - there is a man.",
+            "created_at": "2023-12-13T21:47:04.309791"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6152,
+        "fields": {
+            "creole": "aal di veen kom an tai tugeda, an kom fat so! sodaim - sodaim if hii a mi pardno, ii a wok, sotai ii kom, i gu rob, in gu rob, ii gu rob, igu chrai pul, ii gu pul, ii gu pul, yu noo? Pul an rob an pul. No le mi tel yu wo yuu ga to duu - wo gat di mosl bong. Yu stomik or yoor livo waan bos out, wid peen, yu noo, wails hi gu duu dis kain o tingsz.",
+            "english": "All the veins become tied together, and get fat! Sometimes -sometimes if he is my partner, he would work, sometimes he would come over, and rub, and rub, and try to pull it, and pull, and pull, you know? Pull and rub and pull. Don't let me tell vou what vou have to do - whoever is muscle-bound. Your stomach or your liver wants to burst out, with pain, you know, while he is doing these kinds of things.",
+            "created_at": "2023-12-13T21:47:04.309792"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6153,
+        "fields": {
+            "creole": "somi yu vamit out aal yu fuud wo yu it - wen yu it - wen yu ii - wej aal do - stoori hapn wid yu.",
+            "english": "Sometimes you vomit all the food you ate when you - when all those things happen to you.",
+            "created_at": "2023-12-13T21:47:04.309794"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6154,
+        "fields": {
+            "creole": "wen yu ge kramp, yu ga fu lee dong op - o lee dong o di keen - ai - a - in di fiil. yes!... Wel das wai wen yu waan da tablit yu gatu ron gu gu sarch fu di maan. or yu ge won kot, yu gatu ron gu luk fu di maan. yu no\u00f3, if yu get ful taim pipl, di - di badi huu gu du di wok gu kom rong in di fil. bika da a hii wok - ii na go notn els fu du!",
+            "english": "When you get cramp, you have to lie down in - in",
+            "created_at": "2023-12-13T21:47:04.309796"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6155,
+        "fields": {
+            "creole": "mi luk acras a mi padna dem dem a du de sem tin.",
+            "english": "I looked across at my friends, they were doing the same thing too.",
+            "created_at": "2023-12-13T21:47:04.309798"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6156,
+        "fields": {
+            "creole": "dem ba disa'd fu tro som gesolin pan di tin fu si wa go hapn",
+            "english": "Those boys decided to throw some gasoline upon the thing to see what would happen.",
+            "created_at": "2023-12-13T21:47:04.309799"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6157,
+        "fields": {
+            "creole": "an ma beg a man fi wan",
+            "english": "And I begged\u00a0 him for one.",
+            "created_at": "2023-12-13T21:47:04.309800"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6158,
+        "fields": {
+            "creole": "we fu du na?",
+            "english": "'What are we going to do",
+            "created_at": "2023-12-13T21:47:04.309802"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6159,
+        "fields": {
+            "creole": "e ba', ha\" iz di tekaps in dis ples?",
+            "english": "Hey boy, what are the big happenings around here?",
+            "created_at": "2023-12-13T21:47:04.309804"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6160,
+        "fields": {
+            "creole": "Dem se da di labaria snek wan a di fastis bitin snek",
+            "english": "They say that the labaria snake is one of the fastest biting snakes.",
+            "created_at": "2023-12-13T21:47:04.309805"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6161,
+        "fields": {
+            "creole": "wan bak iz a man wa de in di bush",
+            "english": "An Amerindian is a man who lives in the bush",
+            "created_at": "2023-12-13T21:47:04.309807"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6162,
+        "fields": {
+            "creole": "Hey, wa gwaan, how yuh deh today",
+            "english": "Hello, how are you doing today?",
+            "created_at": "2023-12-13T21:47:04.309808"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6163,
+        "fields": {
+            "creole": "Me feelin' real tired",
+            "english": "I am feeling really tired.",
+            "created_at": "2023-12-13T21:47:04.309809"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6164,
+        "fields": {
+            "creole": "Yuh can pass meh dat book ova deh?",
+            "english": "Can you pass me that book over there?",
+            "created_at": "2023-12-13T21:47:04.309810"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6165,
+        "fields": {
+            "creole": "Wah yuh plan fuh do dis weeken?",
+            "english": "What are you planning to do this weekend?",
+            "created_at": "2023-12-13T21:47:04.309812"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6166,
+        "fields": {
+            "creole": "Meh love fuh eat hot hot food.",
+            "english": "I love to eat spicy food.",
+            "created_at": "2023-12-13T21:47:04.309814"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6167,
+        "fields": {
+            "creole": "Meh pupah a wuk abak.",
+            "english": "My father\u2019s sister husband works in the hinterland region.",
+            "created_at": "2023-12-13T21:47:04.309815"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6168,
+        "fields": {
+            "creole": "Yuh wan fuh go fuh walk wit meh?",
+            "english": "Do you want to go for a walk with me?",
+            "created_at": "2023-12-13T21:47:04.309816"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6169,
+        "fields": {
+            "creole": "Me need fuh go deh store fuh buy some grocery.",
+            "english": "I need to go to the store to buy some groceries.",
+            "created_at": "2023-12-13T21:47:04.309817"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6170,
+        "fields": {
+            "creole": "Me sorry fuh be late.",
+            "english": "I am sorry for being late.",
+            "created_at": "2023-12-13T21:47:04.309819"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6171,
+        "fields": {
+            "creole": "Wah yuh favorite kind ah saang?",
+            "english": "What\u2019s your favorite kind of music?",
+            "created_at": "2023-12-13T21:47:04.309820"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6172,
+        "fields": {
+            "creole": "Wah deh happen, meh sista?",
+            "english": "What\u2019s happening, my sister?",
+            "created_at": "2023-12-13T21:47:04.309821"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6173,
+        "fields": {
+            "creole": "mawning, how yuh sleep?",
+            "english": "Good morning, how did you sleep?",
+            "created_at": "2023-12-13T21:47:04.309823"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6174,
+        "fields": {
+            "creole": "Gud aftanoon', how yuh day bin?",
+            "english": "Good afternoon, how was your day?",
+            "created_at": "2023-12-13T21:47:04.309824"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6175,
+        "fields": {
+            "creole": "Meh bin go fuh a run dis mawning",
+            "english": "I had to take care of some business this morning.",
+            "created_at": "2023-12-13T21:47:04.309825"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6176,
+        "fields": {
+            "creole": "Me bin deh look fuh meh fone, but me nah find it.",
+            "english": "I was looking for my phone, but I cannot seem to find it.",
+            "created_at": "2023-12-13T21:47:04.309827"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6177,
+        "fields": {
+            "creole": "Meh wan' some chakalate ice cream",
+            "english": "I want chocolate ice cream.",
+            "created_at": "2023-12-13T21:47:04.309828"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6178,
+        "fields": {
+            "creole": "Meh nah like watch jumbie movies.",
+            "english": "I do not like to look at horror movies.",
+            "created_at": "2023-12-13T21:47:04.309830"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6179,
+        "fields": {
+            "creole": "Me feelin' hot, meh need fuh turn on dis fan.",
+            "english": "Its quite a hot day, I need to put the fan on.",
+            "created_at": "2023-12-13T21:47:04.309831"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6180,
+        "fields": {
+            "creole": "Meh feel lik fuh eat kitchree and fry fish",
+            "english": "I am in the mood to eat cookup rice and fry fish today.",
+            "created_at": "2023-12-13T21:47:04.309833"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6181,
+        "fields": {
+            "creole": "Me wan' learn how fuh sing sum bhajan",
+            "english": "I want to learn how to sing the Hindu\u2019s religious songs.",
+            "created_at": "2023-12-13T21:47:04.309834"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6182,
+        "fields": {
+            "creole": "Meh poohah cum see we yestaday.",
+            "english": "My father\u2019s sister visited yesterday",
+            "created_at": "2023-12-13T21:47:04.309835"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6183,
+        "fields": {
+            "creole": "Meh sista-in-law know fuh cook good good.",
+            "english": "My sister \u2013 in \u2013 law is a great cook.",
+            "created_at": "2023-12-13T21:47:04.309837"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6184,
+        "fields": {
+            "creole": "Meh poppy deh di youngest outta he siblin' dem.",
+            "english": "My father is the youngest of his siblings.",
+            "created_at": "2023-12-13T21:47:04.309838"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6185,
+        "fields": {
+            "creole": "Meh niece jus' gradguate from UG.",
+            "english": "My niece graduated from the university of Guyana.",
+            "created_at": "2023-12-13T21:47:04.309839"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6186,
+        "fields": {
+            "creole": "Meh nephew only two-year-old.",
+            "english": "My nephew is two years old.",
+            "created_at": "2023-12-13T21:47:04.309840"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6187,
+        "fields": {
+            "creole": "Me cousin an' meh tight like glue.",
+            "english": "My cousin and I are very close.",
+            "created_at": "2023-12-13T21:47:04.309842"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6188,
+        "fields": {
+            "creole": "Meh aunty ah meh mudda sista.",
+            "english": "My aunt is my mother\u2019s sister.",
+            "created_at": "2023-12-13T21:47:04.309843"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6189,
+        "fields": {
+            "creole": "Meh aja and ajee gon celebrate dem 50th weddin' anniversary dis year.",
+            "english": "My father\u2019s parents are celebrating their 50thWedding anniversary this year.",
+            "created_at": "2023-12-13T21:47:04.309845"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6190,
+        "fields": {
+            "creole": "Meh chacha comin' fuh see we next month.\"",
+            "english": "My father\u2019s brother is visiting us next month.",
+            "created_at": "2023-12-13T21:47:04.309847"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6191,
+        "fields": {
+            "creole": "Me get two big brodda an' one lil' sista.",
+            "english": "I have two older brothers and one little sister.",
+            "created_at": "2023-12-13T21:47:04.309848"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6192,
+        "fields": {
+            "creole": "Meh mudda cookin' dinna right now.",
+            "english": "My mother is cooking dinner presently.",
+            "created_at": "2023-12-13T21:47:04.309850"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6193,
+        "fields": {
+            "creole": "Me an' meh family gon go to the watside fuh Easta.",
+            "english": "My family and I are going to the beach for Easter.",
+            "created_at": "2023-12-13T21:47:04.309851"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6194,
+        "fields": {
+            "creole": "Me an' meh wife gat three pikni.",
+            "english": "My wife and I have three children.",
+            "created_at": "2023-12-13T21:47:04.309852"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6195,
+        "fields": {
+            "creole": "Me an' meh sista always bin close from lil days.",
+            "english": "My sister and I always been close since we were young.",
+            "created_at": "2023-12-13T21:47:04.309853"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6196,
+        "fields": {
+            "creole": "Meh nani always mek the best cookup rice.",
+            "english": "My mother\u2019s mother always makes the best cook up rice.",
+            "created_at": "2023-12-13T21:47:04.309855"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6197,
+        "fields": {
+            "creole": "Me dada like fuh watch cricket on TV.",
+            "english": "My father likes to watch cricket on the television.",
+            "created_at": "2023-12-13T21:47:04.309856"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6198,
+        "fields": {
+            "creole": "Me an' meh family gon go out fuh eat tonight.",
+            "english": "My family and I are going out to eat tonight.",
+            "created_at": "2023-12-13T21:47:04.309857"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6199,
+        "fields": {
+            "creole": "Me brudda like fuh play futball wen he na gat notin fuh do.",
+            "english": "My brother likes to play football in his free time.",
+            "created_at": "2023-12-13T21:47:04.309858"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6200,
+        "fields": {
+            "creole": "Meh dada jus' get a new wuk.",
+            "english": "My cousin got a new job.",
+            "created_at": "2023-12-13T21:47:04.309860"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6201,
+        "fields": {
+            "creole": "Meh sistoe does cum fuh sleep at she chachee housewhen she friken.",
+            "english": "My sister sleeps at her father\u2019s brother wife house whenever she is scared to be alone.",
+            "created_at": "2023-12-13T21:47:04.309862"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6202,
+        "fields": {
+            "creole": "Me wan' some aloo and Channa.",
+            "english": "I would like to have some potato and chickpeas.",
+            "created_at": "2023-12-13T21:47:04.309863"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6203,
+        "fields": {
+            "creole": "Me nah bin drink sarrel in a lang time.",
+            "english": "I haven\u2019t drunk sorrel for quite a while.",
+            "created_at": "2023-12-13T21:47:04.309865"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6204,
+        "fields": {
+            "creole": "Meh buy sum cassreep fuh meh peppapot",
+            "english": "I bought the cassareep to make the pepper pot.",
+            "created_at": "2023-12-13T21:47:04.309867"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6205,
+        "fields": {
+            "creole": "Meh bin fry up some balanjay wit bakes fuh breakfast.",
+            "english": "I cooked fried eggplant with flat bread for breakfast.",
+            "created_at": "2023-12-13T21:47:04.309868"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6206,
+        "fields": {
+            "creole": "Meh bin mek some tamrind balls fuh meh mamoo.",
+            "english": "I made tamarind balls for my mother\u2019s brother.",
+            "created_at": "2023-12-13T21:47:04.309869"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6207,
+        "fields": {
+            "creole": "Me nah like eat breadfruit, meh prefer aloo.",
+            "english": "I prefer eating potato fry, rather than the jackfruit.",
+            "created_at": "2023-12-13T21:47:04.309871"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6208,
+        "fields": {
+            "creole": "Me wan' some bake n sal fish fuh breakfast",
+            "english": "For breakfast, I would like to have bake with salted fish.",
+            "created_at": "2023-12-13T21:47:04.309872"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6209,
+        "fields": {
+            "creole": "Meh bin drink some mauby fuh cool down.",
+            "english": "I was feeling hot, so I drank cool mauby.",
+            "created_at": "2023-12-13T21:47:04.309873"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6210,
+        "fields": {
+            "creole": "Me wan' some souse fuh feel gud.",
+            "english": "Having soup will make my health better.",
+            "created_at": "2023-12-13T21:47:04.309875"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6211,
+        "fields": {
+            "creole": "Me need fuh buy some coconut fuh meh curry",
+            "english": "I need coconut milk for the curry.",
+            "created_at": "2023-12-13T21:47:04.309876"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6212,
+        "fields": {
+            "creole": "Meh nah eat beef, goat nor mutton meh prefer chicken or poke.",
+            "english": "I am allergic to beef, venison and mutton, how I can eat chicken or pork.",
+            "created_at": "2023-12-13T21:47:04.309879"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6213,
+        "fields": {
+            "creole": "Meh bin mek some cassava pone, it tun out good.",
+            "english": "The cassava pone I made turned out well without any burns.",
+            "created_at": "2023-12-13T21:47:04.309880"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6214,
+        "fields": {
+            "creole": "Me wan' some hot peppa saase fuh meh food.",
+            "english": "I like when my food is extra spicy.",
+            "created_at": "2023-12-13T21:47:04.309882"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6215,
+        "fields": {
+            "creole": "Me nah like eat fish, but meh dada love it",
+            "english": "My older brother prefers fish.",
+            "created_at": "2023-12-13T21:47:04.309883"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6216,
+        "fields": {
+            "creole": "Me like fuh eat roetea and catahar",
+            "english": "I prefer having the chapatti with chataigne.",
+            "created_at": "2023-12-13T21:47:04.309884"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6217,
+        "fields": {
+            "creole": "Wen cuking oil roti, you ga buss-up shut it",
+            "english": "After taking the chapatti off the stove, you need to clap it with your palms.",
+            "created_at": "2023-12-13T21:47:04.309885"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6218,
+        "fields": {
+            "creole": "Meh bouji\u00a0 deh chop up some bangamary and bajee fuh cuk fuh dinna.",
+            "english": "My sister- in \u2013 law is preparing skin fish with spinach for dinner",
+            "created_at": "2023-12-13T21:47:04.309887"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6219,
+        "fields": {
+            "creole": "Meh nana balay the roetea",
+            "english": "My mother\u2019s father used the rolling the pin to roll the dough.",
+            "created_at": "2023-12-13T21:47:04.309888"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6220,
+        "fields": {
+            "creole": "Me need fuh buy a file fuh sharpen meh cutlass fuh cut deh meat.",
+            "english": "The chopper is quite dull, I need to buy a whetstone to sharpen it.",
+            "created_at": "2023-12-13T21:47:04.309889"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6221,
+        "fields": {
+            "creole": "Me wan' buy wan mill fuh grind meh dhal fun mek dhal puri",
+            "english": "I want to buy a food processor for the making of dhal puri.",
+            "created_at": "2023-12-13T21:47:04.309891"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6222,
+        "fields": {
+            "creole": "Meh nana a run raisfil evri day",
+            "english": "My mother\u2019s father takes care of the rice field everyday.",
+            "created_at": "2023-12-13T21:47:04.309893"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6223,
+        "fields": {
+            "creole": "Tenk yuh bad bad fuh the sahree.",
+            "english": "Thank you very much for the sari.",
+            "created_at": "2023-12-13T21:47:04.309894"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6224,
+        "fields": {
+            "creole": "Meh mudda giv meh sayneepod fuh me get belly wukkings.",
+            "english": "My mother gives me laxatives since I had constipation.",
+            "created_at": "2023-12-13T21:47:04.309901"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6225,
+        "fields": {
+            "creole": "Talk lil bit slowa",
+            "english": "Can you speak slower?",
+            "created_at": "2023-12-13T21:47:04.309902"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6226,
+        "fields": {
+            "creole": "Wah time it say deh?",
+            "english": "What time is it?",
+            "created_at": "2023-12-13T21:47:04.309903"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6227,
+        "fields": {
+            "creole": "Ah how much this thing a sell fuh?",
+            "english": "What is the cost for this item?",
+            "created_at": "2023-12-13T21:47:04.309905"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6228,
+        "fields": {
+            "creole": "Gimme ah han?",
+            "english": "Can you help me?",
+            "created_at": "2023-12-13T21:47:04.309906"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6229,
+        "fields": {
+            "creole": "Meh mousie a liv a merica.",
+            "english": "Mother\u2019s sister lives in America.",
+            "created_at": "2023-12-13T21:47:04.309907"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6230,
+        "fields": {
+            "creole": "Mi na no how fuh wine wen tassa a play.",
+            "english": "I do not know how to move my hips to the rhythm of the drums.",
+            "created_at": "2023-12-13T21:47:04.309908"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6231,
+        "fields": {
+            "creole": "he sweet homan gan home estaday.",
+            "english": "His mistress came home yesterday",
+            "created_at": "2023-12-13T21:47:04.309910"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6232,
+        "fields": {
+            "creole": "He and she gat store-ee.",
+            "english": "There is personal conflict of interest between Sankar and Sneha.",
+            "created_at": "2023-12-13T21:47:04.309911"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6233,
+        "fields": {
+            "creole": "He proppa lik fuh skin he teeth fuh eny least ting.",
+            "english": "Mr. Kes is a jovial person.",
+            "created_at": "2023-12-13T21:47:04.309912"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6234,
+        "fields": {
+            "creole": "This dawg proppa scraven, up to today meh gyam 2 plate rice and he still a bark fuh mo food.",
+            "english": "Mr. James dog was fed two times and still is hungry.",
+            "created_at": "2023-12-13T21:47:04.309913"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6235,
+        "fields": {
+            "creole": "She proppa poohar",
+            "english": "Our housemaid lacks the basic skills in doing our laundry or even our kitchen shores.",
+            "created_at": "2023-12-13T21:47:04.309916"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6236,
+        "fields": {
+            "creole": "Luk how he playin fresh, think ya wan star bai",
+            "english": "Mr. Smith would normally imitate himself as Vin Diesel to hit on the girls passing by.",
+            "created_at": "2023-12-13T21:47:04.309917"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6237,
+        "fields": {
+            "creole": "she proppa dunkay damn, cant even gutney the dhal.",
+            "english": "She lacks the basic knowledge in cooking \u2018dhal\u2019.",
+            "created_at": "2023-12-13T21:47:04.309931"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6238,
+        "fields": {
+            "creole": "That buck man deh tek he eyes and pass meh",
+            "english": "The Amerindian man standing across in the room disrespected me.",
+            "created_at": "2023-12-13T21:47:04.309933"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6239,
+        "fields": {
+            "creole": "She hair lang lik rope",
+            "english": "Her hair is long.",
+            "created_at": "2023-12-13T21:47:04.309934"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6240,
+        "fields": {
+            "creole": "She teeth dem white lik pearl",
+            "english": "Her teeth are white.",
+            "created_at": "2023-12-13T21:47:04.309935"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6241,
+        "fields": {
+            "creole": "E skin black like night",
+            "english": "He is dark in complexion",
+            "created_at": "2023-12-13T21:47:04.309937"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6242,
+        "fields": {
+            "creole": "Dem homan deh shawt lik stump.",
+            "english": "Those are some short women.",
+            "created_at": "2023-12-13T21:47:04.309938"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6243,
+        "fields": {
+            "creole": "Dem man dah ugly lik sin",
+            "english": "The men standing in the corner are quite unattractive.",
+            "created_at": "2023-12-13T21:47:04.309939"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6244,
+        "fields": {
+            "creole": "E deh tall like coconut tree.",
+            "english": "Mr. Singh is quite a tall person.",
+            "created_at": "2023-12-13T21:47:04.309941"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6245,
+        "fields": {
+            "creole": "Dem gyals deh hot like peppa.",
+            "english": "The girls across the room are very attractive and outgoing.",
+            "created_at": "2023-12-13T21:47:04.309943"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6246,
+        "fields": {
+            "creole": "De rain ah stop and start like signal light",
+            "english": "The rain is starting and stopping intermittently",
+            "created_at": "2023-12-13T21:47:04.309944"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6247,
+        "fields": {
+            "creole": "De sky ah clear like crystal.",
+            "english": "The sky is clear and bright",
+            "created_at": "2023-12-13T21:47:04.309947"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6248,
+        "fields": {
+            "creole": "De heat ah mek yuh sweat lik rain",
+            "english": "The heat is making you sweat profusely.",
+            "created_at": "2023-12-13T21:47:04.309948"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6249,
+        "fields": {
+            "creole": "De weddaa ah change lik cloze.",
+            "english": "The weather is changing constantly.",
+            "created_at": "2023-12-13T21:47:04.309949"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6250,
+        "fields": {
+            "creole": "De rain ah fall kat and dawgs",
+            "english": "Its raining quite heavily",
+            "created_at": "2023-12-13T21:47:04.309951"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6251,
+        "fields": {
+            "creole": "De sun hawt like fire.",
+            "english": "The sun is very hot.",
+            "created_at": "2023-12-13T21:47:04.309953"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6252,
+        "fields": {
+            "creole": "De goat curry ah bunjal nice now.",
+            "english": "The goat curry is now being shimmered to a thick masala liquid.",
+            "created_at": "2023-12-13T21:47:04.309954"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6253,
+        "fields": {
+            "creole": "De peppa ah mek me eye water.",
+            "english": "The pepper is burning my eyes.",
+            "created_at": "2023-12-13T21:47:04.309956"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6254,
+        "fields": {
+            "creole": "De pot ah now bubble up on de stove",
+            "english": "The rice is now boiling on the stove.",
+            "created_at": "2023-12-13T21:47:04.309957"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6255,
+        "fields": {
+            "creole": "Me ah mix the flowa now",
+            "english": "The flour is being knead now.",
+            "created_at": "2023-12-13T21:47:04.309958"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6256,
+        "fields": {
+            "creole": "De restarant ah full up with people.",
+            "english": "The restaurant is fully booked.",
+            "created_at": "2023-12-13T21:47:04.309960"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6257,
+        "fields": {
+            "creole": "Me ah go down de market",
+            "english": "I am going to the market",
+            "created_at": "2023-12-13T21:47:04.309961"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6258,
+        "fields": {
+            "creole": "Dem man deh ah cook up lookananee",
+            "english": "The men\u2019s group are cooking \u201clukanani fish\u2019 as their dish tonight.",
+            "created_at": "2023-12-13T21:47:04.309963"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6259,
+        "fields": {
+            "creole": "Dem ah decorate de mandir for Diwali.",
+            "english": "The community is gathering around to decorate the temple for the upcoming festival, Diwali.",
+            "created_at": "2023-12-13T21:47:04.309964"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6260,
+        "fields": {
+            "creole": "Dem fullahman a go pray a masjid now",
+            "english": "The men are now going to the mosque for their time of worship.",
+            "created_at": "2023-12-13T21:47:04.309966"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6261,
+        "fields": {
+            "creole": "kooknot bring ail",
+            "english": "Coconuts produce oil. OR: The coconut produces oil.",
+            "created_at": "2023-12-13T21:47:04.309967"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6262,
+        "fields": {
+            "creole": "kostomo gyal chirin",
+            "english": "customer girl children",
+            "created_at": "2023-12-13T21:47:04.309968"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6263,
+        "fields": {
+            "creole": "di kova fo(r) am laas",
+            "english": "Its cover is lost",
+            "created_at": "2023-12-13T21:47:04.309970"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6264,
+        "fields": {
+            "creole": "stoov ke tap",
+            "english": "top of stove",
+            "created_at": "2023-12-13T21:47:04.309971"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6265,
+        "fields": {
+            "creole": "di kova fo di pat laas",
+            "english": "The pot cover is lost.",
+            "created_at": "2023-12-13T21:47:04.309972"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6266,
+        "fields": {
+            "creole": "wan shaap reezaa",
+            "english": "a sharp razor",
+            "created_at": "2023-12-13T21:47:04.309973"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6267,
+        "fields": {
+            "creole": "hii a paas a rood",
+            "english": "He was passing on the road",
+            "created_at": "2023-12-13T21:47:04.309975"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6268,
+        "fields": {
+            "creole": "dis leedi",
+            "english": "this lady",
+            "created_at": "2023-12-13T21:47:04.309976"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6269,
+        "fields": {
+            "creole": "diiz piipl dem",
+            "english": "these people",
+            "created_at": "2023-12-13T21:47:04.309977"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6270,
+        "fields": {
+            "creole": "dem ekspreshn de",
+            "english": "Those bad words",
+            "created_at": "2023-12-13T21:47:04.309979"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6271,
+        "fields": {
+            "creole": "dem tingz",
+            "english": "those things",
+            "created_at": "2023-12-13T21:47:04.309980"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6272,
+        "fields": {
+            "creole": "dem ting ya",
+            "english": "These things (here).",
+            "created_at": "2023-12-13T21:47:04.309982"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6273,
+        "fields": {
+            "creole": "chrii taim",
+            "english": "three times",
+            "created_at": "2023-12-13T21:47:04.309983"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6274,
+        "fields": {
+            "creole": "twelv yeer",
+            "english": "twelve years of age",
+            "created_at": "2023-12-13T21:47:04.309984"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6275,
+        "fields": {
+            "creole": "ayu na ga non wo doz oopn mashiin an so?",
+            "english": "Don't you have any that opens machines and other such things?",
+            "created_at": "2023-12-13T21:47:04.309986"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6276,
+        "fields": {
+            "creole": "di man wa de pan di rood ii chupit baad",
+            "english": "The man who is on the road is very stupid.",
+            "created_at": "2023-12-13T21:47:04.309987"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6277,
+        "fields": {
+            "creole": "afta mi groo an mi get lil mo big, mi - mi gu wee a wiiding dee",
+            "english": "After I grew up and got a little bigger, I - I went away to the weeding gang.",
+            "created_at": "2023-12-13T21:47:04.309988"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6278,
+        "fields": {
+            "creole": "di baai dootish baad",
+            "english": "The boy is very foolish. OR: The boy is quite foolish.",
+            "created_at": "2023-12-13T21:47:04.309989"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6279,
+        "fields": {
+            "creole": "dis bina wan maan",
+            "english": "There was this man",
+            "created_at": "2023-12-13T21:47:04.309991"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6280,
+        "fields": {
+            "creole": "from fraidi nait yu a ge piipl stedii",
+            "english": "From Friday night people are continuing to pour in.",
+            "created_at": "2023-12-13T21:47:04.309992"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6281,
+        "fields": {
+            "creole": "yu aalweez fraikn eni lil naiz",
+            "english": "You are always afraid of any little noise. OR: The least (bit of) noise startles you.",
+            "created_at": "2023-12-13T21:47:04.309994"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6282,
+        "fields": {
+            "creole": "eni lil naiz yu alweez freed",
+            "english": "Any little noise scares you. OR: You are always scared by the least bit of noise.",
+            "created_at": "2023-12-13T21:47:04.309995"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6283,
+        "fields": {
+            "creole": "yu jraa om wid wo - charkool?",
+            "english": "What did you draw it with? Charcoal?",
+            "created_at": "2023-12-13T21:47:04.309996"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6284,
+        "fields": {
+            "creole": "an wee alyu yuuzto plee dis?",
+            "english": "And where did you guys play this?",
+            "created_at": "2023-12-13T21:47:04.309998"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6285,
+        "fields": {
+            "creole": "ii na ded",
+            "english": "He isn't dead.",
+            "created_at": "2023-12-13T21:47:04.310000"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6286,
+        "fields": {
+            "creole": "an ii bigin fu sok dis bai",
+            "english": "And she began to suck the boy.",
+            "created_at": "2023-12-13T21:47:04.310001"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6287,
+        "fields": {
+            "creole": "awii liv fan a dam",
+            "english": "We were living on a dam",
+            "created_at": "2023-12-13T21:47:04.310003"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6288,
+        "fields": {
+            "creole": "(1) mii; yuu; hii; awii; a(l)yu; dem (2) hii, shii, it",
+            "english": "(1) I/me; you (SG); he/him, she/her, it; we/us; you (PL); they/them (2) he/him, she/her, it",
+            "created_at": "2023-12-13T21:47:04.310004"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6289,
+        "fields": {
+            "creole": "mii vs. mi, yuu vs. yu, hii vs. ii, am",
+            "english": "I, you, he/him/she/her/it",
+            "created_at": "2023-12-13T21:47:04.310005"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6290,
+        "fields": {
+            "creole": "awii; a(l)yu; d\u00e9m vs. d\u00e8m",
+            "english": "we/us; you; they/them",
+            "created_at": "2023-12-13T21:47:04.310007"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6291,
+        "fields": {
+            "creole": "yu, a(l)yu",
+            "english": "you (SG), you (PL)",
+            "created_at": "2023-12-13T21:47:04.310008"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6292,
+        "fields": {
+            "creole": "wi said ~ wich paat",
+            "english": "which side ~ which part",
+            "created_at": "2023-12-13T21:47:04.310009"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6293,
+        "fields": {
+            "creole": "wa taim",
+            "english": "what time",
+            "created_at": "2023-12-13T21:47:04.310011"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6294,
+        "fields": {
+            "creole": "wich badi ~ huu badi",
+            "english": "which body ~ who body",
+            "created_at": "2023-12-13T21:47:04.310013"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6295,
+        "fields": {
+            "creole": "hou yu doz plee krikit in mod?",
+            "english": "How does one play cricket in mud?",
+            "created_at": "2023-12-13T21:47:04.310015"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6296,
+        "fields": {
+            "creole": "aat, iz wi bai livin de, rait? mi brodo an mii, rait",
+            "english": "Alright, it is our boys who are living there, okay? My brother and me, okay?",
+            "created_at": "2023-12-13T21:47:04.310016"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6297,
+        "fields": {
+            "creole": "wan badii vs. sombadi",
+            "english": "a person/someone, somebody",
+            "created_at": "2023-12-13T21:47:04.310017"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6298,
+        "fields": {
+            "creole": "wan ting vs. somting",
+            "english": "a thing/something, something",
+            "created_at": "2023-12-13T21:47:04.310019"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6299,
+        "fields": {
+            "creole": "wen di poor piipl dem go we, di puliismaan dem kech di maan dem a rood, an kyar dem",
+            "english": "When the poor people had dispersed, the policemen caught up with the guys on the road and carried them to lock them up.",
+            "created_at": "2023-12-13T21:47:04.310020"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6300,
+        "fields": {
+            "creole": "wen wii heer about dem tingz dem dis wii doon noo wat tu do",
+            "english": "When we hear about these things, we don't know what to do",
+            "created_at": "2023-12-13T21:47:04.310021"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6301,
+        "fields": {
+            "creole": "di kou dem",
+            "english": "the cows",
+            "created_at": "2023-12-13T21:47:04.310022"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6302,
+        "fields": {
+            "creole": "buk buk",
+            "english": "books (all over)",
+            "created_at": "2023-12-13T21:47:04.310024"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6303,
+        "fields": {
+            "creole": "Siita dem",
+            "english": "Sita and her friends.",
+            "created_at": "2023-12-13T21:47:04.310025"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6304,
+        "fields": {
+            "creole": "di maan dem a wok",
+            "english": "The men are working.",
+            "created_at": "2023-12-13T21:47:04.310027"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6305,
+        "fields": {
+            "creole": "som a dem mait kom waan mek - kom in yu shap",
+            "english": "Some of them want to make - come in your shop. OR: Some of them might want to come and make - come into your shop.",
+            "created_at": "2023-12-13T21:47:04.310028"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6306,
+        "fields": {
+            "creole": "dem piknii dee f\u00f3s~f\u00f3s",
+            "english": "The children went in front. OR: Those children were very much in front.",
+            "created_at": "2023-12-13T21:47:04.310030"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6307,
+        "fields": {
+            "creole": "mii duu k\u00e0in~k\u00e1in wok",
+            "english": "I do all kinds of work. OR: I do work of this kind, that kind, the other kind.",
+            "created_at": "2023-12-13T21:47:04.310031"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6308,
+        "fields": {
+            "creole": "bloo bloo",
+            "english": "a whistle",
+            "created_at": "2023-12-13T21:47:04.310033"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6309,
+        "fields": {
+            "creole": "an di fut na kot a di rait spot",
+            "english": "And the foot was not cut at the right spot",
+            "created_at": "2023-12-13T21:47:04.310034"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6310,
+        "fields": {
+            "creole": "wan said eez; wan han",
+            "english": "one ear; one hand",
+            "created_at": "2023-12-13T21:47:04.310035"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6311,
+        "fields": {
+            "creole": "wai dem kyaan go in di bangk an jraa monii?",
+            "english": "Why can't they go in the bank and withdraw money?",
+            "created_at": "2023-12-13T21:47:04.310036"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6312,
+        "fields": {
+            "creole": "wel a da! a da wa mii se!",
+            "english": "Well that's it! That's what I say",
+            "created_at": "2023-12-13T21:47:04.310038"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6313,
+        "fields": {
+            "creole": "hii ga w\u00e0n shaap reezaa",
+            "english": "He had a sharp razor.",
+            "created_at": "2023-12-13T21:47:04.310039"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6314,
+        "fields": {
+            "creole": "wel wan dee mi bin a lai dong pan dis boot",
+            "english": "Well, one day I was lying down on this boat.",
+            "created_at": "2023-12-13T21:47:04.310040"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6315,
+        "fields": {
+            "creole": "kombain kot am, win am an ful am in bag",
+            "english": "Combine harvesters cut it, winnow it and bag it. OR: Using combined harvesters, (we) cut, winnow and bag it",
+            "created_at": "2023-12-13T21:47:04.310042"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6316,
+        "fields": {
+            "creole": "wel, dis big mongkii, hii tek sompn ou dis jrom, an dash om in di riva.",
+            "english": "Well, this big monkey, he took something out of this drum, and threw it into the river.",
+            "created_at": "2023-12-13T21:47:04.310045"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6317,
+        "fields": {
+            "creole": "sins wen mii na bin baarn yeet, mamii in bai da mashiin",
+            "english": "Even before I was born Mummy bought that machine.",
+            "created_at": "2023-12-13T21:47:04.310047"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6318,
+        "fields": {
+            "creole": "da kyaahn wok",
+            "english": "That is not suitable.",
+            "created_at": "2023-12-13T21:47:04.310048"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6319,
+        "fields": {
+            "creole": "da stoorii kyaahn wok",
+            "english": "That story is not believable.",
+            "created_at": "2023-12-13T21:47:04.310049"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6320,
+        "fields": {
+            "creole": "dis buk ya",
+            "english": "this book",
+            "created_at": "2023-12-13T21:47:04.310050"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6321,
+        "fields": {
+            "creole": "da buk de",
+            "english": "that book",
+            "created_at": "2023-12-13T21:47:04.310052"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6322,
+        "fields": {
+            "creole": "da chrii yanda vs. da chrii ova so",
+            "english": "that tree (over there)",
+            "created_at": "2023-12-13T21:47:04.310053"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6323,
+        "fields": {
+            "creole": "wan-wan dotii doz bil dam, tuu-tuu dotii doz bil am faasa",
+            "english": "A dam is built one bit of earth at a time, but two bits of earth at a time would build it faster.",
+            "created_at": "2023-12-13T21:47:04.310054"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6324,
+        "fields": {
+            "creole": "di man bring fos/sekan",
+            "english": "The man came in first/second",
+            "created_at": "2023-12-13T21:47:04.310056"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6325,
+        "fields": {
+            "creole": "di man bring iilevn",
+            "english": "The man came in eleventh",
+            "created_at": "2023-12-13T21:47:04.310057"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6326,
+        "fields": {
+            "creole": "ii a maan nomba faiv fu paas di lain",
+            "english": "He is the fifth man to cross the line.",
+            "created_at": "2023-12-13T21:47:04.310058"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6327,
+        "fields": {
+            "creole": "tuu daag de:d",
+            "english": "Two dogs are dead.",
+            "created_at": "2023-12-13T21:47:04.310060"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6328,
+        "fields": {
+            "creole": "sodaim if ii a mi paadna, ii a wok",
+            "english": "Sometimes, if he is my partner, he would work",
+            "created_at": "2023-12-13T21:47:04.310062"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6329,
+        "fields": {
+            "creole": "fo awii buk ya",
+            "english": "Our book is here.",
+            "created_at": "2023-12-13T21:47:04.310063"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6330,
+        "fields": {
+            "creole": "yuu oon",
+            "english": "yours",
+            "created_at": "2023-12-13T21:47:04.310064"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6331,
+        "fields": {
+            "creole": "mi wan",
+            "english": "mine",
+            "created_at": "2023-12-13T21:47:04.310066"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6332,
+        "fields": {
+            "creole": "hii moo shaat",
+            "english": "He is shorter.",
+            "created_at": "2023-12-13T21:47:04.310067"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6333,
+        "fields": {
+            "creole": "hii moo taal dan ii broda",
+            "english": "He is taller than his brother.",
+            "created_at": "2023-12-13T21:47:04.310068"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6334,
+        "fields": {
+            "creole": "dem bin a go raab mi",
+            "english": "They would have robbed me",
+            "created_at": "2023-12-13T21:47:04.310070"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6335,
+        "fields": {
+            "creole": "dem bin don noo wa fu du",
+            "english": "They had already known what to do.",
+            "created_at": "2023-12-13T21:47:04.310071"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6336,
+        "fields": {
+            "creole": "aal o dem a jomp forom",
+            "english": "All of them were jumping in to get it.",
+            "created_at": "2023-12-13T21:47:04.310072"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6337,
+        "fields": {
+            "creole": "mi a go skuul tumara",
+            "english": "I will go to school tomorrow. OR: Tomorrow I will go to school.",
+            "created_at": "2023-12-13T21:47:04.310073"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6338,
+        "fields": {
+            "creole": "dem das plaant dem faam an ting an dem das yuus-tu stan de",
+            "english": "They used to cultivate their farm and so on, and they used to stay there.",
+            "created_at": "2023-12-13T21:47:04.310075"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6339,
+        "fields": {
+            "creole": "an luk hou hai hai dee taim yu a fraikn mi?",
+            "english": "And (yet) look how in the broad daylight you're scaring me?",
+            "created_at": "2023-12-13T21:47:04.310077"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6340,
+        "fields": {
+            "creole": "notn na de de",
+            "english": "Nothing is there. OR: There is nothing there.",
+            "created_at": "2023-12-13T21:47:04.310078"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6341,
+        "fields": {
+            "creole": "mi no bin don gyaaf wid dem",
+            "english": "I had not finished talking with them",
+            "created_at": "2023-12-13T21:47:04.310079"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6342,
+        "fields": {
+            "creole": "mi na no wai dem a du dis ting",
+            "english": "I don't know why they are doing this.",
+            "created_at": "2023-12-13T21:47:04.310081"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6343,
+        "fields": {
+            "creole": "ii miit wit wan leedi a mek ail",
+            "english": "He met a lady who was making oil.",
+            "created_at": "2023-12-13T21:47:04.310083"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6344,
+        "fields": {
+            "creole": "di manggo dem a raip pon di chrii rait nou",
+            "english": "The mangoes are ripening on the tree right now.",
+            "created_at": "2023-12-13T21:47:04.310084"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6345,
+        "fields": {
+            "creole": "awii manggo don raip laang taim",
+            "english": "Our mangoes have ripened some long time ago. OR: Our mangoes have been ripe for some time now.",
+            "created_at": "2023-12-13T21:47:04.310085"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6346,
+        "fields": {
+            "creole": "mi lef mi hous a waak dong di rood an daag kom baak bihain mi",
+            "english": "I left my house and was walking down the road, when dogs (or a dog) came behind me barking.",
+            "created_at": "2023-12-13T21:47:04.310087"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6347,
+        "fields": {
+            "creole": "no bada go de if yu no bin de aredii",
+            "english": "Don't plan to go there if you haven't been there already.",
+            "created_at": "2023-12-13T21:47:04.310089"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6348,
+        "fields": {
+            "creole": "huu no gaan yet beta gu nou",
+            "english": "Those who haven't gone yet should go now.",
+            "created_at": "2023-12-13T21:47:04.310090"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6349,
+        "fields": {
+            "creole": "dem mosii bin a tel lai pan mi",
+            "english": "They probably were telling lies on me.",
+            "created_at": "2023-12-13T21:47:04.310091"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6350,
+        "fields": {
+            "creole": "uu gat fut kyan ron",
+            "english": "They who have feet can run.",
+            "created_at": "2023-12-13T21:47:04.310094"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6351,
+        "fields": {
+            "creole": "kom ya!",
+            "english": "Come here!",
+            "created_at": "2023-12-13T21:47:04.310095"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6352,
+        "fields": {
+            "creole": "na sing",
+            "english": "Don't sing!",
+            "created_at": "2023-12-13T21:47:04.310096"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6353,
+        "fields": {
+            "creole": "lang taim gat am dangkii kyaat, nou yu gat am mootoo kyaar",
+            "english": "Long ago you had a donkey cart and now you have a motor car.",
+            "created_at": "2023-12-13T21:47:04.310098"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6354,
+        "fields": {
+            "creole": "wel ii a piil kookno(t)",
+            "english": "Well he was peeling coconuts",
+            "created_at": "2023-12-13T21:47:04.310099"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6355,
+        "fields": {
+            "creole": "dem gi di maan di buk",
+            "english": "They gave the man the book. OR: They gave the book to the man.",
+            "created_at": "2023-12-13T21:47:04.310100"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6356,
+        "fields": {
+            "creole": "mi tek di baal gi Jaan",
+            "english": "I gave the ball to John deliberately. (i.e. I didn't give it to him by accident.)",
+            "created_at": "2023-12-13T21:47:04.310101"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6357,
+        "fields": {
+            "creole": "baad fuud doz gi piipl belii wok",
+            "english": "Bad food gives people diarrhoea.",
+            "created_at": "2023-12-13T21:47:04.310103"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6358,
+        "fields": {
+            "creole": "tek dis bokit gi yu moda",
+            "english": "Give this bucket to your mother.",
+            "created_at": "2023-12-13T21:47:04.310104"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6359,
+        "fields": {
+            "creole": "mi gi di maan di baal",
+            "english": "I gave the man the ball. OR: I have given the ball to the man",
+            "created_at": "2023-12-13T21:47:04.310105"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6360,
+        "fields": {
+            "creole": "mi biliiv in am",
+            "english": "I believe in it.",
+            "created_at": "2023-12-13T21:47:04.310107"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6361,
+        "fields": {
+            "creole": "laik ii kyaan stomik di blod",
+            "english": "(It seems) like she couldn't stomach the blood.",
+            "created_at": "2023-12-13T21:47:04.310108"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6362,
+        "fields": {
+            "creole": "do taim laik di din gat iiryiiyeetid jringk su moch lek nou",
+            "english": "At that time aerated [carbonated] drinks weren't as plentiful as they are now.",
+            "created_at": "2023-12-13T21:47:04.310110"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6363,
+        "fields": {
+            "creole": "luk dong so gat o chrii",
+            "english": "Look, there is a tree down so.",
+            "created_at": "2023-12-13T21:47:04.310111"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6364,
+        "fields": {
+            "creole": "so di reen doz faal",
+            "english": "So the rain usually falls",
+            "created_at": "2023-12-13T21:47:04.310113"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6365,
+        "fields": {
+            "creole": "hedeek a teer mi teel",
+            "english": "hedeek a teer mi teel",
+            "created_at": "2023-12-13T21:47:04.310114"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6366,
+        "fields": {
+            "creole": "mi hed a hot mi",
+            "english": "I have a headache. OR: My head is aching. OR: My head is hurting me. OR: My head hurts.",
+            "created_at": "2023-12-13T21:47:04.310115"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6367,
+        "fields": {
+            "creole": "mi a sofa from hedeek",
+            "english": "I have a headache. OR: I am suffering from a headache.",
+            "created_at": "2023-12-13T21:47:04.310117"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6368,
+        "fields": {
+            "creole": "mi laik fuud",
+            "english": "I like food.",
+            "created_at": "2023-12-13T21:47:04.310118"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6369,
+        "fields": {
+            "creole": "di jook swiit mi",
+            "english": "I enjoyed the joke.",
+            "created_at": "2023-12-13T21:47:04.310119"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6370,
+        "fields": {
+            "creole": "mi fraikn",
+            "english": "I am afraid. OR: I am a coward.",
+            "created_at": "2023-12-13T21:47:04.310121"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6371,
+        "fields": {
+            "creole": "mi haat a biit",
+            "english": "My heart is beating. OR: My heart is racing. OR: My heart is pounding.",
+            "created_at": "2023-12-13T21:47:04.310123"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6372,
+        "fields": {
+            "creole": "ii kot di bre:d wid di naif",
+            "english": "He cut the bread with a knife. OR: He used the knife to cut the bread.",
+            "created_at": "2023-12-13T21:47:04.310124"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6373,
+        "fields": {
+            "creole": "hii tek di naif kot di bre:d",
+            "english": "He cut the bread with a knife. OR: He used the knife to cut the bread.",
+            "created_at": "2023-12-13T21:47:04.310126"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6374,
+        "fields": {
+            "creole": "wo dem go du wid twenti dala monii?",
+            "english": "What would they do with twenty dollars?",
+            "created_at": "2023-12-13T21:47:04.310128"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6375,
+        "fields": {
+            "creole": "mi fado bin a sliip wid ii in di haspital",
+            "english": "My father was sleeping with him in the hospital",
+            "created_at": "2023-12-13T21:47:04.310129"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6376,
+        "fields": {
+            "creole": "Meeri an Jaan gu choch.",
+            "english": "Mary and John went to church. OR: John and Mary have gone to church",
+            "created_at": "2023-12-13T21:47:04.310130"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6377,
+        "fields": {
+            "creole": "Jaan go choch wid Meeri",
+            "english": "John went to church with Mary. OR: John has gone to church with Mary.",
+            "created_at": "2023-12-13T21:47:04.310131"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6378,
+        "fields": {
+            "creole": "an di - leedii ton bak an sok i",
+            "english": "And the lady in retaliation, sucked his blood. OR: The lady turned back and sucked him (his blood).",
+            "created_at": "2023-12-13T21:47:04.310133"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6379,
+        "fields": {
+            "creole": "mii an Sita gu skuul tugeda",
+            "english": "Sita and I were in school together.",
+            "created_at": "2023-12-13T21:47:04.310135"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6380,
+        "fields": {
+            "creole": "az dem se ool aig a livn piipl",
+            "english": "since they say Old Higues are living people",
+            "created_at": "2023-12-13T21:47:04.310136"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6381,
+        "fields": {
+            "creole": "dis taim na laang taim",
+            "english": "This time is not the olden days.",
+            "created_at": "2023-12-13T21:47:04.310137"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6382,
+        "fields": {
+            "creole": "wel di maan glaad",
+            "english": "Well, the man was glad.",
+            "created_at": "2023-12-13T21:47:04.310138"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6383,
+        "fields": {
+            "creole": "Jaan in de",
+            "english": "John is in there",
+            "created_at": "2023-12-13T21:47:04.310140"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6384,
+        "fields": {
+            "creole": "Jaan de in de",
+            "english": "John is/can be found in there.",
+            "created_at": "2023-12-13T21:47:04.310141"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6385,
+        "fields": {
+            "creole": "mii granfaada bin gat plees a filisiti bilid",
+            "english": "My grandfather had a place at Felicity Village",
+            "created_at": "2023-12-13T21:47:04.310144"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6386,
+        "fields": {
+            "creole": "jos de ii bin ga wan kookno chrii",
+            "english": "Just there, there was a coconut tree.",
+            "created_at": "2023-12-13T21:47:04.310145"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6387,
+        "fields": {
+            "creole": "wan manggoo chrii bin de rait a hed a di biling",
+            "english": "A big mango tree (that) was right in front of the building.",
+            "created_at": "2023-12-13T21:47:04.310146"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6388,
+        "fields": {
+            "creole": "ii gaan a Jaajtong",
+            "english": "He has gone to Georgetown.",
+            "created_at": "2023-12-13T21:47:04.310148"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6389,
+        "fields": {
+            "creole": "ii gaan a Jaajtong",
+            "english": "She has gone to Georgetown",
+            "created_at": "2023-12-13T21:47:04.310149"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6390,
+        "fields": {
+            "creole": "ii jraiv go a Jaajton",
+            "english": "He drove to Georgetown",
+            "created_at": "2023-12-13T21:47:04.310150"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6391,
+        "fields": {
+            "creole": "ii jraiv go Borbii",
+            "english": "He drove to Berbic",
+            "created_at": "2023-12-13T21:47:04.310151"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6392,
+        "fields": {
+            "creole": "mi moda kom Gaiyana laang tai",
+            "english": "My mother came to Guyana a long time ago",
+            "created_at": "2023-12-13T21:47:04.310153"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6393,
+        "fields": {
+            "creole": "mi gu (a) maakit",
+            "english": "I have gone to the market (lit. I went to market)",
+            "created_at": "2023-12-13T21:47:04.310154"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6394,
+        "fields": {
+            "creole": "mi kom from maaki",
+            "english": "I have come from the market (lit. I came from market)",
+            "created_at": "2023-12-13T21:47:04.310155"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6395,
+        "fields": {
+            "creole": "Jaan push di gyal schreet insaid di hoo",
+            "english": "John pushed the girl straight into the hole",
+            "created_at": "2023-12-13T21:47:04.310156"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6396,
+        "fields": {
+            "creole": "Jaan de insaid di hoo",
+            "english": "John is inside the hole",
+            "created_at": "2023-12-13T21:47:04.310161"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6397,
+        "fields": {
+            "creole": "Jaan push di kyaart go schreet insaid di riv",
+            "english": "John pushed the cart straight into the river",
+            "created_at": "2023-12-13T21:47:04.310162"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6398,
+        "fields": {
+            "creole": "di maan pul di kou out di hoo",
+            "english": "The man pulled the cow out of the hole",
+            "created_at": "2023-12-13T21:47:04.310164"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6399,
+        "fields": {
+            "creole": "suun suun maanin, dem doz haal yu out yu be",
+            "english": "Very early in the mornings, they pull you out of your be",
+            "created_at": "2023-12-13T21:47:04.310165"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6400,
+        "fields": {
+            "creole": "suun suun maanin yu stil de a yu be",
+            "english": "Early in the morning you are still in your be",
+            "created_at": "2023-12-13T21:47:04.310166"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6401,
+        "fields": {
+            "creole": "mi git op an mi ron go a di saili",
+            "english": "I got up and ran to the sideline canal",
+            "created_at": "2023-12-13T21:47:04.310168"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6402,
+        "fields": {
+            "creole": "dem tek mi baag put am pon di gron",
+            "english": "They put my bag on the ground. OR: They took my bag and put it on the ground",
+            "created_at": "2023-12-13T21:47:04.310169"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6403,
+        "fields": {
+            "creole": "ii tek ii teel put bitwiin ii fut an waak we",
+            "english": "He put his tail between his legs and walked away",
+            "created_at": "2023-12-13T21:47:04.310170"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6404,
+        "fields": {
+            "creole": "ii tek wan klaat waip di teeb",
+            "english": "He wiped the table with a cloth",
+            "created_at": "2023-12-13T21:47:04.310171"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6405,
+        "fields": {
+            "creole": "mi sen yu fu kyarii mesij gi dem",
+            "english": "Did I send you to give them a message?",
+            "created_at": "2023-12-13T21:47:04.310173"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6406,
+        "fields": {
+            "creole": "ii bai lan gi ii so",
+            "english": "He bought land for his so",
+            "created_at": "2023-12-13T21:47:04.310174"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6407,
+        "fields": {
+            "creole": "yu kliin yu skin yet",
+            "english": "Have you cleaned/wiped the dirt off your body as yet",
+            "created_at": "2023-12-13T21:47:04.310175"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6408,
+        "fields": {
+            "creole": "ii wach ii self in di mira",
+            "english": "He looked at himself in the mirror",
+            "created_at": "2023-12-13T21:47:04.310177"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6409,
+        "fields": {
+            "creole": "Jaan wach iiself in di mira",
+            "english": "John looked at himself in the mirror",
+            "created_at": "2023-12-13T21:47:04.310180"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6410,
+        "fields": {
+            "creole": "Jaan self oopm di door",
+            "english": "John himself opened the door",
+            "created_at": "2023-12-13T21:47:04.310182"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6411,
+        "fields": {
+            "creole": "dem hog op matii vs. dem hog op wan anad",
+            "english": "They hugged up each other",
+            "created_at": "2023-12-13T21:47:04.310183"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6412,
+        "fields": {
+            "creole": "dem doz luk aafta dem oon self",
+            "english": "They look after themselves. OR: They are selfish",
+            "created_at": "2023-12-13T21:47:04.310184"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6413,
+        "fields": {
+            "creole": "di maan get kot in ii fut",
+            "english": "The man has been cut in his foot",
+            "created_at": "2023-12-13T21:47:04.310185"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6414,
+        "fields": {
+            "creole": "di maan fut kot",
+            "english": "The man's foot is cut. OR: The man has been cut on his foot",
+            "created_at": "2023-12-13T21:47:04.310187"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6415,
+        "fields": {
+            "creole": "di baai sidong oova de a mi fren",
+            "english": "The boy (who is) seated over there is my friend",
+            "created_at": "2023-12-13T21:47:04.310188"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6416,
+        "fields": {
+            "creole": "di baai wa sidong oova de a mi fren",
+            "english": "The boy who has sat down over there is my friend",
+            "created_at": "2023-12-13T21:47:04.310189"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6417,
+        "fields": {
+            "creole": "di gyal piknii wa yu si oova de, a mi daata",
+            "english": "The girl (whom) you see over there is my daughter",
+            "created_at": "2023-12-13T21:47:04.310191"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6418,
+        "fields": {
+            "creole": "di gyal piknii yu si oova de, a mi daata",
+            "english": "The girl (whom) you saw over there, is my daughter",
+            "created_at": "2023-12-13T21:47:04.310192"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6419,
+        "fields": {
+            "creole": "da a di sizazs ii kot di peepa wid",
+            "english": "Those are the scissors with which she cut the paper",
+            "created_at": "2023-12-13T21:47:04.310194"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6420,
+        "fields": {
+            "creole": "da a di sizaz ii tek (an) kot di peepa wid",
+            "english": "Those are the scissors with which she cut the paper",
+            "created_at": "2023-12-13T21:47:04.310195"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6421,
+        "fields": {
+            "creole": "da a di sizaz wa ii kot di peepa wid",
+            "english": "Those are the scissors with which she cut the paper",
+            "created_at": "2023-12-13T21:47:04.310196"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6422,
+        "fields": {
+            "creole": "shi tel am se ii go sok am",
+            "english": "She told him that she would suck his blood",
+            "created_at": "2023-12-13T21:47:04.310198"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6423,
+        "fields": {
+            "creole": "ii tel mi dat hou ii foget",
+            "english": "He told me that he had forgotten",
+            "created_at": "2023-12-13T21:47:04.310199"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6424,
+        "fields": {
+            "creole": "mi biliiv si di piknii ded",
+            "english": "I believed that the child had died.",
+            "created_at": "2023-12-13T21:47:04.310200"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6425,
+        "fields": {
+            "creole": "yu naa noo eniibadii kyan kom kom nak yu dong de?",
+            "english": "Don't you know that anybody can come and knock you down there?",
+            "created_at": "2023-12-13T21:47:04.310201"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6426,
+        "fields": {
+            "creole": "mi waahn gu",
+            "english": "I want to go",
+            "created_at": "2023-12-13T21:47:04.310203"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6427,
+        "fields": {
+            "creole": "ii tingk se ii piknin de hoom",
+            "english": "She thinks that her son is at home.",
+            "created_at": "2023-12-13T21:47:04.310204"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6428,
+        "fields": {
+            "creole": "ii waahn ii pikniin fo de hoom",
+            "english": "She wants her child to be at home.",
+            "created_at": "2023-12-13T21:47:04.310205"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6429,
+        "fields": {
+            "creole": "yu plee pon di greev self?",
+            "english": "You actually played on the grave?",
+            "created_at": "2023-12-13T21:47:04.310207"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6430,
+        "fields": {
+            "creole": "a da a wa mi se",
+            "english": "It is that that I said. OR: That is what I said",
+            "created_at": "2023-12-13T21:47:04.310208"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6431,
+        "fields": {
+            "creole": "a ron di baai ron, a no waak ii waak",
+            "english": "The boy RAN, he didn't walk.",
+            "created_at": "2023-12-13T21:47:04.310210"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6432,
+        "fields": {
+            "creole": "hii an aal doz gu de?",
+            "english": "Does he too go there? OR: Even he goes there?",
+            "created_at": "2023-12-13T21:47:04.310211"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6433,
+        "fields": {
+            "creole": "hii doz go de tu?",
+            "english": "Does he go there too (in addition to other people). OR: Does he go there too (in addition to other places)",
+            "created_at": "2023-12-13T21:47:04.310212"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6434,
+        "fields": {
+            "creole": "eey baai",
+            "english": "You, boy!",
+            "created_at": "2023-12-13T21:47:04.310214"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6435,
+        "fields": {
+            "creole": "Kom, na?",
+            "english": "Won't you come?",
+            "created_at": "2023-12-13T21:47:04.310216"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6436,
+        "fields": {
+            "creole": "Schuups!",
+            "english": "No!",
+            "created_at": "2023-12-13T21:47:04.310217"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6437,
+        "fields": {
+            "creole": "Langa ago wii yuuz tu plou wid aksn orli in di marning",
+            "english": "Long ago we used to plough [farm] with oxen early in the morning",
+            "created_at": "2023-12-13T21:47:04.310218"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6438,
+        "fields": {
+            "creole": "Wii gatu get op an teek ouar breekfas an",
+            "english": "We had to get up and have breakfast, have lunch and",
+            "created_at": "2023-12-13T21:47:04.310220"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6439,
+        "fields": {
+            "creole": "den tek ouar lonsh an den wii go dong a di bak wee.",
+            "english": "then we went down to the back way",
+            "created_at": "2023-12-13T21:47:04.310221"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6440,
+        "fields": {
+            "creole": "Wii gatu waak trii or foo mailz fu fain di aksn.",
+            "english": "We had to walk three or four miles to find the oxen",
+            "created_at": "2023-12-13T21:47:04.310222"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6441,
+        "fields": {
+            "creole": "Den wen wii kom bak wii gatu put aam",
+            "english": "Then when we came back we had to put ahm",
+            "created_at": "2023-12-13T21:47:04.310224"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6442,
+        "fields": {
+            "creole": "juat on dee nek. An den wii gatu put on di plou.",
+            "english": "yoke on the necks. And then we had to put on the plough.",
+            "created_at": "2023-12-13T21:47:04.310226"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6443,
+        "fields": {
+            "creole": "Den fram de wii hav tu ajos di plou",
+            "english": "Then from there we had to adjust the plough",
+            "created_at": "2023-12-13T21:47:04.310228"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6444,
+        "fields": {
+            "creole": "den wii gatu staat tu plou.",
+            "english": "then we had to start to plough",
+            "created_at": "2023-12-13T21:47:04.310229"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6445,
+        "fields": {
+            "creole": "Den som a di aksn das ron",
+            "english": "Then some of the oxen would run off",
+            "created_at": "2023-12-13T21:47:04.310230"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6446,
+        "fields": {
+            "creole": "an get dee fut kot op.",
+            "english": "and get their feet cut up.",
+            "created_at": "2023-12-13T21:47:04.310231"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6447,
+        "fields": {
+            "creole": "An sontaim di laan das haad",
+            "english": "and Sometimes the land was very hard",
+            "created_at": "2023-12-13T21:47:04.310233"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6448,
+        "fields": {
+            "creole": "an wi das gatu chrai tu plou it.",
+            "english": "and we had to try to plough it.",
+            "created_at": "2023-12-13T21:47:04.310234"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6449,
+        "fields": {
+            "creole": "An wen wii finish plou a kot",
+            "english": "And when we finished ploughing one row,",
+            "created_at": "2023-12-13T21:47:04.310235"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6450,
+        "fields": {
+            "creole": "den a neks taim wii gatu kom bak an plou a neks kot",
+            "english": "then another time we had to come back and plough another row.",
+            "created_at": "2023-12-13T21:47:04.310236"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6451,
+        "fields": {
+            "creole": "Den wen wii wii gan shai di di padi",
+            "english": "Then when we \u2013 we would scatter the paddy",
+            "created_at": "2023-12-13T21:47:04.310238"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6452,
+        "fields": {
+            "creole": "den wii go kom wid bush an wii gon",
+            "english": "then we would get bush and we would",
+            "created_at": "2023-12-13T21:47:04.310239"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6453,
+        "fields": {
+            "creole": "haal di bush on it an kova di padi.",
+            "english": "drag the bush over it and cover over the paddy.",
+            "created_at": "2023-12-13T21:47:04.310240"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6454,
+        "fields": {
+            "creole": "An wen reen faal dem staat tu groo.",
+            "english": "And when it rained then they started to grow.",
+            "created_at": "2023-12-13T21:47:04.310242"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6455,
+        "fields": {
+            "creole": "Wen it groo mont or tu sotaim i ful wid gras.",
+            "english": "When it grew for a month or two sometimes it was full of grass.",
+            "created_at": "2023-12-13T21:47:04.310244"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6456,
+        "fields": {
+            "creole": "Den juring di reeni siizn laik bout juun o jula",
+            "english": "Then during the rainy season, maybe about June or July",
+            "created_at": "2023-12-13T21:47:04.310245"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6457,
+        "fields": {
+            "creole": "wii gatu goo an kliin biizi-biizi",
+            "english": "we had to go and clean out the bizii-bizii weeds",
+            "created_at": "2023-12-13T21:47:04.310246"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6458,
+        "fields": {
+            "creole": "An den wen wii an wi gatu pach di rais",
+            "english": "And then we had to patch the rice",
+            "created_at": "2023-12-13T21:47:04.310248"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6459,
+        "fields": {
+            "creole": "An wii finish den rong bout aagas taim wi finish.",
+            "english": "We would finish patching around August",
+            "created_at": "2023-12-13T21:47:04.310249"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6460,
+        "fields": {
+            "creole": "An aam \u2026 juring about septemba tu aktoba",
+            "english": "And ahm \u2026.. during September to October",
+            "created_at": "2023-12-13T21:47:04.310250"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6461,
+        "fields": {
+            "creole": "wi staat tu kot wid gras naif.",
+            "english": "we would start to cut with grass knives.",
+            "created_at": "2023-12-13T21:47:04.310252"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6462,
+        "fields": {
+            "creole": "An wen wii finish kot wii das gatu \u2026",
+            "english": "And when we finished cutting we would have to",
+            "created_at": "2023-12-13T21:47:04.310253"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6463,
+        "fields": {
+            "creole": "e fech it wid di aksn wid kyart",
+            "english": "er use oxen attached either to a cart",
+            "created_at": "2023-12-13T21:47:04.310254"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6464,
+        "fields": {
+            "creole": "ar som kain a draga an",
+            "english": "or other vehicle that could be dragged,",
+            "created_at": "2023-12-13T21:47:04.310255"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6465,
+        "fields": {
+            "creole": "wen wii pak op aal di straa dat wi kot",
+            "english": "to take away the cut rice plants and when we had stacked all the stalks we had cut,",
+            "created_at": "2023-12-13T21:47:04.310257"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6466,
+        "fields": {
+            "creole": "wi gatu mash it wid aksn.",
+            "english": "then we had to use oxen to trample them.",
+            "created_at": "2023-12-13T21:47:04.310259"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6467,
+        "fields": {
+            "creole": "Wi gatu get baiz jraiving di aksn rong an rong.",
+            "english": "We had to get boys to drive the oxen around and around.",
+            "created_at": "2023-12-13T21:47:04.310260"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6468,
+        "fields": {
+            "creole": "Wi gatu get a kain tu chroowe di straa",
+            "english": "We had to get a kind to get rid of the chaff.",
+            "created_at": "2023-12-13T21:47:04.310261"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6469,
+        "fields": {
+            "creole": "Wen wi finish wi gatu hiip op di padi",
+            "english": "When finished we had to heap up the paddy.",
+            "created_at": "2023-12-13T21:47:04.310263"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6470,
+        "fields": {
+            "creole": "Den wi gatu win it.",
+            "english": "Then we had to winnow it.",
+            "created_at": "2023-12-13T21:47:04.310264"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6471,
+        "fields": {
+            "creole": "An den wi gatu transpoot it",
+            "english": "After which we had to transport it",
+            "created_at": "2023-12-13T21:47:04.310265"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6472,
+        "fields": {
+            "creole": "wid bul kyart tu di rais mil.",
+            "english": "using carts pulled by bulls to the rice mill.",
+            "created_at": "2023-12-13T21:47:04.310267"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6473,
+        "fields": {
+            "creole": "Weer weer wi soold di padi da tu di mila",
+            "english": "Where \u2013 where we then either sold that paddy to the miller",
+            "created_at": "2023-12-13T21:47:04.310268"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6474,
+        "fields": {
+            "creole": "ar wii get it mil an sel di rais tu eni porsn iz baiin rais",
+            "english": "or we milled it and sold the rice to anyone who might be buying rice.",
+            "created_at": "2023-12-13T21:47:04.310270"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6475,
+        "fields": {
+            "creole": "hou it iz don tudee nou?",
+            "english": "How is it done today?",
+            "created_at": "2023-12-13T21:47:04.310271"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6476,
+        "fields": {
+            "creole": "Wel prezentli nou wii get chrakta.",
+            "english": "Well presently we have tractors.",
+            "created_at": "2023-12-13T21:47:04.310272"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6477,
+        "fields": {
+            "creole": "Wi plou di raisfiil in a fiyu ouarz taim,",
+            "english": "We plough the ricefield in a few hours time.",
+            "created_at": "2023-12-13T21:47:04.310274"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6478,
+        "fields": {
+            "creole": "An den wii kom bak an wii riiplou",
+            "english": "And then we come back another time and plough for a second time",
+            "created_at": "2023-12-13T21:47:04.310276"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6479,
+        "fields": {
+            "creole": "a sekan taim an den wii braadkyaas di padi",
+            "english": "and then we sow the paddy by scattering it across the ploughed area.",
+            "created_at": "2023-12-13T21:47:04.310277"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6480,
+        "fields": {
+            "creole": "Wii kova it wid chipa an wen di reen faal it groo.",
+            "english": "We cover the paddy with chipa and when rain fall it grows.",
+            "created_at": "2023-12-13T21:47:04.310278"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6481,
+        "fields": {
+            "creole": "An wii wach it fram inseks an pes.",
+            "english": "And we protect the ricefield from insects and other pests",
+            "created_at": "2023-12-13T21:47:04.310279"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6482,
+        "fields": {
+            "creole": "An wen it iz raip wii riip it wid kombain",
+            "english": "And when the paddy is ready, we harvest it with combined harvesters",
+            "created_at": "2023-12-13T21:47:04.310281"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6483,
+        "fields": {
+            "creole": "an wii get i:da trok ar tre:la",
+            "english": "and we use either trucks or trailers",
+            "created_at": "2023-12-13T21:47:04.310282"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6484,
+        "fields": {
+            "creole": "tu teek it tu di mil weer wii soold it",
+            "english": "to take it to the mill where we either sell the paddy",
+            "created_at": "2023-12-13T21:47:04.310283"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6485,
+        "fields": {
+            "creole": "or konvertid it tu rais.",
+            "english": "or convert it to rice.",
+            "created_at": "2023-12-13T21:47:04.310285"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6486,
+        "fields": {
+            "creole": "Sa\ufb01i a jraiv kyar wid oman hool dee.",
+            "english": "Sa\ufb01 drives around with women all day.",
+            "created_at": "2023-12-13T21:47:04.310287"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6487,
+        "fields": {
+            "creole": "Dem a kot pikni soo?",
+            "english": "Do they do autopsies on such small children?",
+            "created_at": "2023-12-13T21:47:04.310288"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6488,
+        "fields": {
+            "creole": "Wen mi dadii bin ded, da gyal",
+            "english": "When my father died, that girl used to come",
+            "created_at": "2023-12-13T21:47:04.310290"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6489,
+        "fields": {
+            "creole": "an shi a sliip de.",
+            "english": "and she used to sleep there.",
+            "created_at": "2023-12-13T21:47:04.310292"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6490,
+        "fields": {
+            "creole": "Di man dem a de moor in sosaiitii.",
+            "english": "The men tend to be more in the public sphere.",
+            "created_at": "2023-12-13T21:47:04.310293"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6491,
+        "fields": {
+            "creole": "Shi a pik plom, wen mi aks shi yestodee.",
+            "english": "She was picking plums when I asked her yesterday.",
+            "created_at": "2023-12-13T21:47:04.310294"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6492,
+        "fields": {
+            "creole": "Hiir, Linda a kal yu.",
+            "english": "Hear, Linda is calling you.",
+            "created_at": "2023-12-13T21:47:04.310296"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6493,
+        "fields": {
+            "creole": "I doz kyerii meed gu wid am tuu.",
+            "english": "He takes his maid with him when he goes",
+            "created_at": "2023-12-13T21:47:04.310297"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6494,
+        "fields": {
+            "creole": "da taim abii-diiz doz",
+            "english": "At that time, we used to go to school.",
+            "created_at": "2023-12-13T21:47:04.310298"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6495,
+        "fields": {
+            "creole": "a foor a dem doz de tugeda",
+            "english": "Four of them are generally there together.",
+            "created_at": "2023-12-13T21:47:04.310300"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6496,
+        "fields": {
+            "creole": "ii doz taioord",
+            "english": "He is usually tired",
+            "created_at": "2023-12-13T21:47:04.310302"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6497,
+        "fields": {
+            "creole": "yu doz ga waip am dong evriidee ?",
+            "english": "Do you have to wipe it off everyday?",
+            "created_at": "2023-12-13T21:47:04.310303"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6498,
+        "fields": {
+            "creole": "somtaim ii doz bii jook",
+            "english": "Sometimes it\u2019s a joke",
+            "created_at": "2023-12-13T21:47:04.310304"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6499,
+        "fields": {
+            "creole": "yuu doz noo wa yu doz taak",
+            "english": "Do you understand what you say?",
+            "created_at": "2023-12-13T21:47:04.310306"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6500,
+        "fields": {
+            "creole": "ee, huu luk in afta mi?",
+            "english": "Hey, Who is looking after me?",
+            "created_at": "2023-12-13T21:47:04.310308"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6501,
+        "fields": {
+            "creole": "Shi doz de singing.",
+            "english": "She is usually singing.",
+            "created_at": "2023-12-13T21:47:04.310309"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6502,
+        "fields": {
+            "creole": "hou laang shi na ga waan neks wok shi na gu lef",
+            "english": "As long as she doesn\u2019t have another job, she won\u2019t leave this one.",
+            "created_at": "2023-12-13T21:47:04.310310"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6503,
+        "fields": {
+            "creole": "we shi gon gu?",
+            "english": "Where will she go?",
+            "created_at": "2023-12-13T21:47:04.310312"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6504,
+        "fields": {
+            "creole": "eniiwee eniiwee shi get waan, yu noo?",
+            "english": "Anywhere anywhere she gets another job, you know?",
+            "created_at": "2023-12-13T21:47:04.310314"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6505,
+        "fields": {
+            "creole": "mii an aal na laik di nait wok",
+            "english": "I don\u2019t like night work",
+            "created_at": "2023-12-13T21:47:04.310315"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6506,
+        "fields": {
+            "creole": "wen shii gaan de nou shi gu",
+            "english": "when she goes there she leaves at three o\u2019clock",
+            "created_at": "2023-12-13T21:47:04.310316"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6507,
+        "fields": {
+            "creole": "tuu twelv a klak a nait shi a wok",
+            "english": "and till twelve at night she works.",
+            "created_at": "2023-12-13T21:47:04.310318"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6508,
+        "fields": {
+            "creole": "dem a gat wan kyar",
+            "english": "They are having a car.",
+            "created_at": "2023-12-13T21:47:04.310319"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6509,
+        "fields": {
+            "creole": "dem a gat aal mi kotlas de",
+            "english": "They always have all my cutlasses there.",
+            "created_at": "2023-12-13T21:47:04.310320"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6510,
+        "fields": {
+            "creole": "mi doz ga sliip a front de",
+            "english": "I used to have to sleep in front there.",
+            "created_at": "2023-12-13T21:47:04.310322"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6511,
+        "fields": {
+            "creole": "ma ga kuk nou.",
+            "english": "I\u2019m going to have to cook now.",
+            "created_at": "2023-12-13T21:47:04.310325"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6512,
+        "fields": {
+            "creole": "wan wan taim doz ge mi ignarant",
+            "english": "Once in a while they make me abusive.",
+            "created_at": "2023-12-13T21:47:04.310326"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6513,
+        "fields": {
+            "creole": "di chilren dem a get nalej",
+            "english": "The children get the knowledge.",
+            "created_at": "2023-12-13T21:47:04.310327"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6514,
+        "fields": {
+            "creole": "mii oloon doz get a lak-op de",
+            "english": "Am I the only one who has a room which is often locked?",
+            "created_at": "2023-12-13T21:47:04.310329"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6515,
+        "fields": {
+            "creole": "hiir! i a see hou shi a bai rashon an soo",
+            "english": "Listen! He\u2019s saying how does she buy food and that.",
+            "created_at": "2023-12-13T21:47:04.310330"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6516,
+        "fields": {
+            "creole": "i na gu iit notin an moor yu na gu",
+            "english": "I won\u2019t eat anything and its best you don\u2019t go",
+            "created_at": "2023-12-13T21:47:04.310331"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6517,
+        "fields": {
+            "creole": "ka wen yu gu an i stil i onlii a get op an a wach soo an",
+            "english": "because when you-she still-she only gets up and watches and",
+            "created_at": "2023-12-13T21:47:04.310332"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6518,
+        "fields": {
+            "creole": "a seelain an a niidl aal a",
+            "english": "the saline and the needle protrudes from her hand",
+            "created_at": "2023-12-13T21:47:04.310334"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6519,
+        "fields": {
+            "creole": "soo wa yu a duu?",
+            "english": "So what are you going to do?",
+            "created_at": "2023-12-13T21:47:04.310335"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6520,
+        "fields": {
+            "creole": "aiyu a duu ded wok an ting?",
+            "english": "Are you\u00a0 going to do \u2018dead work\u2019 and that?",
+            "created_at": "2023-12-13T21:47:04.310336"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6521,
+        "fields": {
+            "creole": "mi no noo wa ma gu duu",
+            "english": "I don\u2019t know what I\u2019m going to do.",
+            "created_at": "2023-12-13T21:47:04.310338"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6522,
+        "fields": {
+            "creole": "ma kyeeri am owee tudee a gyaadin",
+            "english": "I\u2019m going to take it away to the garden today.",
+            "created_at": "2023-12-13T21:47:04.310339"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6523,
+        "fields": {
+            "creole": "eh aiyu a gu am mootookeed tuunait",
+            "english": "Hey are you going to the motorcade tonight?",
+            "created_at": "2023-12-13T21:47:04.310341"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6524,
+        "fields": {
+            "creole": "wich chrok a gu",
+            "english": "Which truck is going?",
+            "created_at": "2023-12-13T21:47:04.310343"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6525,
+        "fields": {
+            "creole": "abii wan",
+            "english": "Ours",
+            "created_at": "2023-12-13T21:47:04.310344"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6526,
+        "fields": {
+            "creole": "aiyu a kyeri abii",
+            "english": "Will you take us with you?",
+            "created_at": "2023-12-13T21:47:04.310345"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6527,
+        "fields": {
+            "creole": "wen mi a kom bak a kichen, dis naiz meek ageen",
+            "english": "As I was coming back into the kitchen, I heard this noise again.",
+            "created_at": "2023-12-13T21:47:04.310346"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6528,
+        "fields": {
+            "creole": "wel, wen dem a tek ot brekfos, agin dis nais mek.",
+            "english": "Well, while they were putting out the breakfast, we heard this noiseagain",
+            "created_at": "2023-12-13T21:47:04.310348"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6529,
+        "fields": {
+            "creole": "shi a kom rong bak",
+            "english": "She\u2019s coming round back.",
+            "created_at": "2023-12-13T21:47:04.310349"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6530,
+        "fields": {
+            "creole": "daadii i a kos se aiyu diiz a taak out shi.",
+            "english": "Daddy, she\u2019s cussing saying that you\u00a0 are talking about her.",
+            "created_at": "2023-12-13T21:47:04.310350"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6531,
+        "fields": {
+            "creole": "iir en ga bai a kot eer",
+            "english": "This place doesn\u2019t have a boy who cuts hair.",
+            "created_at": "2023-12-13T21:47:04.310351"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6532,
+        "fields": {
+            "creole": "wen abi yuustu gu fa a a a dongks.",
+            "english": "When we used to go for the crab-apples.",
+            "created_at": "2023-12-13T21:47:04.310353"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6533,
+        "fields": {
+            "creole": "if hii a diskos hee wid yuu hii taak krioliiz.",
+            "english": "If he is discussing here with you he will talk Creolese.",
+            "created_at": "2023-12-13T21:47:04.310355"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6534,
+        "fields": {
+            "creole": "Dis govament bring in som laa rait",
+            "english": "This government is bringing some laws, right?",
+            "created_at": "2023-12-13T21:47:04.310357"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6535,
+        "fields": {
+            "creole": "Nyuu skuul kom in hia nou",
+            "english": "A new school is being brought here now.",
+            "created_at": "2023-12-13T21:47:04.310359"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6536,
+        "fields": {
+            "creole": "mi na a get wuk no wee",
+            "english": "I was not getting work anywhere.",
+            "created_at": "2023-12-13T21:47:04.310360"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6537,
+        "fields": {
+            "creole": "in di kontrii yu na a sii non a dem gyal wid lipstik",
+            "english": "In the rural areas you do not usually see any of the girls wearing lipstick.",
+            "created_at": "2023-12-13T21:47:04.310362"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6538,
+        "fields": {
+            "creole": "mi na no wai dem a du dis ting",
+            "english": "I don't\u00a0 know why they are doing this.",
+            "created_at": "2023-12-13T21:47:04.310363"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6539,
+        "fields": {
+            "creole": "di rais wok get mo iizia fi du bika trakta a",
+            "english": "Rice farming becomes easier",
+            "created_at": "2023-12-13T21:47:04.310364"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6540,
+        "fields": {
+            "creole": "pIau am",
+            "english": "to do because tractors do the ploughing.",
+            "created_at": "2023-12-13T21:47:04.310366"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6541,
+        "fields": {
+            "creole": "nau fram wa mi ekspiirians, yu si, piipl a jelas",
+            "english": "Now from what",
+            "created_at": "2023-12-13T21:47:04.310367"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6542,
+        "fields": {
+            "creole": "dem iitsh\u00a0 an ada",
+            "english": "live experienced, you see, people get envious of one another.",
+            "created_at": "2023-12-13T21:47:04.310368"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6543,
+        "fields": {
+            "creole": "wi a pak am op hai laik haus an wi kaal di plees karyaan",
+            "english": "We pile it up as high as a house and we call the place the threshingfloor.",
+            "created_at": "2023-12-13T21:47:04.310369"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6544,
+        "fields": {
+            "creole": "tu an tu mek fo",
+            "english": "Two and two make four.",
+            "created_at": "2023-12-13T21:47:04.310371"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6545,
+        "fields": {
+            "creole": "dem mek i stap",
+            "english": "They made him stop.",
+            "created_at": "2023-12-13T21:47:04.310372"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6546,
+        "fields": {
+            "creole": "yu laan nau lef wid di rais dok",
+            "english": "Your land is now left with the rice flooded.",
+            "created_at": "2023-12-13T21:47:04.310374"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6547,
+        "fields": {
+            "creole": "bai, yu get stab!",
+            "english": "Boy, you've been stabbed !",
+            "created_at": "2023-12-13T21:47:04.310375"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6548,
+        "fields": {
+            "creole": "weI plenti get biitop, haatit an ting",
+            "english": "Well a lot were beaten up, wounded and so on.",
+            "created_at": "2023-12-13T21:47:04.310377"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6549,
+        "fields": {
+            "creole": "well wen yu kom yu go get dis bai go opn di do",
+            "english": "Well when you arrive you'll get this boy to open the door.",
+            "created_at": "2023-12-13T21:47:04.310378"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6550,
+        "fields": {
+            "creole": "bot if reen faal, yu a go neks de",
+            "english": "'But if it rains, you go on the following day.",
+            "created_at": "2023-12-13T21:47:04.310379"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6551,
+        "fields": {
+            "creole": "yu gatu hosl fu go kot rais somtaim, su yu a",
+            "english": "'You have to hurry to go and cut rice sometimes,",
+            "created_at": "2023-12-13T21:47:04.310381"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6552,
+        "fields": {
+            "creole": "hosl fu get monii fu bai op rachin",
+            "english": "so you rush to get money to buy food with.",
+            "created_at": "2023-12-13T21:47:04.310382"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6553,
+        "fields": {
+            "creole": "wen i don plau, put yu laan fi sook wan-tu de",
+            "english": "When it's been ploughed, let your land flood for a day or two.",
+            "created_at": "2023-12-13T21:47:04.310383"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6554,
+        "fields": {
+            "creole": "wen i pIau, put yu laan fi sook wan-tu de",
+            "english": "When it's being ploughed, let your land flood for a day or two",
+            "created_at": "2023-12-13T21:47:04.310384"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6555,
+        "fields": {
+            "creole": "wen mi bin yang, yu no hau awi yuus tu wok",
+            "english": "You know how we used to work when I was young.",
+            "created_at": "2023-12-13T21:47:04.310386"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6556,
+        "fields": {
+            "creole": "pippl na a biliiv mi",
+            "english": "People do not believe me",
+            "created_at": "2023-12-13T21:47:04.310387"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6557,
+        "fields": {
+            "creole": "dem a waant sting yu wan bil",
+            "english": "They want to take money from you",
+            "created_at": "2023-12-13T21:47:04.310390"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6558,
+        "fields": {
+            "creole": "evriting bina chip",
+            "english": "Everything was cheap.",
+            "created_at": "2023-12-13T21:47:04.310391"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6559,
+        "fields": {
+            "creole": "no, lang taim piipl bina ova gud, tumoch gud.",
+            "english": "No, in the old days people were very good, extremely good.",
+            "created_at": "2023-12-13T21:47:04.310392"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6560,
+        "fields": {
+            "creole": "lang taim piipl bina baad o gud?",
+            "english": "Were people in the old days good or bad?",
+            "created_at": "2023-12-13T21:47:04.310394"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6561,
+        "fields": {
+            "creole": "lang taim wen awi: bina plant rais ova kriik awi das gatu pIau wid kau",
+            "english": "In the old days when we used to plant rice over the creek, we used to have to plough with oxen.",
+            "created_at": "2023-12-13T21:47:04.310395"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6562,
+        "fields": {
+            "creole": "son doz hat he bad",
+            "english": "The sun gets very hot here.",
+            "created_at": "2023-12-13T21:47:04.310396"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6563,
+        "fields": {
+            "creole": "ii kaal tuu adem bai a vilij wa gat taim - smaa1 baiz wa na gat notn fu duu",
+            "english": "He called two of the boys in the village who had time - small boys who had nothing to do.",
+            "created_at": "2023-12-13T21:47:04.310398"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6564,
+        "fields": {
+            "creole": "mi granmuda, non-badii, na noo mi plan",
+            "english": "My grandmother, no one, knew my plan.",
+            "created_at": "2023-12-13T21:47:04.310399"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6565,
+        "fields": {
+            "creole": "mi bin mek nof monii pan dem",
+            "english": "I made a lot of money on them.",
+            "created_at": "2023-12-13T21:47:04.310401"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6566,
+        "fields": {
+            "creole": "shi kom an shi matii kuu1ii bin a trai wid shi",
+            "english": "She came and her fellow Indians were trying with her.",
+            "created_at": "2023-12-13T21:47:04.310403"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6567,
+        "fields": {
+            "creole": "weI mi na bin wan sen mesij hoom tel dem da mi in jaajtong in haspital - weI, nat noin dat som piiple mosi no [my emphasis] mi a di kajalti, an dem sen mesij hoom",
+            "english": "Well, I didn't want to send a message home to tell them (his family) that I was in Georgetown in hospital - not knowing that some people in the casualty (Ward) must know me, and they sent a message home",
+            "created_at": "2023-12-13T21:47:04.310404"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6568,
+        "fields": {
+            "creole": "dem bin get wud pIau lang taim - bina pIau raisfill an deez tu. kom deez tu kom, dem,. bin get aksn an dem bin get pIau an dem a pIau an dem a mash wid ak5n.",
+            "english": "In the old days they got wooden ploughs, they ploughed the ricefields and then later on, later on they got oxen and (iron) ploughs and they ploughed and threshed with oxen.",
+            "created_at": "2023-12-13T21:47:04.310406"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6569,
+        "fields": {
+            "creole": "shi kom an shi matii kuulii bina trai wid shi",
+            "english": "She came and her fellow Indians were trying with her.",
+            "created_at": "2023-12-13T21:47:04.310408"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6570,
+        "fields": {
+            "creole": "hau awi dis bina wok dem na eebl fi wok bikaz dem gro saaf",
+            "english": "They can't work like we worked because they\u2019ve\u00a0 grown soft.",
+            "created_at": "2023-12-13T21:47:04.310410"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6571,
+        "fields": {
+            "creole": "dis fut bin swel he si di tu a saiz",
+            "english": "This foot has swelled up, compare the size of the two.",
+            "created_at": "2023-12-13T21:47:04.310411"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6572,
+        "fields": {
+            "creole": "wen mi bin smaal laik a dem pikni dis den mi bin faal a trensh",
+            "english": "When I was as small as these children, I fell in a canal.",
+            "created_at": "2023-12-13T21:47:04.310413"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6573,
+        "fields": {
+            "creole": "Bil (don) kom fl sii yu",
+            "english": "Bill has come/came to see you",
+            "created_at": "2023-12-13T21:47:04.310414"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6574,
+        "fields": {
+            "creole": "shi neva sing",
+            "english": "she never sang",
+            "created_at": "2023-12-13T21:47:04.310415"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6575,
+        "fields": {
+            "creole": "shi dozneva duu it",
+            "english": "she never does it.",
+            "created_at": "2023-12-13T21:47:04.310416"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6576,
+        "fields": {
+            "creole": "aal mi bin noo a wa mi had from hai skuul",
+            "english": "All I knew was what I had learnt\u00a0 from high school.",
+            "created_at": "2023-12-13T21:47:04.310418"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6577,
+        "fields": {
+            "creole": "an wen ii kom hoom, ii had about oova four touzan daala",
+            "english": "And when he came home, he had about over four thousand dollars.",
+            "created_at": "2023-12-13T21:47:04.310420"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6578,
+        "fields": {
+            "creole": "wen mi was a lil bai, mi did laik dis hairy dory biznis",
+            "english": "When I was a little boy, I liked to play a game called 'hairy dory'.",
+            "created_at": "2023-12-13T21:47:04.310421"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6579,
+        "fields": {
+            "creole": "mi bin du big gyardenin",
+            "english": "I did farming on a large scale.",
+            "created_at": "2023-12-13T21:47:04.310423"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6580,
+        "fields": {
+            "creole": "de ribz boon hee bin plat",
+            "english": "The ribs here were plaited.",
+            "created_at": "2023-12-13T21:47:04.310425"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6581,
+        "fields": {
+            "creole": "mi don gat wan dag.",
+            "english": "\u2018I have a dog'\u00a0 still, and therefore don't need another one.",
+            "created_at": "2023-12-13T21:47:04.310426"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6582,
+        "fields": {
+            "creole": "mi don se da",
+            "english": "'I said that' and I stick to it.",
+            "created_at": "2023-12-13T21:47:04.310427"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6583,
+        "fields": {
+            "creole": "yu tink shi wud duu it.",
+            "english": "Do you think she will do it?",
+            "created_at": "2023-12-13T21:47:04.310429"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6584,
+        "fields": {
+            "creole": "she wud bii a gud styuudent.",
+            "english": "She will be a good student.",
+            "created_at": "2023-12-13T21:47:04.310430"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6585,
+        "fields": {
+            "creole": "if mi bin sii am mi bin go tel am",
+            "english": "If I had seen him I would have told him",
+            "created_at": "2023-12-13T21:47:04.310431"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6586,
+        "fields": {
+            "creole": "mi bin fu nak am",
+            "english": "I was about to hit him",
+            "created_at": "2023-12-13T21:47:04.310433"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6587,
+        "fields": {
+            "creole": "shi doz neva duu it.",
+            "english": "She never does it.",
+            "created_at": "2023-12-13T21:47:04.310443"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6588,
+        "fields": {
+            "creole": "at prezent ai am not working. mi na a wok nau",
+            "english": "At present I am not working. I am not working now.",
+            "created_at": "2023-12-13T21:47:04.310444"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6589,
+        "fields": {
+            "creole": "wen de kom tu a seerteen saiz, yu plau dem around - dis iz di ruut - yu pIau dem til about hee, an den yu troo di kau mool around it",
+            "english": "When they (the plants) come to a certain size, you plough around them - this is the root - you plough them to about here, and then you throw the manure around it.",
+            "created_at": "2023-12-13T21:47:04.310446"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6590,
+        "fields": {
+            "creole": "wel, hii waz a nais maan tu mii, an wen hii had tu lef hee, mi sarii, bot di wok bin finish",
+            "english": "Well, he was a nice man to me, and when he had to leave here, I was sorry, but the work had finished.'",
+            "created_at": "2023-12-13T21:47:04.310447"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6591,
+        "fields": {
+            "creole": "a doz stitch baag",
+            "english": "I stitch bags.",
+            "created_at": "2023-12-13T21:47:04.310448"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6592,
+        "fields": {
+            "creole": "yu ga a luk at piipl, hau de biiheev, studii de biiheevyu, sii hau de aplai deself tu ada sityuueeshanz an ting",
+            "english": "You have to look at people, how they behave, study their behaviour, see how they apply themselves to other situations and thing.",
+            "created_at": "2023-12-13T21:47:04.310451"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6593,
+        "fields": {
+            "creole": "Yu ga a luk at piipl, hau de biiheev, studii de biiheevyu, sii hau de aplai deself tu ada sityuueeshanz an tinge",
+            "english": "You have to look at people, how they behave, study their behaviour, see how they apply themselves to other situations and things.",
+            "created_at": "2023-12-13T21:47:04.310452"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6594,
+        "fields": {
+            "creole": "yu gat tu bii raang, ar yu gat, tu bii rait, wan out a di tuu. if yu raang, piipl gon korek yu. bot if yu na taak noobadii' na gu noo wu yu waant fu se at aal.",
+            "english": "You have to be wrong, or you have to be right, one out of the two. If you\u2019re wrong, people will correct you. But if you do not talk, nobody will know what you want to say.",
+            "created_at": "2023-12-13T21:47:04.310454"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6595,
+        "fields": {
+            "creole": "soo yuur puting aan door freemz an su aan. wat doz dat involve wu yu gat tu duu.",
+            "english": "So you're putting on door frames and so on. What does that involve? What do you have to do?",
+            "created_at": "2023-12-13T21:47:04.310456"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6596,
+        "fields": {
+            "creole": "ai tink dat aal ov us gat tu surv owu kontrii in som wee or di ada, and ai biliiv dat edyuukeeshan iz a vaital aspek.and ai also hav a kaaling fu children.",
+            "english": "I think that all of us have to serve our country in some way or the other, and I believe that education is a vital aspect. And I also have a calling for children.",
+            "created_at": "2023-12-13T21:47:04.310459"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6597,
+        "fields": {
+            "creole": "it de a teebl",
+            "english": "it is on the table",
+            "created_at": "2023-12-13T21:47:04.310461"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6598,
+        "fields": {
+            "creole": "shi de a chorch",
+            "english": "she is in church",
+            "created_at": "2023-12-13T21:47:04.310462"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6599,
+        "fields": {
+            "creole": "hii de a shap",
+            "english": "he is at the shop",
+            "created_at": "2023-12-13T21:47:04.310463"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6600,
+        "fields": {
+            "creole": "shi wuda jelos",
+            "english": "she would have been jealous",
+            "created_at": "2023-12-13T21:47:04.310465"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6601,
+        "fields": {
+            "creole": "shi bin jelos",
+            "english": "she was jealous",
+            "created_at": "2023-12-13T21:47:04.310466"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6602,
+        "fields": {
+            "creole": "dis a wan smaal teebl",
+            "english": "this is a small table.",
+            "created_at": "2023-12-13T21:47:04.310467"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6603,
+        "fields": {
+            "creole": "shi aalweez",
+            "english": "she frequently behaves in a particular manner.",
+            "created_at": "2023-12-13T21:47:04.310469"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6604,
+        "fields": {
+            "creole": "shi doz somtaimz de a sing",
+            "english": "she sings sometimes",
+            "created_at": "2023-12-13T21:47:04.310471"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6605,
+        "fields": {
+            "creole": "shi wuda aalweez de a sing",
+            "english": "she would have always been singing.",
+            "created_at": "2023-12-13T21:47:04.310472"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6606,
+        "fields": {
+            "creole": "shi a wan prapa gyurl",
+            "english": "she is a decent girl",
+            "created_at": "2023-12-13T21:47:04.310473"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6607,
+        "fields": {
+            "creole": "shi prapa nais",
+            "english": "she is really nice or she is really ugly (sarcastically)",
+            "created_at": "2023-12-13T21:47:04.310475"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6608,
+        "fields": {
+            "creole": "shi a wan tiicha",
+            "english": "she is a teacher",
+            "created_at": "2023-12-13T21:47:04.310476"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6609,
+        "fields": {
+            "creole": "shi doz de hoom",
+            "english": "she is usually at horne",
+            "created_at": "2023-12-13T21:47:04.310477"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6610,
+        "fields": {
+            "creole": "yuu mosii iit di keek",
+            "english": "you probably ate the cake.",
+            "created_at": "2023-12-13T21:47:04.310479"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6611,
+        "fields": {
+            "creole": "mosii yuu iit di keek",
+            "english": "it is probably you who ate the cake.",
+            "created_at": "2023-12-13T21:47:04.310481"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6612,
+        "fields": {
+            "creole": "kyan shi sing",
+            "english": "can she sing?",
+            "created_at": "2023-12-13T21:47:04.310482"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6613,
+        "fields": {
+            "creole": "yes, shi kyan",
+            "english": "yes, she can.",
+            "created_at": "2023-12-13T21:47:04.310483"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6614,
+        "fields": {
+            "creole": "dis leta a fu yuu",
+            "english": "this letter is for you",
+            "created_at": "2023-12-13T21:47:04.310485"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6615,
+        "fields": {
+            "creole": "wud yuu duu it",
+            "english": "would you do it?",
+            "created_at": "2023-12-13T21:47:04.310487"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6616,
+        "fields": {
+            "creole": "shi don get tuu piknii",
+            "english": "she already has two children",
+            "created_at": "2023-12-13T21:47:04.310488"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6617,
+        "fields": {
+            "creole": "at prezent mi a du faarmin",
+            "english": "At present I am doing farming.",
+            "created_at": "2023-12-13T21:47:04.310489"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6618,
+        "fields": {
+            "creole": "dem a chuuz dem oon kompanii",
+            "english": "They usually choose their own company.",
+            "created_at": "2023-12-13T21:47:04.310491"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6619,
+        "fields": {
+            "creole": "mi na a get wuk noo wee",
+            "english": "I was not getting work anywhere.",
+            "created_at": "2023-12-13T21:47:04.310492"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6620,
+        "fields": {
+            "creole": "aanz groov piipl na a duu laarj skeel a kasaava wuk. de na a duu am.",
+            "english": "The people of Ann's Grove do not usually do cassava planting on a large scale. They do not usually do it.",
+            "created_at": "2023-12-13T21:47:04.310493"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6621,
+        "fields": {
+            "creole": "a de we yu a get staarch from",
+            "english": "It is there where you usually get starch from.",
+            "created_at": "2023-12-13T21:47:04.310495"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6622,
+        "fields": {
+            "creole": "a freeming picha",
+            "english": "I am framing pictures.",
+            "created_at": "2023-12-13T21:47:04.310497"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6623,
+        "fields": {
+            "creole": "de fiiling sik",
+            "english": "They are feeling ill.",
+            "created_at": "2023-12-13T21:47:04.310503"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6624,
+        "fields": {
+            "creole": "de doz gat a waata lefin dong biiloo",
+            "english": "There is usually a liquid left under it.",
+            "created_at": "2023-12-13T21:47:04.310504"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6625,
+        "fields": {
+            "creole": "weI, of kors, mi na yuuz tu chaarj dem",
+            "english": "Well, of course, I never used to charge them.",
+            "created_at": "2023-12-13T21:47:04.310506"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6626,
+        "fields": {
+            "creole": "de pee yu a paart, an wen de don du dem wok, yu noo, mek dem breed, dem staarch, an don sel, di neks wiik dem kom bak fu moo kasaava an de pee yu da balans",
+            "english": "They pay you a part, and when they have finished doing their work, you know, made their starch and finished selling, the next week they come back for more cassava and they pay you the balance (of money).",
+            "created_at": "2023-12-13T21:47:04.310508"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6627,
+        "fields": {
+            "creole": "somtaim, nau an den, yu doz souwa waata - wii kaal am souwa waata in di kontrii",
+            "english": "Sometimes, now and then, you usually\u00a0 \u2018sour\u2019 (i.e. detoxify) water - we call it 'sour' water in the country.",
+            "created_at": "2023-12-13T21:47:04.310510"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6628,
+        "fields": {
+            "creole": "piipl na a biliiv mi",
+            "english": "People do not usually believe me.",
+            "created_at": "2023-12-13T21:47:04.310511"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6629,
+        "fields": {
+            "creole": "dem na a waant dem riid",
+            "english": "They never usually wanted them to read.",
+            "created_at": "2023-12-13T21:47:04.310512"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6630,
+        "fields": {
+            "creole": "dem na a gat",
+            "english": "They do not usually have",
+            "created_at": "2023-12-13T21:47:04.310514"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6631,
+        "fields": {
+            "creole": "hii na s satisfai wid notn",
+            "english": "He is never usually satisfied with anything.",
+            "created_at": "2023-12-13T21:47:04.310515"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6632,
+        "fields": {
+            "creole": "bai taim mi get de, shi a gaan hoom",
+            "english": "By the time I get there, she has usually gone home.",
+            "created_at": "2023-12-13T21:47:04.310516"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6633,
+        "fields": {
+            "creole": "bos-draiva dem a jelos",
+            "english": "Bus drivers are usually jealous.",
+            "created_at": "2023-12-13T21:47:04.310518"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6634,
+        "fields": {
+            "creole": "mi doz lef hee about 5.30/6.00 an mi g gy riich op de .. mi gu riich op de about 9.00 ar 8.00",
+            "english": "I usually leave here about 5.30/6.00 and I would probably arrive there .. I would arrive there about 9.00 or 8.00.",
+            "created_at": "2023-12-13T21:47:04.310519"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6635,
+        "fields": {
+            "creole": "bikaa mi biliiv hii nak mi, rni a deed",
+            "english": "Because I thought he had hit me, (and)I would probably die.",
+            "created_at": "2023-12-13T21:47:04.310520"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6636,
+        "fields": {
+            "creole": "yu gg a ga monii",
+            "english": "You have to have money.",
+            "created_at": "2023-12-13T21:47:04.310522"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6637,
+        "fields": {
+            "creole": "yu gg a get siks injekshans",
+            "english": "You have to get six injections.",
+            "created_at": "2023-12-13T21:47:04.310524"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6638,
+        "fields": {
+            "creole": "ii tel mi mi ga a rait noots a lesons",
+            "english": "He told me (that) I had to write notes of lessons",
+            "created_at": "2023-12-13T21:47:04.310525"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6639,
+        "fields": {
+            "creole": "yu doz gat fu kyerii it rait de",
+            "english": "You would have had to carry it right there.",
+            "created_at": "2023-12-13T21:47:04.310527"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6640,
+        "fields": {
+            "creole": "a we yu a gu",
+            "english": "Where are you going?",
+            "created_at": "2023-12-13T21:47:04.310528"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6641,
+        "fields": {
+            "creole": "a. de dem liv",
+            "english": "There they live.",
+            "created_at": "2023-12-13T21:47:04.310529"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6642,
+        "fields": {
+            "creole": "mii kud gu a yuu, yuu kud gu a mii",
+            "english": "I could come to you, you could come to me.",
+            "created_at": "2023-12-13T21:47:04.310531"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6643,
+        "fields": {
+            "creole": "da taim, dem don de somwee a big maarkit",
+            "english": "(By) that time, they are already somewhere in Big Market.",
+            "created_at": "2023-12-13T21:47:04.310533"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6644,
+        "fields": {
+            "creole": "dis maan tek hii gitaar an gi hii wan lash a hii heed SUe nak di jombii a hii heed",
+            "english": "This man took his guitar and gave him a lash on his head like this. (He) knocked the ghost on his head.",
+            "created_at": "2023-12-13T21:47:04.310534"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6645,
+        "fields": {
+            "creole": "mi bin esikwiboo riva an wok a graant",
+            "english": "I went to the Essequibo river and worked on a (timber) grant.",
+            "created_at": "2023-12-13T21:47:04.310535"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6646,
+        "fields": {
+            "creole": "wen a goo hoom pan iivning",
+            "english": "When I go home in the evenings.",
+            "created_at": "2023-12-13T21:47:04.310537"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6647,
+        "fields": {
+            "creole": "di piipl pan di bos bina sing",
+            "english": "The people on the bus were singing.",
+            "created_at": "2023-12-13T21:47:04.310538"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6648,
+        "fields": {
+            "creole": "di amount a ting wa mii sii pan di teebl",
+            "english": "The amount of things which I saw on the table.",
+            "created_at": "2023-12-13T21:47:04.310539"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6649,
+        "fields": {
+            "creole": "hii de in di maarkit",
+            "english": "He is in the market.",
+            "created_at": "2023-12-13T21:47:04.310542"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6650,
+        "fields": {
+            "creole": "evrii dee a maan doz get a kuk dee",
+            "english": "Every day a (different) man usually gets a day for cooking.",
+            "created_at": "2023-12-13T21:47:04.310543"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6651,
+        "fields": {
+            "creole": "mi k1aas mos bii a disiplin k1aas",
+            "english": "My class must be a disciplined class.",
+            "created_at": "2023-12-13T21:47:04.310544"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6652,
+        "fields": {
+            "creole": "da a red stoon",
+            "english": "That is a red stone",
+            "created_at": "2023-12-13T21:47:04.310546"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6653,
+        "fields": {
+            "creole": "mii a meel nors",
+            "english": "I am a male nurse",
+            "created_at": "2023-12-13T21:47:04.310548"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6654,
+        "fields": {
+            "creole": "a mii duu it",
+            "english": "It is I who did it",
+            "created_at": "2023-12-13T21:47:04.310549"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6655,
+        "fields": {
+            "creole": "a da bina hapn",
+            "english": "That was happening.",
+            "created_at": "2023-12-13T21:47:04.310550"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6656,
+        "fields": {
+            "creole": "mi baarn a jaajtong",
+            "english": "I was born in Georgetown",
+            "created_at": "2023-12-13T21:47:04.310552"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6657,
+        "fields": {
+            "creole": "a (brait) bai",
+            "english": "An (intelligent) boy",
+            "created_at": "2023-12-13T21:47:04.310553"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6658,
+        "fields": {
+            "creole": "tuu taip a jaab",
+            "english": "Two types of jobs",
+            "created_at": "2023-12-13T21:47:04.310554"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6659,
+        "fields": {
+            "creole": "a tel ii",
+            "english": "I told him",
+            "created_at": "2023-12-13T21:47:04.310556"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6660,
+        "fields": {
+            "creole": "mi gg a freem mi lil picha an su",
+            "english": "I am framing my little pictures and so on.",
+            "created_at": "2023-12-13T21:47:04.310558"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6661,
+        "fields": {
+            "creole": "yu get fren wid hii, yuu an hii de nais",
+            "english": "You become friendly with him, you and him will get along well.",
+            "created_at": "2023-12-13T21:47:04.310559"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6662,
+        "fields": {
+            "creole": "mi bin de qud qud aal di taim",
+            "english": "I was in good health all of the time.",
+            "created_at": "2023-12-13T21:47:04.310560"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6663,
+        "fields": {
+            "creole": "yu doz sleep wen yu de pon sii",
+            "english": "You usually sleep when you are at sea.",
+            "created_at": "2023-12-13T21:47:04.310562"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6664,
+        "fields": {
+            "creole": "wen mi de a kontrii",
+            "english": "When I am in the country.",
+            "created_at": "2023-12-13T21:47:04.310563"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6665,
+        "fields": {
+            "creole": "hii stil de de nau",
+            "english": "He is still there now.",
+            "created_at": "2023-12-13T21:47:04.310564"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6666,
+        "fields": {
+            "creole": "plentii yuu doz de",
+            "english": "A lot of you are usually there.",
+            "created_at": "2023-12-13T21:47:04.310566"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6667,
+        "fields": {
+            "creole": "su dem gu de wid yu de",
+            "english": "So they would be with you (there).",
+            "created_at": "2023-12-13T21:47:04.310567"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6668,
+        "fields": {
+            "creole": "wii bin in abarii ,de workin",
+            "english": "We were in Abary (there) working.",
+            "created_at": "2023-12-13T21:47:04.310568"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6669,
+        "fields": {
+            "creole": "de gat a taim",
+            "english": "There was a time",
+            "created_at": "2023-12-13T21:47:04.310570"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6670,
+        "fields": {
+            "creole": "dem gat wan romshap a di kaarna",
+            "english": "There is a rum-shop at the corner",
+            "created_at": "2023-12-13T21:47:04.310571"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6671,
+        "fields": {
+            "creole": "ii gat wan ada wan neem kapa tin, ii get jaspa",
+            "english": "There is another one called Copper tin, there is jasper",
+            "created_at": "2023-12-13T21:47:04.310572"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6672,
+        "fields": {
+            "creole": "yy hav ada pest de tu",
+            "english": "There are other insects there too",
+            "created_at": "2023-12-13T21:47:04.310574"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6673,
+        "fields": {
+            "creole": "de did waant faarm a koo-op",
+            "english": "They wanted to form a Co-op.",
+            "created_at": "2023-12-13T21:47:04.310576"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6674,
+        "fields": {
+            "creole": "de na a gu",
+            "english": "They do not usually go",
+            "created_at": "2023-12-13T21:47:04.310578"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6675,
+        "fields": {
+            "creole": "de ga de oon kompanii",
+            "english": "They have their friends.",
+            "created_at": "2023-12-13T21:47:04.310579"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6676,
+        "fields": {
+            "creole": "de gat a taim piipl doz tek it in de oon haan de oon laa in de oon haan",
+            "english": "There was a time when people took it into their own hands, their own law into their own hands",
+            "created_at": "2023-12-13T21:47:04.310580"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6677,
+        "fields": {
+            "creole": "wen yu don put am pan triitment, yu gat tu sii di peeshent get di triitment",
+            "english": "When he has been put on medication, you bave to see tbat the patient gets the treatment.",
+            "created_at": "2023-12-13T21:47:04.310582"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6678,
+        "fields": {
+            "creole": "yu don avrij a wat a drom ii a sel fu",
+            "english": "You have averaged at what price per drum it will probably sell for.",
+            "created_at": "2023-12-13T21:47:04.310583"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6679,
+        "fields": {
+            "creole": "wen dem gu de, di maan don deed",
+            "english": "When they got there, the man was already dead.",
+            "created_at": "2023-12-13T21:47:04.310584"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6680,
+        "fields": {
+            "creole": "bai taim mi lef de fu kom hee, som a dem don marid",
+            "english": "By the time I was ready to leave there to come here, some of them were already married.",
+            "created_at": "2023-12-13T21:47:04.310586"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6681,
+        "fields": {
+            "creole": "su wen di dee don, somtaim mi get trii foor daala",
+            "english": "So when the day ended, sometimes I got three or four dollars.",
+            "created_at": "2023-12-13T21:47:04.310588"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6682,
+        "fields": {
+            "creole": "an kontinyuu laik da, su til di bed don",
+            "english": "And continue like that, until the (garden) bed is finished.",
+            "created_at": "2023-12-13T21:47:04.310589"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6683,
+        "fields": {
+            "creole": "wen dem monii don, mii oon de pakit",
+            "english": "When their money has finished, mine is in my pocket.",
+            "created_at": "2023-12-13T21:47:04.310592"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6684,
+        "fields": {
+            "creole": "ii get maan a don wan bed dee",
+            "english": "There are men (who can) usually finish one bed in one day.",
+            "created_at": "2023-12-13T21:47:04.310594"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6685,
+        "fields": {
+            "creole": "shi mosii gon don suun",
+            "english": "She will probably finish shortly.",
+            "created_at": "2023-12-13T21:47:04.310595"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6686,
+        "fields": {
+            "creole": "a bin de in a fait",
+            "english": "I was in a fight.",
+            "created_at": "2023-12-13T21:47:04.310596"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6687,
+        "fields": {
+            "creole": "awii bin a fiftiin broda an sista",
+            "english": "We were fifteen brothers and sisters.",
+            "created_at": "2023-12-13T21:47:04.310598"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6688,
+        "fields": {
+            "creole": "kaa mii an wan bai bin laik waak leet",
+            "english": "Because a boy and I liked to walk late (at nights) \u2022",
+            "created_at": "2023-12-13T21:47:04.310600"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6689,
+        "fields": {
+            "creole": "mi se hau wakenaam piknii heed bin haard an hau dem bin disgostin",
+            "english": "I remarked 'how Wakenaam children were hard-headed and how they were disgusting'.",
+            "created_at": "2023-12-13T21:47:04.310601"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6690,
+        "fields": {
+            "creole": "an aafta mi faal bak flat, mi kunt a bin eebl \u2026 mi na bin eebl \u2026 mi na bin gat monii fu staart di gyardn bak",
+            "english": "And after my collapse, I was not able\u2026 I was not able I did not have the money to restart the farm.",
+            "created_at": "2023-12-13T21:47:04.310603"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6691,
+        "fields": {
+            "creole": "wen mi bin a wok a hag ailan",
+            "english": "When I was working on Hogg Island.",
+            "created_at": "2023-12-13T21:47:04.310604"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6692,
+        "fields": {
+            "creole": "wen di porsn gaan ar su den de gon se, mi bin a waant se su\u00b7",
+            "english": "When the person has left or so, then they would say, I. I had wanted to say so.",
+            "created_at": "2023-12-13T21:47:04.310605"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6693,
+        "fields": {
+            "creole": "if mi na bin kom, mi na bin noo",
+            "english": "If I had not come, I would not have known ..",
+            "created_at": "2023-12-13T21:47:04.310607"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6694,
+        "fields": {
+            "creole": "if mi bin liv a tong, mi kud a duu bata",
+            "english": "If I were living in town, I could do better.,",
+            "created_at": "2023-12-13T21:47:04.310608"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6695,
+        "fields": {
+            "creole": "de biin teling mi fu plaant di yaard an. ting",
+            "english": "They were telling me to cultivate the yard and thing.",
+            "created_at": "2023-12-13T21:47:04.310610"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6696,
+        "fields": {
+            "creole": "bot if woz mi oon yaard, a matt a biin enkoreej",
+            "english": "But if it were my own yard, I might have been encouraged (to plant}..",
+            "created_at": "2023-12-13T21:47:04.310612"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6697,
+        "fields": {
+            "creole": "mi noo mi. get, wan big kot a mi said",
+            "english": "I knew that I had got a big cut in my side.",
+            "created_at": "2023-12-13T21:47:04.310613"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6698,
+        "fields": {
+            "creole": "hau laang yu bin hee",
+            "english": "How long have you been here?",
+            "created_at": "2023-12-13T21:47:04.310614"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6699,
+        "fields": {
+            "creole": "a bin hee mosii bout tuu houwaz nau",
+            "english": "I have been here about two hours now.",
+            "created_at": "2023-12-13T21:47:04.310616"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6700,
+        "fields": {
+            "creole": "dis seem bonds we yu bin",
+            "english": "The very same Bonds to whom you went.",
+            "created_at": "2023-12-13T21:47:04.310617"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6701,
+        "fields": {
+            "creole": "da wan griin taim mi biin",
+            "english": "It was during the non-harvesting season that I went.",
+            "created_at": "2023-12-13T21:47:04.310619"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6702,
+        "fields": {
+            "creole": "mi dout weda de gu gi op out de, bikaaz de gy gu fu di ronz",
+            "english": "I doubt whether they will give up out there, because they will go for the runs,",
+            "created_at": "2023-12-13T21:47:04.310620"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6703,
+        "fields": {
+            "creole": "su mi gy kyaan mek um",
+            "english": "So I will not be able to make it.",
+            "created_at": "2023-12-13T21:47:04.310621"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6704,
+        "fields": {
+            "creole": "yuu jos aask fu di feemos futbaal maan, an yu gon fain mii",
+            "english": "You just ask for the famous footballer, and you will find me.",
+            "created_at": "2023-12-13T21:47:04.310623"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6705,
+        "fields": {
+            "creole": "wel wii taat de gu sel di daiman an divaid di monii",
+            "english": "Well we thought they would have sold the diamonds and (then) divided the money.",
+            "created_at": "2023-12-13T21:47:04.310624"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6706,
+        "fields": {
+            "creole": "di kontrii piipl gon se 'kom le awii gu nu maan'",
+            "english": "The rural people would say, 'Come let us go, why not man'.",
+            "created_at": "2023-12-13T21:47:04.310626"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6707,
+        "fields": {
+            "creole": "evrii aaftanuun dis maan gu, hii kom, hii bring a big baatl wiskii",
+            "english": "Every afternoon this man left, he returned, he brought a large bottle of whisky.",
+            "created_at": "2023-12-13T21:47:04.310627"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6708,
+        "fields": {
+            "creole": "mi se, 'luk di jombii gaan. Le wii go hoom",
+            "english": "I said, 'Look the ghost has gone. Let us go home'",
+            "created_at": "2023-12-13T21:47:04.310629"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6709,
+        "fields": {
+            "creole": "hii se 'we yu gain todee'. ai se, 'maan, mi en gain noo wee'.",
+            "english": "He said, 'Where are you going today?' I said 'Man, I am not going anywhere'.",
+            "created_at": "2023-12-13T21:47:04.310630"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6710,
+        "fields": {
+            "creole": "mi lef am an gaan gu duu somting els nau",
+            "english": "I leave it and go to do something else now.",
+            "created_at": "2023-12-13T21:47:04.310631"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6711,
+        "fields": {
+            "creole": "an kontrii piknii na gu waant gu gu laarn da nu' moo",
+            "english": "And (the) rural children would not want to go and learn that any more.",
+            "created_at": "2023-12-13T21:47:04.310633"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6712,
+        "fields": {
+            "creole": "ii gat wan ada ting dem a kaal 'brong ai. ii get wan nekst wan dem a kaal 'maika'",
+            "english": "There is another thing they call 'brown eye'. There is another one they call 'mica'.",
+            "created_at": "2023-12-13T21:47:04.310634"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6713,
+        "fields": {
+            "creole": "so di rais kan get tu draa i milk",
+            "english": "so that the rice will be able to derive its nourishment",
+            "created_at": "2023-12-13T21:47:04.310636"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6714,
+        "fields": {
+            "creole": "lang taim na bin get bul fu mash",
+            "english": "in the old days there were no oxen to thresh with.",
+            "created_at": "2023-12-13T21:47:04.310638"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6715,
+        "fields": {
+            "creole": "yu ga tu mek biari fi troo bia",
+            "english": "you have to make a nursery to raise young rice plants.",
+            "created_at": "2023-12-13T21:47:04.310640"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6716,
+        "fields": {
+            "creole": "wii get a nais biich hee tu, bot oonlii wii een gat di waata",
+            "english": "We have a nice beach here too, but we do not have the water.",
+            "created_at": "2023-12-13T21:47:04.310641"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6717,
+        "fields": {
+            "creole": "dem na a gat seen",
+            "english": "They do not usually have seine nets.",
+            "created_at": "2023-12-13T21:47:04.310642"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6718,
+        "fields": {
+            "creole": "yu na a get dat kain a ting de",
+            "english": "You do not usually have that sort of thing there.",
+            "created_at": "2023-12-13T21:47:04.310644"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6719,
+        "fields": {
+            "creole": "ting a get deer a shap",
+            "english": "Things are becoming expensive in the shops.",
+            "created_at": "2023-12-13T21:47:04.310646"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6720,
+        "fields": {
+            "creole": "jaan bin a sing wen paal\u00a0 kom in di ruum",
+            "english": "John was singing when Paul entered the room.",
+            "created_at": "2023-12-13T21:47:04.310647"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6721,
+        "fields": {
+            "creole": "mi na tel mi granmuda notn bikaaz mi noo de na gu waant mi kom aaf di treed",
+            "english": "I did not tell my grandmother anything because I knew they would not have wanted me to leave the trade.",
+            "created_at": "2023-12-13T21:47:04.310648"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6722,
+        "fields": {
+            "creole": "dem waant tuu maan an fu stitch di baag, an den ramjas kom an hii rekomend mii an a neks bai",
+            "english": "They wanted two men to stitch bags, and then Ramjass came, and he recommended me and another boy.",
+            "created_at": "2023-12-13T21:47:04.310650"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6723,
+        "fields": {
+            "creole": "yu tel dem fu gu bai tikit, dem na a gu",
+            "english": "You told them to go and buy tickets, they would not usually go.",
+            "created_at": "2023-12-13T21:47:04.310651"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6724,
+        "fields": {
+            "creole": "weI, wen dee gaan to work in di maarnings, ai aloon lef hoom deer",
+            "english": "Well, when they went to work in the mornings, I was left alone at home there.",
+            "created_at": "2023-12-13T21:47:04.310652"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6725,
+        "fields": {
+            "creole": "dem na a laarn, mi na a duu notn, su in di end mi s achiiv notn",
+            "english": "They do not usually learn, I do not usually do anything, so in the end I usually achieve nothing.",
+            "created_at": "2023-12-13T21:47:04.310654"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6726,
+        "fields": {
+            "creole": "bot mii miself, a did waant lef bikaaz maneejment did baad at di taim",
+            "english": "But I myself, I had wanted to leave because (the) management was bad at the time.",
+            "created_at": "2023-12-13T21:47:04.310655"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6727,
+        "fields": {
+            "creole": "shi weetid ontil ai keem hoom, an shi staart kukin",
+            "english": "She waited until I came home, and (then) she began to cook.",
+            "created_at": "2023-12-13T21:47:04.310656"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6728,
+        "fields": {
+            "creole": "wen taim kom fu slaata yu doz ga fu kyerii it rait de, an den dem a dedokt fu dem, an den yu a get wan smaal ting",
+            "english": "When the time came for slaughtering, you would have had to carry it right there, and then they would have deducted for themselves, and then you would have got a small payment.",
+            "created_at": "2023-12-13T21:47:04.310658"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6729,
+        "fields": {
+            "creole": "wii jes chap dem wid di kotlas, an wii pik op som keen liif, an jes roos dem kliin, an wii divaid am bitwiin wii paatna, tek a piis, iit, and kom hoom",
+            "english": "We just chop them with our cutlasses, and we collect some (sugar}-cane leaves, and just roast them cleanly. And we divide it with our partner, take a piece, eat, and return horne.",
+            "created_at": "2023-12-13T21:47:04.310660"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6730,
+        "fields": {
+            "creole": "nau di chap push an ai push, an hii hool a piis a mangoo an ai hool a piis a di mangoo. weI, at a sudn, ai get straanga dan di maan. su wen ai pul di ting,\u00a0 di chap let goo di mangoo. an wen hii let goo di man goo ai faal aan di kotlas an mi hool said oopn",
+            "english": "Now the chap pushed and I pushed, and he held a piece of the mango and I held a piece of the mango. Well, suddenly, I got stronger than the man. So when I pulled the thing, the chap let go of the mango. And when he let go of the mango I fell on the cutlass and split my side.",
+            "created_at": "2023-12-13T21:47:04.310662"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6731,
+        "fields": {
+            "creole": "Joo a wan dakta",
+            "english": "Joe is a doctor",
+            "created_at": "2023-12-13T21:47:04.310663"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6732,
+        "fields": {
+            "creole": "Joo de pan tap a di hous tap",
+            "english": "Joe is up on the roof",
+            "created_at": "2023-12-13T21:47:04.310664"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6733,
+        "fields": {
+            "creole": "Joo pan di hous tap",
+            "english": "Joe is up on the roof",
+            "created_at": "2023-12-13T21:47:04.310665"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6734,
+        "fields": {
+            "creole": "Joo honggrii",
+            "english": "Joe is hungry",
+            "created_at": "2023-12-13T21:47:04.310667"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6735,
+        "fields": {
+            "creole": "Di buk dem faal dong",
+            "english": "The books fell",
+            "created_at": "2023-12-13T21:47:04.310668"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6736,
+        "fields": {
+            "creole": "Di tuu buk dem faal dong",
+            "english": "The two books fell",
+            "created_at": "2023-12-13T21:47:04.310669"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6737,
+        "fields": {
+            "creole": "Mi buk dem faal dong",
+            "english": "My books fell",
+            "created_at": "2023-12-13T21:47:04.310671"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6738,
+        "fields": {
+            "creole": "Mi invait Jaan dem",
+            "english": "I\u2019ve invited John and the others",
+            "created_at": "2023-12-13T21:47:04.310672"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6739,
+        "fields": {
+            "creole": "Tuu buk faal dong",
+            "english": "Two books fell",
+            "created_at": "2023-12-13T21:47:04.310673"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6740,
+        "fields": {
+            "creole": "Nof buk faal dong",
+            "english": "Many books fell",
+            "created_at": "2023-12-13T21:47:04.310675"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6741,
+        "fields": {
+            "creole": "Da shap a sel buk",
+            "english": "That shop sells books",
+            "created_at": "2023-12-13T21:47:04.310677"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6742,
+        "fields": {
+            "creole": "Jaan a dans wid gyal",
+            "english": "John is dancing with a girl/girls",
+            "created_at": "2023-12-13T21:47:04.310678"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6743,
+        "fields": {
+            "creole": "Jaan a dans wid tuu gyal",
+            "english": "John is dancing with two girls",
+            "created_at": "2023-12-13T21:47:04.310680"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6744,
+        "fields": {
+            "creole": "Jaan a dans wid Sali dem",
+            "english": "John is dancing with a group that includes Sally",
+            "created_at": "2023-12-13T21:47:04.310681"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6745,
+        "fields": {
+            "creole": "Me na able.",
+            "english": "I can\u2019t even",
+            "created_at": "2023-12-13T21:47:04.310683"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6746,
+        "fields": {
+            "creole": "Jus\u2019 now",
+            "english": "in a moment",
+            "created_at": "2023-12-13T21:47:04.310684"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6747,
+        "fields": {
+            "creole": "Dah is me own",
+            "english": "That is my own",
+            "created_at": "2023-12-13T21:47:04.310685"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6748,
+        "fields": {
+            "creole": "Watch he deh deh",
+            "english": "Look at him over there!",
+            "created_at": "2023-12-13T21:47:04.310687"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6749,
+        "fields": {
+            "creole": "Don\u2019 be shame",
+            "english": "shy",
+            "created_at": "2023-12-13T21:47:04.310689"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6750,
+        "fields": {
+            "creole": "Gettin\u2019 tru",
+            "english": "How\u2019s it going?",
+            "created_at": "2023-12-13T21:47:04.310690"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6751,
+        "fields": {
+            "creole": "Yuh vex wit she?",
+            "english": "Anger",
+            "created_at": "2023-12-13T21:47:04.310691"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6752,
+        "fields": {
+            "creole": "An\u2019 a nex\u2019 ting",
+            "english": "another",
+            "created_at": "2023-12-13T21:47:04.310693"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6753,
+        "fields": {
+            "creole": "Weh me room?",
+            "english": "Where is my room?",
+            "created_at": "2023-12-13T21:47:04.310695"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6754,
+        "fields": {
+            "creole": "Weh de beach?",
+            "english": "Where is the beach?",
+            "created_at": "2023-12-13T21:47:04.310696"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6755,
+        "fields": {
+            "creole": "Weh de bar?",
+            "english": "Where is the bar?",
+            "created_at": "2023-12-13T21:47:04.310698"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6756,
+        "fields": {
+            "creole": "Don' touch me deh!",
+            "english": "Don't touch me there!",
+            "created_at": "2023-12-13T21:47:04.310699"
+        }
+    }
+]

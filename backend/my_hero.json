@@ -1,0 +1,1037 @@
+[
+    {
+        "model": "base.entry",
+        "pk": 6805,
+        "fields": {
+            "creole": "Mi Staar Gyal a Yu",
+            "english": "\ufeffMy Hero Is You",
+            "created_at": "2023-12-14T13:18:55.013524"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6806,
+        "fields": {
+            "creole": "Hou piknii kyan fait KOVID-19!",
+            "english": "How kids can fight COVID-19!",
+            "created_at": "2023-12-14T13:18:55.013530"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6807,
+        "fields": {
+            "creole": "Hou \u201cMi Staar Gyal a Yu\u201d kom",
+            "english": "The making of \u201cMy Hero is You\u201d",
+            "created_at": "2023-12-14T13:18:55.013532"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6808,
+        "fields": {
+            "creole": "Da buk a wahn wok wa di Inter-Agency Standing Committee Reference Group on Mental Health and Psychosocial Support in Emergency Settings (IASC MHPSS RG) du. Plenti a di biga hehd dem fram aal oova di worl, an aal oova di konchrii wa mek op di IASC MHPSS RG kom tugeda fu du da wok. Moda an faada, plos ada piipl wa doz tek keer a piknii, plos tiicha, an piknii from 104 konchrii doz help tu. Dem put tugeda wahn set a kweshtan in Arabik, Ingglish, Italiyan, French an Spanish fu fain out if dem piknii main doz wok gud an if eniiting rang wid dem, kaaz a di KOVID-19 siknis. Dem yuuz di ansa wa dem get from di kweshtan dem fu kom op wid wahn lis a ting fu taak bout in di stoorii. Dem bin sheer di stoorii in di buk tu piknii in nof difran konchrii wa ga KOVID-19 siknis. Bees pon wa di piknii dem, an dem moda an faada, an dem ada piipl wa doz luk aafta piknii se, dem go bak an fiks op di stoorii.",
+            "english": "This book was a project developed by the Inter-Agency Standing Committee Reference Group on Mental Health and Psychosocial Support in Emergency Settings (IASC MHPSS RG). The project was supported by global, regional and country based experts from Member Agencies of the IASC MHPSS RG, in addition to parents, caregivers, teachers and children in 104 countries. A global survey was distributed in Arabic, English, Italian, French and Spanish to assess children\u2019s mental health and psychosocial needs during the COVID-19 outbreak. A framework of topics to be addressed through the story was developed using the survey results. The book was shared through storytelling to children in several countries affected by COVID-19. Feedback from children, parents and caregivers was then used to review and update the story.",
+            "created_at": "2023-12-14T13:18:55.013534"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6809,
+        "fields": {
+            "creole": "Moor dan 1,700 piknii, dem moda an faada, aal dem piipl wa doz luk aafta piknii, an tiicha fram aal oova di worl tek di taim fu tel awii hou dem a diil wid di KOVID-19 siknis. Nof tangks tu dem piknii, dem moda an faada, ada piipl wa doz luk aafta dem, an dem tiicha dem fu ansa aal awii kweshtan dem an help mek di stoorii kom. Dis a wahn stoorii wa aal dem piknii mek op fu dem matii aal oova di worl.",
+            "english": "Over 1,700 children, parents, caregivers and teachers from around the world took the time to share with us how they were coping with the COVID-19 pandemic. A big thank you to these children, their parents, caregivers and teachers for completing our surveys and influencing this story. This is a story developed for and by children around the world.",
+            "created_at": "2023-12-14T13:18:55.013536"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6810,
+        "fields": {
+            "creole": "Da IASC MHPSS RG tangk Helen Patuck fu rait di stoorii an fu jraa di picha dem wa in di buk.",
+            "english": "This IASC MHPSS RG acknowledge Helen Patuck for writing the story script and illustrating this book.",
+            "created_at": "2023-12-14T13:18:55.013538"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6811,
+        "fields": {
+            "creole": "A Tamirand Nnena De Lisser an Colleen Fraser chransileet am.",
+            "english": "Translated by Tamirand Nnena De Lisser and Colleen Fraser",
+            "created_at": "2023-12-14T13:18:55.013540"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6812,
+        "fields": {
+            "creole": "A Ian Robertson an Charlene Wilkinson chek am fu mek shoor evriiting aarait.",
+            "english": "Reviewed by XXX and YYY.",
+            "created_at": "2023-12-14T13:18:55.013541"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6813,
+        "fields": {
+            "creole": "\u00a9IASC, 2020. A anda di Creative Commons Attribution-NonCommercial-ShareAlike 3.0 IGO license (CC BY-NC-SA 3.0 IGO; https://creativecommons.org/licenses/by-nc-sa/3.0/igo) di buk get put out. Bees pon da laisn, ayo kyan mek nof kapi, chransileet, an cheenj op di buk, laangz ayo naa sel am, an ayo rait dong huu a di fos wan fu rait di buk.",
+            "english": "\u00a9IASC, 2020.  This publication was published under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 IGO license (CC BY-NC-SA 3.0 IGO; https://creativecommons.org/licenses/by-nc-sa/3.0/igo). Under the terms of this licence, you may reproduce, translate and adapt this Work for non-commercial purposes, provided the Work is appropriately cited.",
+            "created_at": "2023-12-14T13:18:55.013544"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6814,
+        "fields": {
+            "creole": "Bout di buk",
+            "english": "Introduction",
+            "created_at": "2023-12-14T13:18:55.013546"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6815,
+        "fields": {
+            "creole": "\u201cMi Staar Gyal a Yu\u201d a wahn buk wa rait fu piknii aal oova di worl wa KOVID-19 siknis a bada.",
+            "english": "\u201cMy Hero is You\u201d is a book written for children around the world affected by the COVID-19 pandemic.",
+            "created_at": "2023-12-14T13:18:55.013547"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6816,
+        "fields": {
+            "creole": "Moda ar faada, ar ada piipl wa luk aafta piknii, ar tiicha fu riid \u201cMi Staar Gyal a Yu\u201d wid wahn piknii ar wahn lil gruup a piknii. Awii na reeli waahn piknii fu riid a buk bai deself widout dem moda ar faada, ar piipl wa a tek keer a dem, ar dem tiicha a help dem. Anada buk wa neem \u201cTingz wa Staar Gyal fu du\u201d (wa go kom out leeta) go help awii fu fain a wee fu diil wid KOVID-19, an it kyan help piknii fu konchrool wa dem a tingk an wa dem a  fiil, plos am ga ada tingz fu di piknii dem du bees pon wa in di buk.",
+            "english": "\u201cMy Hero is You\u201d should be read by a parent, caregiver or teacher alongside a child or a small group of children. It is not encouraged for children to read this book independently without the support of a parent, caregiver or teacher. The supplementary guide called \u201cActions for Heroes\u201d (to be published later) offers support for addressing topics related to COVID-19, helping children manage feelings and emotions, as well as supplementary activities for children to do based on the book.",
+            "created_at": "2023-12-14T13:18:55.013548"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6817,
+        "fields": {
+            "creole": "Chransileeshan",
+            "english": "Translations",
+            "created_at": "2023-12-14T13:18:55.013550"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6818,
+        "fields": {
+            "creole": "Di Reference Group self go put tugeda dem oon chransileeshan in Arabik, Chainiiz, French, Roshan, an Spanish. Lingk wid di IASC Reference Group for Mental Health and Psychosocial Support (MHPSS) (mhpss.refgroup@gmail.com) fu put tugeda chransileeshan in ada langgwij. Aal chransileeshan wa don go get put op pon di IASC Reference Group websait.",
+            "english": "The Reference Group itself will coordinate translation into Arabic, Chinese French, Russian, and Spanish. Contact the IASC Reference Group for Mental Health and Psychosocial Support (MHPSS) (mhpss.refgroup@gmail.com) for coordination of translations in other languages. All completed translations will be posted on the IASC Reference Group website.",
+            "created_at": "2023-12-14T13:18:55.013551"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6819,
+        "fields": {
+            "creole": "If ayo mek ayo oon chransileeshan ar cheenj op di buk, mek shoor ayo noo se:",
+            "english": "If you create a translation or an adaptation or this Work, kindly note that:",
+            "created_at": "2023-12-14T13:18:55.013552"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6820,
+        "fields": {
+            "creole": "Ayo kyaahn put ayo oon maak (ar di maak a di piipl wa a pee fu am) pon di buk.",
+            "english": "You are not allowed to add your logo (or that of a funding agency) to the product.",
+            "created_at": "2023-12-14T13:18:55.013553"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6821,
+        "fields": {
+            "creole": "If ayo cheenj eniiting (laik cheenj di stoorii ar di picha dem), ayo kyaahn yuuz di IASC maak. Na mata wa ayo yuuz di buk fu du, ayo kyaahn mek am luk laik se IASC a bak op na kaina bizniz, nar na gudz wa ayo mek, nar notn wa ayo du.",
+            "english": "In case of adaptation (i.e., changes in the text or images), the use of the IASC logo is not permitted. In any use of this Work, there should be no suggestion that IASC endorses any specific organization, products or services.",
+            "created_at": "2023-12-14T13:18:55.013554"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6822,
+        "fields": {
+            "creole": "Ayo mos laisn ayo chransileeshan ar di cheenj dem wa ayo mek anda di seem Creative Commons laisn, ar enii ada kaina laisn wa du di seem ting. Awii hoop ayo kyan yuuz CC BY-NC-SA 4.0 ar 3.0. Dis a wahn set a laisn wa kyan wok: https://creativecommons.org/share-your-work/licensing-considerations/compatible-licenses",
+            "english": "You should license your translation or adaptation under the same or equivalent Creative Commons license. CC BY-NC-SA 4.0 or 3.0 is suggested. This is the list of compatible licenses: https://creativecommons.org/share-your-work/licensing-considerations/compatible-licenses",
+            "created_at": "2023-12-14T13:18:55.013557"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6823,
+        "fields": {
+            "creole": "Ayo gafu put da nootis in di seem langgwij a di chransileeshan: \u201cA na di Inter-Agency Standing Committee (IASC) du da chransileeshan ar cheenj am. Di IASC na fu get na bleem fu wa rait in da chransileeshan, ar if notn na chransileet gud ar na cheenj op rait. Di fos stoorii wa rait in Ingglish \u201cInter-Agency Standing Committee. My Hero is You: How Kids Can Fight COVID-19!\u201d wa ga di laisn: CC BY-NC-SA 3.0 IGO a go bi di reel reel wan.\u201d",
+            "english": "\u2022 You should add the following disclaimer in the language of the translation: \u201c\u201cThis translation/adaptation was not created by the Inter-Agency Standing Committee (IASC). The IASC is not responsible for the content or accuracy of this translation/adaptation. The original English edition \u201cInter-Agency Standing Committee. My Hero is You: How Kids Can Fight COVID-19! Licence: CC BY-NC-SA 3.0 IGO shall be the binding and authentic edition.\u201d",
+            "created_at": "2023-12-14T13:18:55.013558"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6824,
+        "fields": {
+            "creole": "Seera moda a shi Staar Gyal kaaz shi a di bes moda an di bes saiyantis in di worl. Bot na iivn Seera moda kyaahn fain wahn remidi fu di koroonavairos.",
+            "english": "Sara\u2019s mum is her hero because she is the best mum and the best scientist in the world. Buteven Sara\u2019s mum cannot find a cure for the coronavirus.",
+            "created_at": "2023-12-14T13:18:55.013559"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6825,
+        "fields": {
+            "creole": "Seera aks shi moda se, \u201cWa di koroonavairos luk laik?\u201d",
+            "english": "\u201cWhat does COVID-19 look like?\u201d Sara asked her mum.",
+            "created_at": "2023-12-14T13:18:55.013560"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6826,
+        "fields": {
+            "creole": "\u201cDi koroonavairos lil lil so awii kyaahn sii am,\u201d shi moda ansa shi. \u201cBot it doz spred wen piipl wa sik kaaf ar sniiz, an wen dem toch piipl an toch eniiting wa de rong dem. Piipl wa sik doz get fiiva an kaaf an dem doz get wahn hard taim fu briid iin an briid out eer.\u201d",
+            "english": "\u201cCOVID-19, or the coronavirus, is so tiny we can\u2019t see it,\u201d said her mum. \u201cBut it spreads in the coughs and sneezes of people who are sick, and when they touch people or things around them. People who are sick get a fever and a cough and can have some trouble breathing.\u201d",
+            "created_at": "2023-12-14T13:18:55.013562"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6827,
+        "fields": {
+            "creole": "\u201cSo awii kyaahn fait am kaaz awii kyaahn sii am?\u201d Seera aks shi moda.",
+            "english": "\u201cSo we can\u2019t fight it because we can\u2019t see it?\u201dSara asked.",
+            "created_at": "2023-12-14T13:18:55.013564"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6828,
+        "fields": {
+            "creole": "\u201cAwii kyan fait am yes,\u201d Seera moda tel shi. \u201cDa wa mek mi waahn yu staan seef, Seera. Di jormz doz chrobl aal kain a badii, an awii kyan help fu fait am. Piknii speshal an dem kyan help tu. Yu gafu staan seef fu awii. Mi waahn yu fu bii mi Staar Gyal.\u201d",
+            "english": "\u201cWe can fight it,\u201d said Sara\u2019s mum. \u201cThat\u2019s why I need you to be safe, Sara. The virus affects many kinds of people, and everyone can help us fight it. Children are special and they can help too. You need to stay safe for all of us. I need you to be my hero.\u201d",
+            "created_at": "2023-12-14T13:18:55.013565"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6829,
+        "fields": {
+            "creole": "Da nait Seera lai dong in shi bed bot shi na fiil laik na Staar Gyal ataal. Shi fiil baad. Shi waahn fu go skuul bot shi skuul klooz. Shi waahn fu sii shi matii dem bot da na seef fu du. Seera waahn di koroonavairus fu stap fraikn piipl aal ova di worl.",
+            "english": "Sara laid in bed that night and did not feel like a hero at all. She felt upset. She wanted to go to school but her school was closed. She wanted to see her friends but it was not safe. Sara wanted the coronavirus to stop scaring her world.",
+            "created_at": "2023-12-14T13:18:55.013566"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6830,
+        "fields": {
+            "creole": "\u201cDem Staar Gyal ga majik pouwa\u201d shi se tu shiself, wen shi shot shi ai dem fu sliip. \u201cWa mi ga?\u201d",
+            "english": "\u201cHeroes have super powers\u201d she said to herself, closing her eyes to sleep. \u201cWhat do I have?\u201d",
+            "created_at": "2023-12-14T13:18:55.013567"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6831,
+        "fields": {
+            "creole": "Seem taim shi heer wahn lil saaf vais kaal shi neem iizii iizii in di blak a di nait.",
+            "english": "Suddenly a gentle voice whispered her name in the darkness.",
+            "created_at": "2023-12-14T13:18:55.013569"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6832,
+        "fields": {
+            "creole": "\u201cHuu de de?\u201d Seera ansa bak iizii tu.",
+            "english": "\u201cWho\u2019s there?\u201d Sara whispered back.",
+            "created_at": "2023-12-14T13:18:55.013570"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6833,
+        "fields": {
+            "creole": "Di vais aks shi \u201cA wa yu gafu get if yu waahn fu bi wahn Staar Gyal, Seera?",
+            "english": "\u201cWhat do you need to be a hero, Sara?\u201d the voice asked her.",
+            "created_at": "2023-12-14T13:18:55.013571"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6834,
+        "fields": {
+            "creole": "\u201cMi waahn wahn wee fu tel aal di piknii dem in di worl hou fu tek keer a deself so dat dem kyan kiip evriibadii els seef\u2026\u201d Seera se.",
+            "english": "\u201cI need a way to tell all the children in the world how to protect themselves so they can protect everyone else...\u201d said Sara.",
+            "created_at": "2023-12-14T13:18:55.013572"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6835,
+        "fields": {
+            "creole": "\u201cSo a wa yu waahn mi fu bi? di vais aks shi.",
+            "english": "\u201cSo what do you need me to be?\u201d the voice asked.",
+            "created_at": "2023-12-14T13:18:55.013574"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6836,
+        "fields": {
+            "creole": "\u201cMi waahn wahn ting wa kyan flai\u2026 ting wid wahn loud mout\u2026 an ting wa kyan help awii!\u201d",
+            "english": "\u201cI need something that can fly... something with a big voice... and something that can help!\u201d",
+            "created_at": "2023-12-14T13:18:55.013575"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6837,
+        "fields": {
+            "creole": "Wid wahn wush kaina song, wahn fansii ting kom out in di muunlait\u2026",
+            "english": "With a whoosh, something amazing stepped into the moonlight...",
+            "created_at": "2023-12-14T13:18:55.013577"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6838,
+        "fields": {
+            "creole": "Seera hool shi bret an den shi se, \u201cYu a wa?",
+            "english": "\u201cWhat are you?\u201d gasped Sara.",
+            "created_at": "2023-12-14T13:18:55.013578"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6839,
+        "fields": {
+            "creole": "\u201cMi a Ariyo,\u201d di ting se.",
+            "english": "\u201cI\u2019m Ario,\u201d he said.",
+            "created_at": "2023-12-14T13:18:55.013579"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6840,
+        "fields": {
+            "creole": "\u201cMi neva eva sii wahn Ariyo in mi laif,\u201d Seera se.",
+            "english": "\u201cI\u2019ve never seen an Ario before,\u201d said Sara.",
+            "created_at": "2023-12-14T13:18:55.013581"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6841,
+        "fields": {
+            "creole": "\u201cWel, mi bin de hee aal di taim,\u201d Ariyo se.",
+            "english": "\u201cWell, I\u2019ve been here all along,\u201d said Ario.",
+            "created_at": "2023-12-14T13:18:55.013583"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6842,
+        "fields": {
+            "creole": "\u201cMi kom fram insaida yu hart.\u201d",
+            "english": "\u201cI come from your heart.\u201d",
+            "created_at": "2023-12-14T13:18:55.013584"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6843,
+        "fields": {
+            "creole": "\u201cIf mi ga yu\u2026 den mi kyan tel aal di piknii dem in di worl bout di koroonavairos!\u201d Seera se. \u201cMi kyan bi wahn Staar Gyal! Bot heer na, Ariyo, it seef fu awi chravl wid di koroonavairos aal rong?\u201d",
+            "english": "\u201cIf I have you\u2026 then I can tell all thechildren in the world about the coronavirus!\u201dsaid Sara. \u201cI can be a hero! But wait,Ario, is it safe to travel with the coronavirusaround?\u201d",
+            "created_at": "2023-12-14T13:18:55.013585"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6844,
+        "fields": {
+            "creole": "\u201cLaangz yu de wid mii, Seera,\u201d Ariyo se. \u201cNotn kyaahn chrobl yu wen awii de tugeda.\u201d",
+            "english": "\u201cOnly with me, Sara,\u201d said Ario. \u201cNothing can harm you when we are together.\u201d",
+            "created_at": "2023-12-14T13:18:55.013586"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6845,
+        "fields": {
+            "creole": "So Seera jomp pon Ariyo bak an di tuu a dem flai out shi bejruum winda, in di blak a di nait. Dem flai op tu di star dem an tel di muun hai.",
+            "english": "So Sara jumped on Ario\u2019s back and together they soared out through her bedroom window, into the night sky. They flew towards the stars and said hello to the moon.",
+            "created_at": "2023-12-14T13:18:55.013588"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6846,
+        "fields": {
+            "creole": "Wen di son staart kom op, dem lan in wahn nais jrai plees wid nof san. De ga som big big bildin we aal di said dem liin tu di midl an jain op in wahn paint a di tap. Wahn lil bit a piknii bin de de a plee. Di piknii dem kaal out pon Seera an Ariyo hapii hapii, an weev dem han tu dem.",
+            "english": "As the sun rose, they landed in a lovely desert by pyramids, where a small group of children were playing. The children cried out in joy and waved at Sara and her Ario.",
+            "created_at": "2023-12-14T13:18:55.013590"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6847,
+        "fields": {
+            "creole": "",
+            "english": "",
+            "created_at": "2023-12-14T13:18:55.013591"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6848,
+        "fields": {
+            "creole": "\u201cAwii glaad ayo kom, mi neem Seelem!\u201d wan a di bai dem kaal out. \u201cWa ayo a du hee? Sari, awii kyaahn staan op tuu neer ayo, awii gafu staan moo dan chrii fut fram ayo!\u201d",
+            "english": "\u201cWelcome, I am Salem!\u201d cried one of the boys. \u201cWhat are you doing here? Sorry, we can\u2019t come closer, we have to stay at least one metre away!\u201d",
+            "created_at": "2023-12-14T13:18:55.013593"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6849,
+        "fields": {
+            "creole": "\u201cDa a wa mek awii kom hee!\u201d Seera ansa bak. \u201cMi neem Seera an da a Ariyo. Ayo noo se piknii kyan kiip dem neeba dem, dem matii dem, dem moda an faada an dem gramaa an grampaa seef, mek koroonavairos kyaahn kech dem? Awii gafu\u2026\u201d",
+            "english": "\u201cThat\u2019s why we\u2019re here!\u201d Sara called back. \u201cI\u2019m Sara and this is Ario. Did you knowthat children can keep their neighbours,friends, parents and grandparents safe from the coronavirus? We all need to\u2026\u201d",
+            "created_at": "2023-12-14T13:18:55.013594"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6850,
+        "fields": {
+            "creole": "\u201cWash awii han wid soop an waata!\u201d Seelem se, a skin hii tiit. \u201cAwii noo da, Seera. Awii doz put awii mout in awii elboo an kaaf if awii sik \u2013 an awii doz weev tu piipl bot awii naa sheek dem han. Awii doz chrai hard fu staan a hous, bot da tong we awii liv ga nof nof piipl \u2026 na aal badii a staan hoom.\u201d",
+            "english": "\u201cWash our hands with soap and water!\u201dsaid Salem with a smile. \u201cWe know, Sara.\nWe also cough into our elbows if we\u2019resick - and we wave to people instead of shaking hands. We try to stay inside, but we live in a very crowded city\u2026 not everybody is staying home.\u201d",
+            "created_at": "2023-12-14T13:18:55.013595"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6851,
+        "fields": {
+            "creole": "\u201cMmh, meebii mi kyan help ayo wid da,\u201d Ariyo se. \u201cDem kyaahn sii di koroonavairos, bot\u2026 dem kyan sii mii! Jomp op, bot mek shuor ayo sidong pon aal tuu said a mi wing dem \u2013 mi wing dem bout chrii fut fram wananada.",
+            "english": "\u201cHmm, maybe I can help with that,\u201d saidArio. \u201cThey can\u2019t see the coronavirus, but... they can see me! Jump on, butplease sit on both sides of my wings - they are at least one metre apart!\u201d",
+            "created_at": "2023-12-14T13:18:55.013597"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6852,
+        "fields": {
+            "creole": "Ariyo flai op in di skai wid Seelem an Seera pon aal tuu a hii wing dem. Hii flai kraas di tong an staat mek som loud naiz laik laiyan, an hii staat sing! Seelem hala out hard tu di piknii dem in di rood, se:",
+            "english": "Ario flew into the sky withSalem and Sara on both of his wings. He flew across the city and began to roar and sing! Salem cried out to the children in the streets:",
+            "created_at": "2023-12-14T13:18:55.013599"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6853,
+        "fields": {
+            "creole": "\u201cAyo galang go tel ayo faamalii da it beta fu ayo staan a ayo hous! Awii kyan tek keer a wananada beta laangz awii staan a awii hous!\u201d",
+            "english": "\u201cGo, tell your families, we are safer inside! We can take care of each other best by staying home!\u201d",
+            "created_at": "2023-12-14T13:18:55.013600"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6854,
+        "fields": {
+            "creole": "Di piipl dem lef wid dem mout oopn wen dem sii da. Dem weev an go in dem hous.",
+            "english": "People were amazed by what they saw. They waved and agreed to go into their houses.",
+            "created_at": "2023-12-14T13:18:55.013602"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6855,
+        "fields": {
+            "creole": "Ariyo flai faar op in di skai. Seelem baal out laik hii hapii hapii. A di tap a di kloud wahn pleen flai paas dem, an di piipl dem luk pon dem wid dem jaa jrap kaaz dem neva sii notn laik da.",
+            "english": "Ario soared high into the sky. Salem cried out in joy. Up there inthe clouds a plane flewby, and the passengerslooked out at them in awe.",
+            "created_at": "2023-12-14T13:18:55.013603"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6856,
+        "fields": {
+            "creole": "\u201cJos nou piipl go gafu stap chravl, at liis fu nou nou,\u201d Seelem se. \u201cAal di konchrii dem in di worl a klooz dong dem barda, so awii mos staan we awii de wid di piipl dem wa awii lov.\u201d",
+            "english": "\u201cPeople will have to stop travelling soon, at least for now,\u201d said Salem. \u201cThey are closing the borders across the world, and we should all stay where we are and with people we love.\u201d",
+            "created_at": "2023-12-14T13:18:55.013604"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6857,
+        "fields": {
+            "creole": "\u201cIt luk laik nof ting cheenj op,\u201d Seera se. \u201cSomtaim mi doz get fraikn.\u201d",
+            "english": "\u201cSo many things feel like they have changed,\u201d said Sara. \u201cI get scared about it sometimes.\u201d",
+            "created_at": "2023-12-14T13:18:55.013605"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6858,
+        "fields": {
+            "creole": "\u201cWen tingz a cheenj, it kyan fiil laik nof ting a hapn seem taim, an dat kyan fraikn ayo baad,\u201d Ariyo se. \u201cWen mi fiil fraikn, mi doz briid iin an briid out eer sloo sloo \u2013 an briid out faiya!\u201d",
+            "english": "\u201cIt can feel scary and confusing when things are changing, Sara,\u201d said Ario. \u201cWhen I feel scared, I breathe very slowly - and breathe out fire!\u201d",
+            "created_at": "2023-12-14T13:18:55.013607"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6859,
+        "fields": {
+            "creole": "Ariyo bloo out wahn big baal a faiya!",
+            "english": "Ario blew out a huge fireball!",
+            "created_at": "2023-12-14T13:18:55.013608"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6860,
+        "fields": {
+            "creole": "\u201cWa ayo doz du fu kaam dong ayoself wen ayo fraikn?\u201d Ariyo aks dem.",
+            "english": "\u201cHow do you relax when you feel scared?\u201d Ario asked them.",
+            "created_at": "2023-12-14T13:18:55.013664"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6861,
+        "fields": {
+            "creole": "\u201cMi laik fu put mi main pon di piipl dem wa doz mek mi fiil seef,\u201d Seera se.",
+            "english": "\u201cI like to think about someone who makes me feel safe,\u201d said Sara.",
+            "created_at": "2023-12-14T13:18:55.013666"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6862,
+        "fields": {
+            "creole": "\u201cMi tu, mi doz put mi main pon aal di piipl dem wa doz mek mi fiil seef, laik mi gramaa an mi grampaa,\u201d Seelem se. \u201cMi mis dem. Mi kyaahn hog op dem kaaz mi kud paas aan di koroonavairos if mi get am. Awii doz sii dem evrii wiiken, bot na nou, kaaz awii gafu kiip dem seef.\u201d",
+            "english": "\u201cMe too, I think of all the people who help me feel safe, like my grandparents,\u201d said Salem. \u201cI miss them. I can\u2019t give them a hug because I could give them the coronavirus. We usually see them every weekend, but not now because we have to keep them safe.\u201d",
+            "created_at": "2023-12-14T13:18:55.013667"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6863,
+        "fields": {
+            "creole": "\u201cYu kyaahn kaal dem pon di foon?\u201d Seera aks shi matii dem.",
+            "english": "\u201cCan you call them?\u201d Sara asked her friend.",
+            "created_at": "2023-12-14T13:18:55.013668"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6864,
+        "fields": {
+            "creole": "\u201cYe bodee!\u201d Seelem se. \u201cDem doz kaal mi evrii dee an mi doz tel dem bout aal di ting dem wa awii a du in awii hous.",
+            "english": "\u201cOh yes!\u201d said Salem. \u201cThey call me every day and I tell them about all the things we are doing at home.",
+            "created_at": "2023-12-14T13:18:55.013670"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6865,
+        "fields": {
+            "creole": "It doz mek mi fiil beta, an it doz mek dem fiil beta tu.\u201d",
+            "english": "It makes me feel better, and it makes them feel better too.\u201d",
+            "created_at": "2023-12-14T13:18:55.013671"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6866,
+        "fields": {
+            "creole": "\u201cDa a naarmal ting fu mis di piipl dem wa awii lov, huu awii kyaahn sii rait nou,\u201d Ariyo se. \u201cDa shoo hou moch awii keer bout dem. Ayo tingk ayo wuda fiil beta if ayo miit op wid som ada Staar Bai an Staar Gyal?\u201d",
+            "english": "\u201cIt is normal to miss people we love that we can\u2019t see right now,\u201d said Ario. \u201cIt shows how much we care. Would it make you feel better to meet other heroes?\u201d",
+            "created_at": "2023-12-14T13:18:55.013672"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6867,
+        "fields": {
+            "creole": "\u201cYe bodee!\u201d Seera an Seelem baal out.",
+            "english": "\u201cYes please!\u201d Sara and Salem cried back.",
+            "created_at": "2023-12-14T13:18:55.013673"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6868,
+        "fields": {
+            "creole": "\u201cGud, mi matii Sasha ga wahn speshal majik pouwa,\u201d Ariyo se. \u201cLe awii go!\u201d",
+            "english": "\u201cGreat, my friend Sasha has a very special superpower,\u201d said Ario. \u201cLet\u2019s go!\u201d",
+            "created_at": "2023-12-14T13:18:55.013674"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6869,
+        "fields": {
+            "creole": "So nou dem flai dong pon ort an lan in wahn lil vilij. Wahn gyal piknii bin de out a shi hous a pik flouwa. Shi laaf wen shi sii Ariyo an di piknii dem pon hii wing.",
+            "english": "And so they soared down to earth and landed by a small village. A girl was outside her house picking flowers. When she saw Ario and the children sitting on his wings, she laughed.",
+            "created_at": "2023-12-14T13:18:55.013676"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6870,
+        "fields": {
+            "creole": "\u201cAriyo!\u201d shi kaal out. \u201cWii gafu staan moor dan chrii fut fram ayo, so mi a go staan op hee an fling wahn hog gi ayo! Wa ayo a du hee?\u201d",
+            "english": "\u201cArio!\u201d she cried. \u201cWe have to stay at least one metre apart, so I will throw you a hug! What are you all doing here?\u201d",
+            "created_at": "2023-12-14T13:18:55.013677"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6871,
+        "fields": {
+            "creole": "\u201cMi fiil yu hog wen yu tel mi da Sasha,\u201dAriyo ansa shi se. \u201cMi lov hou awii kyan yuuz word fu shoo hou awii keer, an wa awii du kyan shoo da awii keer tu. Mi bin waahn mi matii dem fu larn bout yu majik pouwa.\u201d",
+            "english": "\u201cI felt your hug when you told me that, Sasha,\u201d said Ario. \u201cI love how we can use words to show we care, and actions too. I wanted my friends to learn about your superpower.\u201d",
+            "created_at": "2023-12-14T13:18:55.013678"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6872,
+        "fields": {
+            "creole": "\u201cWa a mi majik pouwa?\u201d Sasha aks hii.",
+            "english": "\u201cWhat is my superpower?\u201d said Sasha.",
+            "created_at": "2023-12-14T13:18:55.013679"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6873,
+        "fields": {
+            "creole": "\u201cLaik hou sombadii in yu faamalii get sik, an yu a staan a yu hous fu mek shoor yu na paas aan di koroonavairos gi nobadii els,\u201d Ariyo se.",
+            "english": "\u201cSince someone in your family got sick, you are staying at home to make sure you don\u2019t share the coronavirus with anyone else,\u201d said Ario.",
+            "created_at": "2023-12-14T13:18:55.013681"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6874,
+        "fields": {
+            "creole": "\u201cYes, a mi faada, an hii a staan a hii bejruum til hii get nof beta an fiil gud gud,\u201d Sasha se.",
+            "english": "\u201cYes, it\u2019s my Dad, and he\u2019s staying in his bedroom until he gets completely better,\u201d said Sasha.",
+            "created_at": "2023-12-14T13:18:55.013682"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6875,
+        "fields": {
+            "creole": "\u201cBot it na so baad! Awii doz plee, kuk fuud, spen taim in awii gyaardn an nyam fuud tugeda. Mi an mi broda dem doz ben an toch awii too dem, an awii doz daans tu. Awii doz riid buk an mi kyan kiip op wid mi skuul wok, kaaz somtaim mi doz mis skuul baad. Fos, it bin fiil schreenj fu staan a mi hous, bot rait nou it fiil aarait.",
+            "english": "\u201cBut it\u2019s not so bad! We play games, cook, spend time in our garden and have meals together. My brothers and I touch our toes and dance. We read books and I can keep learning because sometimes I miss school. Staying home felt weird at first, but now it feels normal.\u201d",
+            "created_at": "2023-12-14T13:18:55.013683"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6876,
+        "fields": {
+            "creole": "\u201cDat na iizii aal di taim, Sasha,\u201d Ariyo se. \u201cYu a fain aal kain a wee fu enjai yuself an spen taim a yu hous wid di piipl dem wa yu lov. Dat a wa mek yu mi Staar Gyal!\u201d",
+            "english": "\u201cThat\u2019s not always easy, Sasha,\u201d said Ario. \u201cYou are finding ways to have fun and get along with your loved ones at home. That makes you my hero!\u201d",
+            "created_at": "2023-12-14T13:18:55.013684"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6877,
+        "fields": {
+            "creole": "\u201cYu eva fait wid yu faamalii dem? Seelem aks.",
+            "english": "\u201cDo you ever fight with your family?\u201d asked Salem.",
+            "created_at": "2023-12-14T13:18:55.013685"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6878,
+        "fields": {
+            "creole": "\u201cAwi doz fait somtaim,\u201d Sasha se. \u201cAwii gafu tek taim wid wananada, an chrai andastan wananada, an se sari kwik kwik. Dat a wahn reel majik pouwa, kaaz it kyan mek awii fiil beta an ada piipl tu. Mi waahn lil taim bai miself tu. Mi lov fu daans an sing bai miself! An mi kyan kaal mi matii dem pon di foon somtaim\u2026\u201d",
+            "english": "\u201cWe fight sometimes,\u201d said Sasha. \u201cWe have to be extra patient, and extra understanding, and even quicker to say I\u2019m sorry. That is a real superpower, because it can make ourselves and others feel better. I also need a little time alone. I love dancing and singing on my own! And I can call my friends sometimes...\u201d",
+            "created_at": "2023-12-14T13:18:55.013687"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6879,
+        "fields": {
+            "creole": "\u201cBot Ariyo, wa bout di piipl dem wa de far fram dem hous ar na ga nowe fu liv?\u201d Seera aks hii.",
+            "english": "\u201cBut, Ario, what about people who are far from home or don\u2019t have a house?\u201d asked Sara.",
+            "created_at": "2023-12-14T13:18:55.013688"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6880,
+        "fields": {
+            "creole": "\u201cDa a wahn gud kweshtan, Seera,\u201d Ariyo se.",
+            "english": "\u201cThat\u2019s a great question, Sara,\u201d said Ario.",
+            "created_at": "2023-12-14T13:18:55.013689"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6881,
+        "fields": {
+            "creole": "\u201cLe awii go fain out.\u201d",
+            "english": "\u201cLet\u2019s go and find out.\u201d",
+            "created_at": "2023-12-14T13:18:55.013691"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6882,
+        "fields": {
+            "creole": "So dem tel Sasha babai an gaan ageen. Bai di taim dem lan pon wahn ailan wid di sii aal rong, di plees bin staat get lil moo hat.",
+            "english": "And so they said goodbye to Sasha and set off once more. The air grew warmer as they landed on an island surrounded by the sea.",
+            "created_at": "2023-12-14T13:18:55.013692"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6883,
+        "fields": {
+            "creole": "A de dem sii wahn plees ful wid nof piipl.",
+            "english": "There they saw a camp full of people.",
+            "created_at": "2023-12-14T13:18:55.013693"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6884,
+        "fields": {
+            "creole": "Wahn gyal piknii sii dem an weev shi han tu dem fram rait we shi bin.",
+            "english": "One girl saw them and waved from a distance.",
+            "created_at": "2023-12-14T13:18:55.013694"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6885,
+        "fields": {
+            "creole": "\u201cWa gayin aan Ariyo, mi glad glad fu sii yu ageen!\u201d shi kaal out. \u201cAwii a chrai fu staan moor dan chrii fut fram eniibadii, so mi a chrai taak tu ayo fram rait hee. Bot mi wuda glad fu miit yu matii dem! Mi neem Liila.\u201d",
+            "english": "\u201cHi Ario, I\u2019m so happy to see you again!\u201d she called out. \u201cWe are trying to stay at least one metre away, so I\u2019ll talk to you from here. But I\u2019d love to meet your friends! My name is Leila.\u201d",
+            "created_at": "2023-12-14T13:18:55.013696"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6886,
+        "fields": {
+            "creole": "\u201cWa gayin aan Liila! Mi neem Seera, an hii a Seelem,\u201d Seera kaal out bak. \u201cIt song laik yu a chrai fu kiip yuself seef fram di koroonavairos.  Wa els ayo doz du?\u201d",
+            "english": "\u201cHi Leila! I\u2019m Sara, and this is Salem,\u201d Sara called back. \u201cIt sounds like you\u2019re trying to protect yourself from the coronavirus. What else are you doing?\u201d",
+            "created_at": "2023-12-14T13:18:55.013697"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6887,
+        "fields": {
+            "creole": "",
+            "english": "",
+            "created_at": "2023-12-14T13:18:55.013698"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6888,
+        "fields": {
+            "creole": "\u201cAwii doz wash awii han dem wid soop an waata!\u201d Liila baal out bak.",
+            "english": "\u201cWe\u2019re washing our hands with soap and water!\u201d Leila called back.",
+            "created_at": "2023-12-14T13:18:55.013699"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6889,
+        "fields": {
+            "creole": "\u201cAyo doz ben ayo han an kaaf in ayo elboo tu?\u201d Seelem aks.",
+            "english": "\u201cDo you also cough into your elbow?\u201d asked Salem.",
+            "created_at": "2023-12-14T13:18:55.013700"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6890,
+        "fields": {
+            "creole": "\u201cYu kyan shoo awii hou fu du da?\u201d Liila ansa bak. So Seelem shoo dem hou fu du am.",
+            "english": "\u201cCan you show us how?\u201d Leila called back. So Salem showed them.",
+            "created_at": "2023-12-14T13:18:55.013702"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6891,
+        "fields": {
+            "creole": "\u201cAwii a chrai fu bi breev, bot somting a bada mi\u201d, Liila se. \u201cMi kyan taak wid ayo bout it? Mi heer piipl doz get sik an dehd an dat mek mi fraikn baad. A chruu piipl kyan dehd fram koroonavairos?\u201d",
+            "english": "\u201cWe are all trying to be brave, but I am worried about something,\u201d said Leila. \u201cCan I talk about it with you? I heard someone got sick and died and it made me very afraid. Is it true people can die from coronavirus?\u201d",
+            "created_at": "2023-12-14T13:18:55.013703"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6892,
+        "fields": {
+            "creole": "Ariyo bloo out hard an laang, an sidong pon hii big fat bambam.",
+            "english": "Ario breathed a big sigh and sat down on his enormous bottom.",
+            "created_at": "2023-12-14T13:18:55.013704"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6893,
+        "fields": {
+            "creole": "\u201cYe, lil Staar Gyal an lil Staar Bai, it schreenj,\u201d Ariyo se. \u201cSom piipl na fiil sik ataal, bot ada piipl doz get sik sik, an som a dem mait dehd. Da a wa mek awii gafu luk out iivn moo fu di piipl dem wa ool, an di wan dem wa ga ada kain a siknis, kaaz dem piipl kud get moor an moor sik. Som a di taim wen awii fraikn baad, ar wen awii na fiil seef, it kyan help if awii tingk bout wahn plees wa seef. Ayo waahn chrai du da wid mi?\u201d",
+            "english": "\u201cYes, little heroes, it\u2019s strange,\u201d said Ario. \u201cSome people don\u2019t feel sick at all, but some people can be very sick and some might die. That\u2019s why we all have to be especially careful with older people, and those with other illnesses, because they tend to get more sick. Sometimes when we are feeling very afraid, or unsafe, it can help to imagine a safe place in our minds. Would you like to try this with me?\u201d",
+            "created_at": "2023-12-14T13:18:55.013705"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6894,
+        "fields": {
+            "creole": "Aal a dem se yes, an so Ariyo aks dem fu lak dem ai an tingk bout wahn plees we dem fiil seef.",
+            "english": "They all said yes, and so Ario asked the children to close their eyes and imagine a place where they feel safe.",
+            "created_at": "2023-12-14T13:18:55.013707"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6895,
+        "fields": {
+            "creole": "\u201cTingk bout wahn taim ar pikcha somting wa ayo memba, wen ayo bin fiil laik notn kudna chrobl ayo,\u201d Ariyo se.",
+            "english": "\u201cFocus on a memory or a time when you felt safe,\u201d said Ario.",
+            "created_at": "2023-12-14T13:18:55.013708"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6896,
+        "fields": {
+            "creole": "Den hii aks dem wa dem kud sii, an wa dem kud fiil, an wa dem kud smel in dem seef plees. Hii aks dem weda dem ga nobadii speshal huu dem bin waahn fu bring in dem seef plees an wa dem kud taak bout tugeda.",
+            "english": "He then asked them what they could see, what they could feel, and what they could smell in their safe place. He asked if there was anyone special they would like to invite into their safe place and what they might talk about together.",
+            "created_at": "2023-12-14T13:18:55.013709"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6897,
+        "fields": {
+            "creole": "\u201cAyo kyan go in ayo seef plees eniitaim ayo fiil baad ar fiil fraikn,\u201d Ariyo se. \u201cDis a ayo speshal pouwa, an ayo kyan sheer dis wid ayo matii dem an ayo faamalii dem. An memba mi keer bout ayo, an nof moo piipl keer bout ayo. Dat gon help tu.",
+            "english": "\u201cYou can go to your safe place whenever you feel sad or afraid,\u201d said Ario. \u201cThis is your super power, and you can share it with your friends and family. And remember that I care about you, and many people do. That will help too.\u201d",
+            "created_at": "2023-12-14T13:18:55.013710"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6898,
+        "fields": {
+            "creole": "Liila se \u201cAwii kyan tek keer a wananada.\u201d",
+            "english": "Leila said, \u201cWe can all care for each other.\u201d",
+            "created_at": "2023-12-14T13:18:55.013711"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6899,
+        "fields": {
+            "creole": "\u201cDat a chruu, Liila,\u201d Ariyo se. \u201cAwi kyan tek keer a wananada, eniiwe awii de. Yu waahn fu kom wid awii fu go a di laas plees we awii a go?",
+            "english": "\u201cThat\u2019s right, Leila,\u201d said Ario. \u201cWe can care for each other, wherever we are. Would you like to come with us on our last journey?\u201d",
+            "created_at": "2023-12-14T13:18:55.013713"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6900,
+        "fields": {
+            "creole": "Liila mek op shi main fu go wid Ariyo an shi nyuu matii dem. Seera bin glad Liila bina kom wid dem kaaz shi noo dat somtaim awii gafu de de fu wananada. Dem flai kwaiyat kwaiyat, nobadii na se notn, bot Liila bin noo shi nyuu matii dem bin keer bout shi nof nof.",
+            "english": "Leila decided to travel with Ario and her new friends. Sara was glad Leila joined them because she knew that sometimes we need to support each other. They flew quietly, without words, but Leila knew her new friends cared a lot about her.",
+            "created_at": "2023-12-14T13:18:55.013714"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6901,
+        "fields": {
+            "creole": "Dem staart fu sii som mongtin wid snoo pon dem, an Ariyo lan in wahn lil tong. Wahn lil bit a piknii bina plee saida wahn lil kriik.",
+            "english": "Snowy mountains slowly came into view, and Ario landed in a small town. A few children were playing by a stream.",
+            "created_at": "2023-12-14T13:18:55.013715"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6902,
+        "fields": {
+            "creole": "\u201cAriyo!\u201d wan a dem kaal out, an weev hii han tu hii.",
+            "english": "\u201cArio!\u201d one of them cried, waving to him.",
+            "created_at": "2023-12-14T13:18:55.013716"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6903,
+        "fields": {
+            "creole": "\u201cWa gayin aan Kimii,\u201d Ariyo se. \u201cEvriibadii, mi waahn ayo fu miit som a mi matii dem huu bin kech di koroonavairos an get beta nou.\u201d",
+            "english": "\u201cHello, Kim,\u201d said Ario. \u201cEveryone, I wanted you to meet some friends of mine who have had the coronavirus, and got better.\u201d",
+            "created_at": "2023-12-14T13:18:55.013718"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6904,
+        "fields": {
+            "creole": "\u201cWa da bin fiil laik?\u201d Seelem aks dem.",
+            "english": "\u201cWhat was it like?\u201d Salem asked.",
+            "created_at": "2023-12-14T13:18:55.013719"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6905,
+        "fields": {
+            "creole": "\u201cMi bina kaaf an fiil hat hat hat somtaim. Mi bin taiyad baad tu an mi neva waahn fu plee som a di dee dem,\u201d Kimii se. \u201cBot mi sliip nof an mi faamalii tek keer a mi. Som a awii moda an faada dem an awii gramaa an grafaada dem bin gafu go a di haspital. Di nors an di dakta chriit dem reelii nais, an som piipl in awii eerya bin kom an help out a awii hous. Afta a kopl wiik awii ton gud ageen.",
+            "english": "\u201cI was coughing and felt too hot sometimes. I was also really tired and didn\u2019t want to play for a few days,\u201d said Kim. \u201cBut I slept a lot and my family took care of me. Some of our parents and grandparents had to go to hospital. The nurses and doctors were very kind to them, and people in our community helped us at home. After a few weeks, we were okay again.\u201d",
+            "created_at": "2023-12-14T13:18:55.013720"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6906,
+        "fields": {
+            "creole": "\u201cMi a Kimii matii,\u201d wan a di ada piknii dem se. \u201cJos kaaz Kimii kech di koroonavairos it na stap awii fram bii hii matii \u2013 iivn doo mi kudna sii hii. Mi neva stap keer bout hii an awii glad awii kyan plee wid wananada ageen!\u201d",
+            "english": "\u201cI\u2019m Kim\u2019s friend,\u201d said one of the other children. \u201cJust because Kim had the coronavirus, we didn\u2019t stop being friends - even though I could not see him. I never stopped caring about him and we\u2019re happy we can play together again!\u201d",
+            "created_at": "2023-12-14T13:18:55.013721"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6907,
+        "fields": {
+            "creole": "\u201cSom a di taim, di bes ting awii kyan du fu awii matii dem a fu tek keer a wananada,\u201d Ariyo se. \u201cIivn if dat miin awii gafu staan wee fram wananada lil.\u201d",
+            "english": "\u201cSometimes the most important thing we can do as friends is protect each other,\u201d said Ario. \u201cEven if that means staying away from each other for a while.\u201d",
+            "created_at": "2023-12-14T13:18:55.013722"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6908,
+        "fields": {
+            "creole": "\u201cAwii kyan du dem ting fu wananada,\u201d Liila se.",
+            "english": "\u201cWe can do these things for each other,\u201d said Leila.",
+            "created_at": "2023-12-14T13:18:55.013724"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6909,
+        "fields": {
+            "creole": "\u201cAn wan dee, awii kyan plee ageen an go bak a skuul jos laik hou awii yuus tu,\u201d Seelem se.",
+            "english": "\u201cAnd one day, we will all be able to play again and go back to school like we used to,\u201d said Salem.",
+            "created_at": "2023-12-14T13:18:55.013725"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6910,
+        "fields": {
+            "creole": "Den a taim fu go bak a dem hous, an taim fu Seera se babai tu shi nyuu matii dem. Dem pramis wananada dat dem naa go faget di plees dem wa dem bin go an di taim wa dem spen tugeda.",
+            "english": "It was time to go home, and time for Sara to say goodbye to her new friends. They promised each other that they would never forget their adventure together.",
+            "created_at": "2023-12-14T13:18:55.013726"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6911,
+        "fields": {
+            "creole": "Seera fiil baad dat meebii dem naa go sii wananada fu jos nou. Bot shi fiil beta wen shi memba wa Kimii matii bin se. Jos kaaz yu kyaahn sii piipl, da na miin yu doz stap lov dem.",
+            "english": "Sara felt sad that they might not see each other for a while. But she felt better when she remembered what Kim\u2019s friend had said. Just because you can\u2019t see people, it doesn\u2019t mean you stop loving them.",
+            "created_at": "2023-12-14T13:18:55.013727"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6912,
+        "fields": {
+            "creole": "Ariyo jrap aaf bak aal a dem a dem hous, an weet fu Seera fu jrap asliip bifoor hii lef.",
+            "english": "Ario dropped them all back to their homes, and waited for Sara to fall asleep before he left.",
+            "created_at": "2023-12-14T13:18:55.013729"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6913,
+        "fields": {
+            "creole": "\u201cWi kyan du di seem ting tumaro?\u201d Seera aks hii.",
+            "english": "\u201cCan we do the same tomorrow?\u201d Sara asked him.",
+            "created_at": "2023-12-14T13:18:55.013730"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6914,
+        "fields": {
+            "creole": "\u201cNaa Seera, a taim fu yu staan wid yu faamalii nou,\u201d Ariyo se. \u201cMemba awii stoorii. Yu kyan kiip di piipl dem wa yu lov seef if yu wash yu han an staan a yu hous. Mi na de far fram yu. Yu kyan bi wid mi aal di taim wen yu go in yu seef plees.\u201d",
+            "english": "\u201cNo Sara, it\u2019s time for you to be with your family now,\u201d said Ario. \u201cRemember our story. You can keep those you love safe by washing your hands and staying home. I am never far away. You can always be with me when you go to your safe place.\u201d",
+            "created_at": "2023-12-14T13:18:55.013731"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6915,
+        "fields": {
+            "creole": "\u201cYu a mi Staar Bai,\u201d shi tel hii iizii iizii.",
+            "english": "\u201cYou are my hero,\u201d she whispered.",
+            "created_at": "2023-12-14T13:18:55.013732"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6916,
+        "fields": {
+            "creole": "\u201cYu a mi Staar Gyal tu Seera. Yu a wahn Staar Gyal fu evriibadii wa lov yu,\u201d hii se.",
+            "english": "\u201cYou are my hero too, Sara. You are a hero to all those who love you,\u201d he said.",
+            "created_at": "2023-12-14T13:18:55.013733"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6917,
+        "fields": {
+            "creole": "Seera jrap asliip an wen shi week op di neks dee, Ariyo bin gaan. So shi go in shi seef plees fu go taak wid hii, den shi jraa aal a di ting dem wa dem bin sii an wa dem bin larn wen dem bina go aal bout di plees. Shi ron go shoo shi moda wa shi jraa an tel shi di hool stoorii.",
+            "english": "Sara fell asleep and when she woke the next day, Ario was gone. So she went to her safe place to talk to him, then drew everything they had seen and learnt on their adventure. She ran to her mum with her drawing to tell her the news.",
+            "created_at": "2023-12-14T13:18:55.013735"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6918,
+        "fields": {
+            "creole": "\u201cAwii kyan help evriibadii fu staan seef, Maamii,\u201d shi se tu shi moda. \u201cMi miit op wid somoch Staar Gyal and Staar Bai wen mi bin go aal rong di plees!\u201d",
+            "english": "\u201cWe can all help people be safe, Mum,\u201d she said. \u201cI met so many heroes on my adventure!\u201d",
+            "created_at": "2023-12-14T13:18:55.013736"
+        }
+    },
+    {
+        "model": "base.entry",
+        "pk": 6919,
+        "fields": {
+            "creole": "\u201cSeera gyal, yu rait bout da!\u201d shi moda se. \u201cDem ga nof nof  Staar Gyal an Staar Bai bout di plees fu kiip di piipl dem seef fram di koroonavairos, laik di nais nais dakta an nors dem. Bot yu mek mi memba se awii kyan bii Staar Gyal an Staar Bai tu, evrii dee, an mi biges Staar Gyal a yu!\u201d",
+            "english": "\u201cOh Sara, you are right!\u201d said her mum. \u201cThere are many heroes keeping people safe from the coronavirus, like wonderful doctors and nurses. But you remind me that we can all be heroes, every day, and my biggest hero is you.\u201d",
+            "created_at": "2023-12-14T13:18:55.013737"
+        }
+    }
+]
