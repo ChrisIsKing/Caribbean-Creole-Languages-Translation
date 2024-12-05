@@ -4,6 +4,7 @@ import {
     getCoreRowModel,
     getPaginationRowModel,
     useReactTable,
+    PaginationState,
 } from "@tanstack/react-table"
 
 import {
@@ -20,6 +21,7 @@ import { DataTablePagination } from "./DataTablePagination"
 import Edit from "@/components/Edit";
 import DeleteDialog from "@/components/DeleteDialog";
 import type { Entry } from "../Models/Entry";
+import { useEffect, useState } from "react";
 
 interface DataTableProps<TData, TValue> {
     columns: ColumnDef<TData, TValue>[]
@@ -40,6 +42,17 @@ export function DataTable<TData, TValue,>({
         getCoreRowModel: getCoreRowModel(),
         getPaginationRowModel: getPaginationRowModel(),
     })
+
+    //table.setPageIndex(0)
+    // const [currentPage, setCurrentPage] = useState(table.getState().pagination.pageIndex)
+    let currentPage = table.getState().pagination.pageIndex
+    //console.log(currentPage)
+    useEffect(() => {
+        let page = table.getState().pagination.pageIndex
+        console.log("updated page: " + page)
+        console.log("current page: " + currentPage)
+    }, [table.getState().pagination])
+    
 
     return (
         <div>
@@ -94,7 +107,7 @@ export function DataTable<TData, TValue,>({
                 </Table>
             </div>
 
-            <DataTablePagination table={table} />
+            <DataTablePagination table={table}/>
 
         </div>
     )

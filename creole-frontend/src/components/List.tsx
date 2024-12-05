@@ -16,10 +16,12 @@ const List = (props: {
     setEntryDeleted: React.Dispatch<SetStateAction<boolean>>}) => {
 
     const [entries, setEntries] = useState<Entry[]>([])
-
+    const [currentPage, setCurrentPage] = useState(0)
+    
     useEffect(() => {
+        console.log("fetching entries")
         fetchEntries().then(entries => setEntries(entries))
-
+        console.log("fetched entries")
     }, [props.formSubmitted, props.formUpdated, props.entryDeleted])
 
     return (
